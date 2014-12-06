@@ -23,6 +23,30 @@ $smoke:          #ddd !default;
 $steel:          #666 !default;
 $oil:            #333 !default;
 
+// Home
+.home-cover{
+	background: url('../img/home-cover.jpg') center center/cover no-repeat;
+	-o-background-size: cover;
+	position: relative;
+	padding: remCalc(60) remCalc(15);
+	a{
+		position: relative;
+		z-index: 1;
+		display: table;
+		margin: 0 auto;
+		max-width: remCalc(280);
+	}
+}
+
+.overlay{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-color: rgba(0,0,0, 0.5);
+} 
+
 .navbar{
 	background-color: $oil;
 	.row{
@@ -83,10 +107,33 @@ $oil:            #333 !default;
 		ul{
 			list-style: none;
 			padding-left: 0;
+			position: relative;
+			margin-top: remCalc(55);
+			margin: remCalc(35);
+			&:before{
+				position: absolute;
+				content: '';
+				display: table;
+				background-color: $steel;
+				left: 50%;
+				width: remCalc(200);
+				height: remCalc(1);
+				margin-left: remCalc(-100);
+				top: remCalc(-18);
+			}
 			li{
 				display: inline;
 				a{
-
+					text-transform: capitalize;
+					padding: 0 remCalc(8);
+					color: $smoke;
+					&:hover{
+						text-decoration: none;
+						color: $white;
+					}
+				}
+				&.active{
+					a{color: $brand-pink-primary;}
 				}
 			}
 		}

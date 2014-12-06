@@ -17,8 +17,11 @@
    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 </head>
 <body>
+
+
 	
 	<!-- Header -->
+	{% if page.url != '/' %}
 	<header class="navbar">
 		<div class="row">
 			<section class="navbar-header">
@@ -36,9 +39,22 @@
 					<li {% if page.url == '/contact/' %}class="active" {% endif %}><a href="/contact/">contact</a></li>
 				</ul>
 			</nav>
+			
 		</div>
 	</header>
+	{% endif %}
 	<!-- /Header -->
+
+	<!-- Home Cover -->
+	{% if page.url == '/' %}
+	<div class="home-cover">
+		<div class="overlay"></div>
+		<a href="">
+			<img src="assets/img/logo-mediplaza-xl.svg" alt="">
+		</a>
+	</div>
+	{% endif %}
+	<!-- /Home Cover -->
 
   <div class="row">
   	<div class="col md-12">

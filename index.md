@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Homepage
+title: MediPlaza in Los Algodones
 permalink: /
-description: Write here the custom description
+description: Mediplaza is a mall in Los Algodones Mexico, near Yuma, AZ
 group: "navigation"
 ---
 
