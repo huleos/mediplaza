@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+   {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
+   <meta name="author" content="/humans.txt">
+   <meta name="viewport" content="width=device-width initial-scale=1" />
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<!-- Favicon -->
+   <link rel="shortcut icon" href="/assets/img/favicon.png">
+   <!-- Styles -->
+   <link rel="stylesheet" href="/assets/css/style.css">
+   <!-- Modernizr -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+	<!-- Canonical -->
+   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+</head>
+<body>
+	
+	<!-- Header -->
+	<header class="navbar">
+		<div class="row">
+			<section class="navbar-header">
+				<a href="/" class="nav-brand"><img src="/assets/img/logo-mediplaza-header.svg" alt="{{ site.title }}"></a>
+				<!-- <a href="#" class="navbar-toggle">Menu</a> -->
+			</section>
+			
+			<nav class="navbar-collapse">
+				<ul class="right">
+					<!-- <li {% if page.url == '/' %}class="active" {% endif %}><a href="/">home</a></li> -->
+					<li {% if page.url == '/shop/' %}class="active" {% endif %}><a href="/shop/">shop</a></li>
+					<li {% if page.url == '/heal/' %}class="active" {% endif %}><a href="/heal/">heal</a></li>
+					<li {% if page.url == '/rest/' %}class="active" {% endif %}><a href="/rest/">rest</a></li>
+					<li {% if page.url == '/dine/' %}class="active" {% endif %}><a href="/dine/">dine</a></li>
+					<li {% if page.url == '/contact/' %}class="active" {% endif %}><a href="/contact/">contact</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<!-- /Header -->
+
+  <div class="row">
+  	<div class="col md-12">
+  		{{content}}
+  	</div>
+  </div>
+
+	<!-- Footer -->
+	<footer>
+		<div class="footer-top">
+			<a href="/" class="footer-logo">
+				<img src="/assets/img/logo-mediplaza-footer.svg" alt="">
+			</a>
+			<div class="footer-nav">
+				<ul>
+					<li {% if page.url == '/shop/' %}class="active" {% endif %}><a href="/shop/">shop</a></li>
+					<li {% if page.url == '/heal/' %}class="active" {% endif %}><a href="/heal/">heal</a></li>
+					<li {% if page.url == '/rest/' %}class="active" {% endif %}><a href="/rest/">rest</a></li>
+					<li {% if page.url == '/dine/' %}class="active" {% endif %}><a href="/dine/">dine</a></li>
+					<li {% if page.url == '/contact/' %}class="active" {% endif %}><a href="/contact/">contact</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="footer-bottom">
+			<p class="copyright">Copyright &copy; {{ site.time | date: '%Y' }} {{ site.author.name }}</p>
+		</div>
+	</footer>
+	<!-- /Footer -->
+
+	
+	<!-- jQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script>window.jQuery || document.write("<script src=\"assets/js/vendor/jquery.min.js\"><\/script>")</script>
+	<!-- Scripts -->
+	<script src="/assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,141 @@
+//
+// Variables ans Functions
+// --------------------------------------------------
+
+// remCal 
+@function remCalc($size, $base-value: 16) {
+  @return ($size / $base-value) + rem;
+}
+
+// Colors
+// -------------------------
+
+
+// Grays
+$black:             darken(#000, 100%) !default; // #000
+$gray-darker:      lighten(#000, 13.5%) !default; // #222
+$gray-dark:        lighten(#000, 20%) !default;   // #333
+$gray:             lighten(#000, 33.5%) !default; // #555
+$gray-light:       lighten(#000, 60%) !default;   // #999
+$gray-lighter:     lighten(#000, 93.5%) !default; // #eee
+$white:            lighten(#fff, 100%) !default; // #fff
+
+// Brand
+$brand-primary:    #428bca !default;
+$brand-success:    #5cb85c !default;
+$brand-alert:      #f1391c !default;
+$brand-info:       #5bc0de !default;
+
+// Scaffolding
+// -------------------------
+
+$body-bg:               #fff !default;
+$text-color:            $gray-dark !default;
+
+// Links
+// -------------------------
+
+$link-color:            $brand-primary !default;
+$link-hover-color:      darken($link-color, 15%) !default;
+
+// Typography
+// -------------------------
+$body-font-size: 100% !default;
+$base-line-height: 1.5 !default;
+$rem-base: remCalc(16) !default;
+$base-font-size: $rem-base !default;
+
+$font-sans-serif: 'Source Sans Pro', Helvetica, Arial, sans-serif !default;
+$font-serif: Georgia, Cambria, "Times New Roman", Times, serif !default;
+$font-monospace: Consolas, "Liberation Mono", Courier, monospace !default;
+
+$font-size-h1: remCalc(36) !default;
+$font-size-h2: remCalc(30) !default;
+$font-size-h3: remCalc(24) !default;
+$font-size-h4: remCalc(18) !default;
+$font-size-h5: $base-font-size !default;
+$font-size-h6: remCalc(12) !default; // ~12px calcu
+
+// Tables
+// -------------------------
+
+$table-cell-padding:                 remCalc(8) !default;
+$table-bg:                           transparent !default;
+$table-head-bg:                      $gray-lighter !default;
+$table-bg-hover:                     lighten($black, 97.5%) !default;;
+$table-border-color:                 #ddd !default;
+
+// Buttons
+// -------------------------
+
+$btn-font-weight:                normal !default;
+
+$btn-default-color:              $gray-dark !default;
+$btn-default-bg:                 transparent !default;
+$btn-default-border:             $gray-dark !default;
+
+$btn-default-inverse-color:              $white !default;
+$btn-default-inverse-bg:                 transparent !default;
+$btn-default-inverse-border:             $white !default;
+
+$btn-primary-color:              #fff !default;
+$btn-primary-bg:                 $brand-primary !default;
+$btn-primary-border:             darken($btn-primary-bg, 5%) !default;
+
+$btn-success-color:              #fff !default;
+$btn-success-bg:                 $brand-success !default;
+$btn-success-border:             darken($btn-success-bg, 5%) !default;
+
+$btn-alert-color:                #fff !default;
+$btn-alert-bg:                   $brand-alert !default;
+$btn-alert-border:               darken($btn-alert-bg, 5%) !default;
+
+$btn-info-color:                 #fff !default;
+$btn-info-bg:                    $brand-info !default;
+$btn-info-border:                darken($btn-info-bg, 5%) !default;
+
+$btn-link-disabled-color:        $gray-light !default;
+
+
+// Forms
+// ------------------------
+
+$input-bg:                    $white !default;
+$input-color:                 $gray !default;
+$input-border:                #ccc !default;
+$input-border-focus:          $gray !default;
+$input-color-placeholder:     $gray-light !default;
+$input-height-base:           remCalc(42) !default;
+
+// Code
+// ------------------------
+$pre-bg:                      lighten($gray, 62%) !default;
+$pre-color:                   $gray-dark !default;
+$pre-border-color:            $gray-light !default;
+
+// Grid
+// ------------------------
+
+// grid variables
+$grid-columns: 12;
+$grid-gutter: (1.875em/2);
+$row-max-width: 71.25em;
+
+// breakpoints
+$breakpoint-small: "only screen";
+$breakpoint-small-only: "only screen and (max-width: 40em)";
+$breakpoint-medium: "only screen and (min-width: 40.063em)";
+$breakpoint-large: "only screen and (min-width: 64.063em)";
+
+// Miscellaneous
+// -------------------------
+
+// Hr border color
+$hr-border:                   $gray-lighter !default;
+
+// Breadcrumbs
+// -------------------------
+$breadcrumb-color:            #ccc !default;
+$breadcrumb-active-color:     $gray-light !default;
+$breadcrumb-separator:        "/" !default;
+

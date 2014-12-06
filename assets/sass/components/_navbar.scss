@@ -1,0 +1,111 @@
+//
+// Navbar
+// --------------------------------------------------
+
+.navbar{
+	position: relative;
+	min-height: remCalc(50);
+	background-color: $gray-lighter;
+	ul{
+		float: left;
+		margin: 0;
+		padding-left: 0;
+		margin-bottom: 0;
+		list-style: none;
+		li{
+			float: left;
+			position: relative;
+			a{
+				color: $gray-light;
+				display: block;
+				padding: remCalc(13) remCalc(15);
+				&:hover{
+					text-decoration: none;
+					background-color: lighten($gray, 58%);
+				}
+			}
+			
+			&.active>a{
+				color: $gray-dark;
+				background-color: lighten($gray, 55%);
+			}
+		}
+	}
+}
+
+.navbar-header{
+	float: left;
+	.nav-brand{
+		float: left;
+		padding: remCalc(13) remCalc(15);
+		display: block;
+		color: $white;
+		background-color: $gray-darker;
+		&:hover{
+			text-decoration:none;
+		}
+	}
+}
+
+.navbar-toggle{
+	display: none;
+}
+
+@media #{$breakpoint-small-only} {
+
+	.navbar-header{
+		float: none;
+	}
+
+	.navbar-toggle{
+		text-transform: uppercase;
+		font-size: remCalc(12);
+		font-weight: bold;
+		position: relative;
+		display: block;
+		padding: 0 remCalc(40) 0 remCalc(15);
+		height: remCalc(50);
+		line-height: remCalc(45);
+		float: right;
+		&:hover{
+			text-decoration: none;
+			}
+		&:after{
+			content: "";
+			position: absolute;
+			top: 50%;
+			margin-top: remCalc(-8);
+			right: remCalc(15);
+			box-shadow: 0 0px 0 1px $brand-primary, 0 5px 0 1px $brand-primary, 0 10px 0 1px $brand-primary;
+			width: remCalc(16);
+		}
+	}
+
+	.navbar-collapse{
+		overflow: hidden;
+		width: 100%;
+		ul{
+			float: none !important;
+		}
+		&.open{
+			ul{
+				width: 100%;
+				@include clearfix;
+			}
+			li{
+					height: remCalc(50);
+			}
+		}
+		li{
+			overflow: hidden;
+			-webkit-transition: all 0.2s linear;
+			-moz-transition: all 0.2s linear;
+			transition: all 0.2s linear;
+			height: 0;
+			width: 100%;
+		}
+	}
+	.navbar{
+		height: inherit;
+	}
+}

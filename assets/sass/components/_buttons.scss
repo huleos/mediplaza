@@ -1,0 +1,131 @@
+//
+// Buttons
+// --------------------------------------------------
+
+.btn{
+	display: inline-block;
+	margin-bottom: 0; // For input.btn
+	font-weight: $btn-font-weight;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+	background-image: none; // Reset unusual Firefox-on-Android default style; see https://github.com/necolas/normalize.css/issues/214
+	border: 1px solid transparent;
+	white-space: nowrap;
+	font-size: $rem-base;
+	line-height: $base-line-height;
+	padding: remCalc(16) remCalc(32);
+	user-select: none;
+	@include transition(background-color 300ms ease-out);
+
+	&:focus{
+		outline: none;
+	}
+
+	&:hover,
+	&:focus{
+		color: $btn-default-color;
+		text-decoration: none;
+	}
+
+	&:active,
+  &.active {
+    outline: 0;
+    background-image: none;
+  }
+}
+
+
+.btn-default {
+	color: $btn-default-color;
+	background-color: $btn-default-bg;
+	border-color: $btn-default-border;
+	&:hover{
+		background-color: $btn-default-color;
+		color: $white;
+		border-color: transparent;
+	}
+	&:active{
+		background-color: lighten($black, 28%);
+		&:focus{
+			outline: 0 none;
+		}
+	}
+}
+
+.btn-default.inverse {
+	color: $btn-default-inverse-color;
+	background-color: $btn-default-inverse-bg;
+	border-color: $btn-default-inverse-border;
+	&:hover{
+		background-color: $btn-default-inverse-color;
+		color: $black;
+		border-color: transparent;
+	}
+	&:active{
+		background-color: lighten($black, 28%);
+		&:focus{
+			outline: 0 none;
+		}
+	}
+}
+
+.btn-primary {
+	color: $btn-primary-color;
+	background-color: $btn-primary-bg;
+	&:hover{
+		background-color: darken($btn-primary-bg, 12%);
+		color: $white;
+	}
+	&:active{
+		background-color: lighten($btn-primary-bg, 28%);
+		&:focus{
+			outline: 0 none;
+		}
+	}
+}
+
+.btn-success {
+	color: $btn-success-color;
+	background-color: $btn-success-bg;
+	&:hover{
+		background-color: darken($btn-success-bg, 12%);
+		color: $white;
+	}
+	&:active{
+		background-color: lighten($btn-success-bg, 28%);
+		&:focus{
+			outline: 0 none;
+		}
+	}
+}
+
+.btn-alert {
+	color: $btn-alert-color;
+	background-color: $btn-alert-bg;
+	&:hover{
+		background-color: darken($btn-alert-bg, 12%);
+		color: $white;
+	}
+	&:active{
+		background-color: lighten($btn-alert-bg, 28%);
+		&:focus{
+			outline: 0 none;
+		}
+	}
+}
+
+.btn-info {
+	color: $btn-info-color;
+	background-color: $btn-info-bg;
+	&:hover{
+		background-color: darken($btn-info-bg, 12%);
+		color: $white;
+	}
+	&:active{
+		background-color: lighten($btn-info-bg, 28%);
+		&:focus{
+			outline: 0 none;
+		}
+	}
+}

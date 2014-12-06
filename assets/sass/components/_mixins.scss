@@ -1,0 +1,45 @@
+//
+// Mixins
+// --------------------------------------------------
+
+// Clearfix
+@mixin clearfix() {
+  &:before,
+  &:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+// Drop shadows
+@mixin box-shadow($shadow...) {
+  -webkit-box-shadow: $shadow; // iOS <4.3 & Android <4.1
+          box-shadow: $shadow;
+}
+
+// Box sizing
+@mixin box-sizing{
+	-webkit-box-sizing: border-box;
+		 -moz-box-sizing: border-box;
+					box-sizing: border-box;
+}
+
+// Opacity
+@mixin opacity($opacity) {
+  opacity: $opacity;
+  // IE8 filter
+  $opacity-ie: ($opacity * 100);
+  filter: #{alpha(opacity=$opacity-ie)};
+}
+
+// Transitions
+@mixin transition($transition...) {
+  -webkit-transition: $transition;
+          transition: $transition;
+}
+
+// Columns Center
+@mixin col-center{ margin-left: auto; margin-right: auto; float: none;}

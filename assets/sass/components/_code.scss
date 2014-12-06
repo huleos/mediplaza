@@ -1,0 +1,37 @@
+//
+// Code (inline and block)
+// --------------------------------------------------
+
+
+// Inline and block code styles
+code,
+kbd,
+pre,
+samp {
+  font-family: $font-monospace;
+}
+
+// Blocks of code
+pre {
+	display: block;
+	font-size: remCalc(13);
+	line-height: $base-line-height;
+  word-break: break-all;
+  word-wrap: break-word;
+  color: $pre-color;
+  margin: 0 0 remCalc(16);
+  background-color: $pre-bg;
+  border: 1px solid $pre-border-color;
+  padding: remCalc(8);
+  code{
+    font-size: inherit;
+    white-space: pre-wrap;
+    border-radius: 0;
+  }
+}
+
+code {
+    padding: remCalc(2) remCalc(5);
+    background-color: #f8f8f8;
+    border: 1px solid $gray-lighter;
+}

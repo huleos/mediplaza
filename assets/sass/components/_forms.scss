@@ -1,0 +1,105 @@
+//
+// Forms
+// --------------------------------------------------
+
+
+.form-group{
+	margin-bottom: remCalc(15);
+}
+
+label {
+	display: inline-block;
+	max-width: 100%;
+	margin-bottom: remCalc(10);
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="month"],
+input[type="week"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+input[type="color"],
+textarea{
+	display: block;
+	width: 100%;
+	height: $input-height-base;
+	padding: remCalc(8) remCalc(12);
+	font-size: $base-font-size;
+	line-height: $base-line-height;
+	color: $input-color;
+	vertical-align: middle;
+	background-color: $input-bg;
+	background-image: none;
+  border: 1px solid $input-border;
+	@include transition(border-color 300ms ease-out);
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="date"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="month"]:focus,
+input[type="week"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="time"]:focus,
+input[type="url"]:focus,
+input[type="color"]:focus,
+textarea:focus{
+	border-color: $input-border-focus;
+	outline: none;
+}
+
+select {
+	display: block;
+	width: 100%;
+	height: $input-height-base;
+	padding: remCalc(8) remCalc(12);
+	font-size: $base-font-size;
+	line-height: $base-line-height;
+	border: 1px solid $input-border;
+	@include transition(border-color 300ms ease-out);
+}
+
+.radio, .checkbox {
+	position: relative;
+	display: block;
+	min-height: remCalc(20);
+	margin-top: remCalc(10);
+	margin-bottom: remCalc(10);
+}
+
+.radio label, .checkbox label {
+	padding-left: remCalc(20);
+	margin-bottom: 0;
+	font-weight: normal;
+	cursor: pointer;
+}
+
+.radio input[type=radio],
+.radio-inline input[type=radio],
+.checkbox input[type=checkbox],
+.checkbox-inline input[type=checkbox] {
+	position: absolute;
+	margin-top: remCalc(6);
+	margin-left: remCalc(-20);
+}
+
+input[type="file"] {
+	display: block;
+}
+
+textarea {
+  height: auto;
+}

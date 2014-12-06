@@ -1,0 +1,107 @@
+//
+// Your custom SCSS should be written here...
+// --------------------------------------------------
+
+// Type
+@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700);
+
+body{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 300;
+}
+
+// Brand
+
+$brand-pink-primary:      #b61e53;
+$brand-blue-primary:      #00a0ae;
+$brand-green-primary:     #7ea65f;
+$brand-orange-primary:    #f69700;
+
+// Grays
+
+$smoke:          #ddd !default;
+$steel:          #666 !default;
+$oil:            #333 !default;
+
+.navbar{
+	background-color: $oil;
+	.row{
+		padding-left: $grid-gutter;
+  	padding-right: $grid-gutter;
+	}
+	.nav-brand{
+		background-color: transparent;
+	}
+
+	.navbar-collapse{
+		ul{
+			li{
+				a{
+					text-transform: capitalize;
+					padding: remCalc(34) remCalc(24);
+				}
+				&.active{
+					a{color: $brand-pink-primary;}
+				}
+			}
+		}
+	}
+}
+
+@media #{$breakpoint-small-only} {
+	.navbar-collapse{
+		display: table;
+		margin: 0 auto;
+		width: initial;
+		ul{
+			li{
+				height: inherit;
+				width: inherit;
+				a{
+					padding: remCalc(10) !important;
+				}
+			}
+		}
+	}
+}
+
+// Footer
+
+.footer-top{
+	background-color: $oil;
+	margin-top: remCalc(100);
+	.footer-logo{
+		display: table;
+		margin: 0 auto;
+		img{
+			margin-top: remCalc(-50);
+		}
+	}
+	.footer-nav{
+		display: table;
+		margin: 0 auto;
+		ul{
+			list-style: none;
+			padding-left: 0;
+			li{
+				display: inline;
+				a{
+
+				}
+			}
+		}
+	}
+}
+
+.footer-bottom{
+	background-color: $brand-blue-primary;
+	color: $white;
+	padding: remCalc(14) remCalc(15);
+	.copyright{
+		text-align: center;
+		margin-bottom: 0;
+	}
+}
+
+
+

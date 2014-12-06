@@ -1,0 +1,22 @@
+//
+// Breadcrumbs
+// --------------------------------------------------
+
+
+.breadcrumbs {
+  padding: remCalc(8) remCalc(15);
+  margin: 0;
+  list-style: none;
+  overflow: hidden;
+  > li {
+    display: inline-block;
+    + li:before {
+      content: $breadcrumb-separator;
+      padding: 0 remCalc(5);
+      color: $breadcrumb-color;
+    }
+  }
+  > .active {
+    color: $breadcrumb-active-color;
+  }
+}
