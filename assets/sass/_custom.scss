@@ -23,6 +23,16 @@ $smoke:          #ddd !default;
 $steel:          #666 !default;
 $oil:            #333 !default;
 
+.title{
+	font-weight: 300;
+	font-size: remCalc(32);
+}
+
+.page-header{
+	margin-top: remCalc(18);
+	margin-bottom: remCalc(22);
+}
+
 // Home
 .home-cover{
 	background: url('../img/home-cover.jpg') center center/cover no-repeat;
@@ -41,8 +51,6 @@ $oil:            #333 !default;
 .home{
 	.title{
 		text-align: center;
-		font-weight: 300;
-		margin: remCalc(18) auto;
 	}
 	#map-canvas{
 		width: 100%;
@@ -124,11 +132,69 @@ $oil:            #333 !default;
 				a{
 					text-transform: capitalize;
 					padding: remCalc(34) remCalc(24);
+					&:hover{
+						background-color: transparent;
+					}
 				}
 				&.active{
-					a{color: $brand-pink-primary;}
+					a{
+						color: $brand-pink-primary;
+						background-color: transparent;
+					}
 				}
 			}
+		}
+	}
+}
+
+// Bussines
+//////////////////////
+.shop article h2 a{color: $brand-pink-primary;}
+.heal article h2 a{color: $brand-blue-primary;}
+.rest article h2 a{color: $brand-green-primary;}
+.dine article h2 a{color: $brand-orange-primary;}
+
+.list-bussines{
+	article{
+		h2{
+			font-size: remCalc(20);
+			margin-bottom: 0;
+			a{
+				text-decoration: none;
+				&:hover{
+					opacity: 0.8;
+				}
+			}
+		}
+		h4{
+			font-size: remCalc(15);
+			margin-bottom: remCalc(0);
+			line-height: 1;
+		}
+		span{
+			font-size: remCalc(14);
+			color: $steel;
+		}
+	}
+}
+
+.avatar{
+	width: 100%;
+	margin-bottom: remCalc(15);
+}
+
+.bussines{
+	.details{
+		h4{
+			margin-bottom: remCalc(0);
+			line-height: 1;
+		}
+		span{
+			color: $steel;
+		}
+		.description{
+			margin-top: remCalc(15);
+			margin-bottom: remCalc(15);
 		}
 	}
 }

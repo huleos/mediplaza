@@ -14,7 +14,8 @@ github_username:  jekyll
 markdown: kramdown
 
 # Customs
-permalink: none
+permalink: :categories/:title
+exclude: [".gitignore", "README.md"]
 sitemap:
     file: "/sitemap.xml"
     exclude:

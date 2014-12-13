@@ -1,0 +1,46 @@
+---
+layout: default
+---
+
+<section role="content" class="bussines">
+	<div class="row">
+		<div class="col sm-12">
+			<header class="page-header">
+			  <h1 class="title">{{ page.title }}</h1>
+			</header>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col md-6">
+			<div class="row">
+				<div class="col md-6">
+					<img class="avatar" src="{{ page.avatar }}" alt="Image for {{ post.title }}">
+				</div>
+				<div class="details">
+					<div class="col md-6">
+						{% if page.horary contains 'm' %}
+						<h4>Opening Hours</h4>
+						<span>{{ page.horary }}</span>
+						{% endif %}
+						{% if page.floor contains 'o' %}
+						<h4>{{ page.floor }}</h4>
+						<span>{{ page.local }}</span>
+						{% endif %}
+						{% if page.phone contains ' ' %}
+						<h4>Phone</h4>
+						<span>{{ page.phone }}</span>
+						{% endif %}
+					</div>
+					<div class="col md-12 description">
+						{{ content }}
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col md-6">
+			<img src="http://placehold.it/540x300&text=Center+Map" alt="">
+		</div>
+	</div>
+</section>
+
