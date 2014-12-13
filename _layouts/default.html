@@ -18,6 +18,39 @@
 </head>
 <body>
 
+<div class="contact">
+	<div class="row">
+		<div class="col md-12">
+			<h3>Contact</h3>
+			<p>Nisi mollitia quae, labore, corporis quod dolores! Amet, iste asperiores minima beatae. Eaque.</p>
+		</div>
+	</div>
+	
+	<form action="">
+		<div class="row">
+			<div class="col md-12 form-group">
+				<!-- <label for="">Name</label> -->
+				<input type="text" placeholder="Name">
+			</div>
+			<div class="col md-12 form-group">
+				<!-- <label for="">Email</label> -->
+				<input type="text" placeholder="Email">
+			</div>
+			<div class="col md-12 form-group">
+				<!-- <label for="">Contact Number</label> -->
+				<input type="text" placeholder="Contact Number">
+			</div>
+			<div class="col md-12 form-group">
+				<!-- <label for="">Message</label> -->
+				<textarea name="" id="" rows="3" placeholder="Message"></textarea>
+			</div>
+			<div class="col md-12">
+			  <button type="submit" class="btn">Submit</button>
+			</div>
+		</div>
+	</form>
+	<a href="#" id="close-contact">&#215;</a>
+</div>
 
 	
 	<!-- Header -->
@@ -36,7 +69,7 @@
 					<li {% if page.url == '/heal/' %}class="active" {% endif %}><a href="/heal/">heal</a></li>
 					<li {% if page.url == '/rest/' %}class="active" {% endif %}><a href="/rest/">rest</a></li>
 					<li {% if page.url == '/dine/' %}class="active" {% endif %}><a href="/dine/">dine</a></li>
-					<li {% if page.url == '/contact/' %}class="active" {% endif %}><a href="/contact/">contact</a></li>
+					<li class="contact-button"><a href="#">contact</a></li>
 				</ul>
 			</nav>
 			
@@ -103,7 +136,7 @@
 					<li {% if page.url == '/heal/' %}class="active" {% endif %}><a href="/heal/">heal</a></li>
 					<li {% if page.url == '/rest/' %}class="active" {% endif %}><a href="/rest/">rest</a></li>
 					<li {% if page.url == '/dine/' %}class="active" {% endif %}><a href="/dine/">dine</a></li>
-					<li {% if page.url == '/contact/' %}class="active" {% endif %}><a href="/contact/">contact</a></li>
+					<li class="contact-button"><a href="#">contact</a></li>
 				</ul>
 			</div>
 		</div>

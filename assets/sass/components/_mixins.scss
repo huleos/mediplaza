@@ -41,5 +41,26 @@
           transition: $transition;
 }
 
+// Transform
+@mixin transform($transform...) {
+  -webkit-transform: $transform;
+          transform: $transform;
+}
+
+// Transition Timing
+@mixin transition-timing($transition-timing...) {
+  -webkit-transition-timing-function: $transition-timing;
+          transition-timing-function: $transition-timing;
+}
+
+// Border Radius
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+
 // Columns Center
 @mixin col-center{ margin-left: auto; margin-right: auto; float: none;}

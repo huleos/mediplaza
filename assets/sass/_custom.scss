@@ -10,6 +10,18 @@ body{
 	font-weight: 300;
 }
 
+a{
+	&:hover{
+		text-decoration: none;
+	}
+}
+
+input,
+textarea,
+.btn{
+	@include border-radius(3px);
+}
+
 // Brand
 
 $brand-pink-primary:      #b61e53;
@@ -198,6 +210,43 @@ $oil:            #333 !default;
 		}
 	}
 }
+
+// Contact
+//////////////////////
+.contact {
+	position: absolute;
+	z-index: 1001;
+	width: remCalc(300);
+	height: 100%;
+	background: $brand-blue-primary;
+	padding: remCalc(15);
+	color: $white;
+	@include transition(transform 0.4s);
+	@include transform(translate3d(-320px,-320px,0));
+	@include transition-timing(cubic-bezier(0.7,0,0.3,1));
+	#close-contact{
+		font-size: remCalc(34);
+		line-height: 1;
+		position: absolute;
+		top: remCalc(8);
+		right: remCalc(18);
+		color: $smoke;
+	}
+	.btn{
+		background-color: $brand-orange-primary;
+		color: $white;
+	}
+}
+
+.show-contact{
+	.contact {
+		@include transition(transform 0.8s);
+		@include transform(translate3d(0,0,0));
+		@include transition-timing(cubic-bezier(0.7,0,0.3,1));
+	}
+}
+
+
 
 // Footer
 footer{position: relative;}
