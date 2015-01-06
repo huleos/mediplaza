@@ -4,8 +4,8 @@ title: MediPlaza in Los Algodones
 permalink: /
 description: Mediplaza is a mall in Los Algodones Mexico, near Yuma, AZ
 group: "navigation"
-latitude: 32.648342
-longitude: -115.447097
+latitude: 32.712843
+longitude: -114.729291
 ---
 
 <section role="content" class="home">

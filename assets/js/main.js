@@ -26,4 +26,9 @@ $(document).ready(function(){
       $('body').removeClass("show-contact");
   });
 
+  // Zoom
+  $("#zoomMap").elevateZoom({
+    zoomType: "inner",
+    cursor: "crosshair"
+  });
 });
