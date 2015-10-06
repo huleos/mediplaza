@@ -17,10 +17,10 @@ description: Write here the custom description
     <article class="col md-6">
       <div class="row">
         <div class="col md-6">
-          <img class="avatar" src="{{ post.avatar }}" alt="Image for {{ post.title }}">
+          <img class="avatar" src="{{ site.baseurl }}{{ post.avatar }}" alt="Image for {{ post.title }}">
         </div>
         <div class="col md-6">
-          <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+          <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
           {% if post.horary contains 'm' %}
           <h4>Opening Hours</h4>
           <span>{{ post.horary }}</span>
