@@ -15,7 +15,7 @@ layout: default
 		<div class="col md-6">
 			<div class="row">
 				<div class="col md-6">
-					<img class="avatar" src="{{ page.avatar }}" alt="Image for {{ post.title }}">
+					<img class="avatar" src="{{ site.baseurl }}{{ page.avatar }}" alt="Image for {{ post.title }}">
 				</div>
 				<div class="details">
 					<div class="col md-6">
@@ -39,7 +39,7 @@ layout: default
 			</div>
 		</div>
 		<div class="col md-6">
-			<img id="zoomMap" src="{{ page.locationSmall }}" data-zoom-image="{{ page.locationLarge }}" alt="Map MediPlaza" >
+			<img id="zoomMap" src="{{ site.baseurl }}{{ page.locationSmall }}" data-zoom-image="{{ site.baseurl }}{{ page.locationLarge }}" alt="Map MediPlaza" >
 		</div>
 	</div>
 </section>

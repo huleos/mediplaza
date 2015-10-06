@@ -26,7 +26,7 @@
 		</div>
 	</div>
 	
-	<form action="contactForm.php" method="post" id="contactForm">
+	<form action="{{ site.baseurl }}/contactForm.php" method="post" id="contactForm">
 		<div class="row">
 			<div class="col md-12 form-group">
 				<input type="hidden" name="elAddress">
@@ -59,17 +59,17 @@
 	<header class="navbar">
 		<div class="row">
 			<section class="navbar-header">
-				<a href="/" class="nav-brand"><img src="/assets/img/logo-mediplaza-header.svg" alt="{{ site.title }}"></a>
+				<a href="/" class="nav-brand"><img src="{{ site.baseurl }}/assets/img/logo-mediplaza-header.svg" alt="{{ site.title }}"></a>
 				<!-- <a href="#" class="navbar-toggle">Menu</a> -->
 			</section>
 			
 			<nav class="navbar-collapse">
 				<ul class="right">
 					<!-- <li {% if page.url == '/' %}class="active" {% endif %}><a href="/">home</a></li> -->
-					<li {% if page.url == '/shop/' %}class="active" {% endif %}><a href="/shop/">shop</a></li>
-					<li {% if page.url == '/heal/' %}class="active" {% endif %}><a href="/heal/">heal</a></li>
-					<li {% if page.url == '/rest/' %}class="active" {% endif %}><a href="/rest/">rest</a></li>
-					<li {% if page.url == '/dine/' %}class="active" {% endif %}><a href="/dine/">dine</a></li>
+					<li {% if page.url == '/shop/' %}class="active" {% endif %}><a href="{{ site.baseurl }}/shop/">shop</a></li>
+					<li {% if page.url == '/heal/' %}class="active" {% endif %}><a href="{{ site.baseurl }}/heal/">heal</a></li>
+					<li {% if page.url == '/rest/' %}class="active" {% endif %}><a href="{{ site.baseurl }}/rest/">rest</a></li>
+					<li {% if page.url == '/dine/' %}class="active" {% endif %}><a href="{{ site.baseurl }}/dine/">dine</a></li>
 					<li class="contact-button"><a href="#">contact</a></li>
 				</ul>
 			</nav>
@@ -84,33 +84,33 @@
 	<div class="home-cover">
 		<div class="overlay"></div>
 		<a href="">
-			<img src="assets/img/logo-mediplaza-xl.svg" alt="">
+			<img src="{{ site.baseurl }}/assets/img/logo-mediplaza-xl.svg" alt="">
 		</a>
 	</div>
 	<nav role="navigation" class="home-nav">
 		<ul>
 			<li class="shop">
-				<a href="/shop/">Go Shop!</a>
+				<a href="{{ site.baseurl }}/shop/">Go Shop!</a>
 				<div class="cover-box">
-					<img src="assets/img/logo-shop.svg" alt="">
+					<img src="{{ site.baseurl }}/assets/img/logo-shop.svg" alt="">
 				</div>
 			</li>
 			<li class="heal">
-				<a href="/heal/">Go Heal!</a>
+				<a href="{{ site.baseurl }}/heal/">Go Heal!</a>
 				<div class="cover-box">
-					<img src="assets/img/logo-heal.svg" alt="">
+					<img src="{{ site.baseurl }}/assets/img/logo-heal.svg" alt="">
 				</div>
 			</li>
 			<li class="rest">
-				<a href="/rest/">Go Rest!</a>
+				<a href="{{ site.baseurl }}/rest/">Go Rest!</a>
 				<div class="cover-box">
-					<img src="assets/img/logo-rest.svg" alt="">
+					<img src="{{ site.baseurl }}/assets/img/logo-rest.svg" alt="">
 				</div>
 			</li>
 			<li class="dine">
-				<a href="/dine/">Go Dine!</a>
+				<a href="{{ site.baseurl }}/dine/">Go Dine!</a>
 				<div class="cover-box">
-					<img src="assets/img/logo-dine.svg" alt="">
+					<img src="{{ site.baseurl }}/assets/img/logo-dine.svg" alt="">
 				</div>
 			</li>
 			<!-- <li><a href="/shop/"><img src="assets/img/logo-shop.svg" alt=""></a></li>
@@ -128,15 +128,15 @@
 	<!-- Footer -->
 	<footer>
 		<div class="footer-top">
-			<a href="/" class="footer-logo">
-				<img src="/assets/img/logo-mediplaza-footer.svg" alt="">
+			<a href="{{ site.baseurl }}" class="footer-logo">
+				<img src="{{ site.baseurl }}/assets/img/logo-mediplaza-footer.svg" alt="">
 			</a>
 			<div class="footer-nav">
 				<ul>
-					<li {% if page.url == '/shop/' %}class="active" {% endif %}><a href="/shop/">shop</a></li>
-					<li {% if page.url == '/heal/' %}class="active" {% endif %}><a href="/heal/">heal</a></li>
-					<li {% if page.url == '/rest/' %}class="active" {% endif %}><a href="/rest/">rest</a></li>
-					<li {% if page.url == '/dine/' %}class="active" {% endif %}><a href="/dine/">dine</a></li>
+					<li {% if page.url == '/shop/' %}class="active" {% endif %}><a href="{{ site.baseurl }}/shop/">shop</a></li>
+					<li {% if page.url == '/heal/' %}class="active" {% endif %}><a href="{{ site.baseurl }}/heal/">heal</a></li>
+					<li {% if page.url == '/rest/' %}class="active" {% endif %}><a href="{{ site.baseurl }}/rest/">rest</a></li>
+					<li {% if page.url == '/dine/' %}class="active" {% endif %}><a href="{{ site.baseurl }}/dine/">dine</a></li>
 					<li class="contact-button"><a href="#">contact</a></li>
 				</ul>
 			</div>
