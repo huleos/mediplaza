@@ -13,4 +13,5 @@ local: Local 3
 phone: (928) 257 1307
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde voluptate veritatis ipsam adipisci est placeat aliquam quasi et eum perspiciatis repudiandae cupiditate beatae nulla necessitatibus nemo temporibus, accusantium, aperiam saepe?
+We know that your time is limited and when visiting a restaurant you want a quick specially prepared food. We invite you to visit Quick Bites – Deli, come to our deli restaurant located at the heart of Los Algodones. Enjoy one of the delicacies in our menu or mix and create your own with many of our unique ingredients.  
+For visitors looking for a quick specially prepared food in Los Algodones we have the place for you. Take advantage of our convenient location, located at the very entrance of Medi Plaza. We invite to visit the most complete Plaza in Los Algodones.

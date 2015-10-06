@@ -17,6 +17,9 @@ $(document).ready(function(){
 		$(".cover-box", this).stop().animate({top:'0px'},{queue:false,duration:300});
 	});
 
+  // Contact Form
+  $("#contactForm").validate();
+
   // Navigation
   $(".contact-button > a").click(function(){
     $('body').toggleClass("show-contact");

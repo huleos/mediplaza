@@ -246,6 +246,23 @@ $oil:            #333 !default;
 	}
 }
 
+input, textarea, select{
+	&.error{
+		border-color: #f04124;
+	}
+}
+
+label{
+	&.error{
+		position: absolute;
+		top: remCalc(5);
+		right: remCalc(28);
+		color: #f04124;
+		background: transparent;
+		padding: 0;
+		font-size: remCalc(12);
+	}
+}
 
 
 // Footer
