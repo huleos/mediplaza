@@ -2,8 +2,6 @@
 layout: bussines
 title:  "My Daily treat"
 description: Aqui va la descripcion del post.
-date:   2015-01-03 2:55:00
-categories: dine
 locationSmall: /assets/img/mediplaza-map-floor1-small.jpg
 locationLarge: /assets/img/mediplaza-map-floor1-large.jpg
 avatar: /assets/img/bussines/my-daily-treat.jpg

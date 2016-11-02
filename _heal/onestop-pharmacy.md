@@ -2,8 +2,6 @@
 layout: bussines
 title:  "OneStop Mini Mart"
 description: Aqui va la descripcion del post.
-date:   2015-01-05 3:58:00
-categories: shop
 locationSmall: /assets/img/mediplaza-map-floor1-small.jpg
 locationLarge: /assets/img/mediplaza-map-floor1-large.jpg
 avatar: /assets/img/bussines/onestop-mini-mart.jpg

@@ -22,7 +22,7 @@ if($name && $email_address && $message)
 	Phone: $phone \n
 	Message: \n $message"; 
 	
-	$headers = "From: $email_address\n"; /*Campo del Email del cliente*/
+	$headers = "From: $name <$email_address>\n";
 	$headers .= "Reply-To: $email_address\n"; /*Campo del Email de respuesta*/
 	$headers .= "Bcc: " . $bccmail; /*Campo del Email de copia oculta*/
 	if(!$fieldHidden)

@@ -5,8 +5,8 @@ description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-baseurl: "/dev" # the subpath of your site, e.g. /blog/
-url: "http://mediplazalosalgodones.com" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "" # the base hostname & protocol for your site
 
 twitter_username: jekyllrb
 github_username:  jekyll
@@ -15,17 +15,27 @@ github_username:  jekyll
 markdown: kramdown
 
 # Customs
-permalink: :categories/:title
-exclude: [".gitignore", "README.md"]
-sitemap:
-    file: "/sitemap.xml"
-    exclude:
-        - "/feed.xml"
-        - "/css/main.css"
-    include_posts:
-        - "/index.html"
-    change_frequency_name: "change_frequency"
-    priority_name: "priority"
+permalink: /blog/:title/
+collections:
+  shop:
+    output: true
+    permalink: /:collection/:path/
+  rest:
+    output: true
+    permalink: /:collection/:path/
+  heal:
+    output: true
+    permalink: /:collection/:path/
+  dine:
+    output: true
+    permalink: /:collection/:path/
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - .gitignore
+  - README.md
 sass:
     sass_dir: assets/sass
     style: :compressed
+gems:
+  - jekyll-sitemap

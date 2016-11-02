@@ -2,8 +2,6 @@
 layout: bussines
 title:  "La Mexicana"
 description: Aqui va la descripcion del post.
-date:   2015-01-05 3:49:00
-categories: shop
 locationSmall: /assets/img/mediplaza-map-floor1-small.jpg
 locationLarge: /assets/img/mediplaza-map-floor1-large.jpg
 avatar: /assets/img/bussines/la-mexicana.jpg

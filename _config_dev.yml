@@ -17,15 +17,8 @@ markdown: kramdown
 # Customs
 permalink: :categories/:title
 exclude: [".gitignore", "README.md"]
-sitemap:
-    file: "/sitemap.xml"
-    exclude:
-        - "/feed.xml"
-        - "/css/main.css"
-    include_posts:
-        - "/index.html"
-    change_frequency_name: "change_frequency"
-    priority_name: "priority"
 sass:
     sass_dir: assets/sass
     style: :compressed
+gems:
+  - jekyll-sitemap

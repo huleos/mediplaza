@@ -2,8 +2,6 @@
 layout: bussines
 title:  "SaniCo"
 description: Aqui va la descripcion del post.
-date:   2015-01-05 4:04:00
-categories: heal
 locationSmall: /assets/img/mediplaza-map-floor1-small.jpg
 locationLarge: /assets/img/mediplaza-map-floor1-large.jpg
 avatar: /assets/img/bussines/sanico.jpg

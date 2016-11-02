@@ -2,8 +2,6 @@
 layout: bussines
 title:  "Cielito Lindo"
 description: Aqui va la descripcion del post.
-date:   2015-01-05 4:03:00
-categories: rest
 locationSmall: /assets/img/mediplaza-map-floor2-small.jpg
 locationLarge: /assets/img/mediplaza-map-floor2-large.jpg
 avatar: /assets/img/bussines/cielito-lindo.jpg
