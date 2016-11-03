@@ -4,14 +4,6 @@ title: Heal
 permalink: /heal/
 description: Write here the custom description
 ---
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-      {{ post.excerpt }}
-    </li>
-  {% endfor %}
-</ul>
 <section role="content" class="list-bussines shop">
   <div class="row">
     <div class="col sm-12">

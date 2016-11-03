@@ -66,7 +66,7 @@
 			<nav class="navbar-collapse">
 				<ul class="right">
 					<!-- <li {% if page.url == '/' %}class="active" {% endif %}><a href="/">home</a></li> -->
-					<li {% if page.url == '/shop/' %}class="active" {% endif %}><a href="{{ site.baseurl }}/shop/">shop</a></li>
+					<li {% if page.url == '/shop/*' %}class="active" {% endif %}><a href="{{ site.baseurl }}/shop/">shop</a></li>
 					<li {% if page.url == '/heal/' %}class="active" {% endif %}><a href="{{ site.baseurl }}/heal/">heal</a></li>
 					<li {% if page.url == '/rest/' %}class="active" {% endif %}><a href="{{ site.baseurl }}/rest/">rest</a></li>
 					<li {% if page.url == '/dine/' %}class="active" {% endif %}><a href="{{ site.baseurl }}/dine/">dine</a></li>

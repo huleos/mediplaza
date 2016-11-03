@@ -7,7 +7,6 @@ group: "navigation"
 latitude: 32.715346
 longitude: -114.729164
 ---
-
 <section role="content" class="home">
 	<div class="about">
 		<div class="row">

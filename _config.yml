@@ -17,6 +17,9 @@ markdown: kramdown
 # Customs
 permalink: /blog/:title/
 collections:
+  pages:
+    output: true
+    permalink: /:path/
   shop:
     output: true
     permalink: /:collection/:path/
