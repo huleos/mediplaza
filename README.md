@@ -3,7 +3,7 @@
 
 ### Prerequisites
 ***
-* Install jekyll `gem install jekyll`
+* Install jekyll `gem install jekyll bundler`
 
 ### Installation Instructions
 ***
@@ -13,6 +13,6 @@
 ***
 * Config production **_config.yml**
 * Config email file **contactForm.php**
-* Server `jekyll s`
-* When pushed on production, the `jekyll b`
+* Server `bundle exec jekyll serve`
+* When pushed on production, the `jekyll build`
 
