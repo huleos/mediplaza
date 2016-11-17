@@ -1,0 +1,16 @@
+<head>
+   <meta charset="utf-8">
+   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+   {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
+   <meta name="author" content="/humans.txt">
+   <meta name="viewport" content="width=device-width initial-scale=1" />
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<!-- Favicon -->
+   <link rel="shortcut icon" href="{{ site.baseurl }}/assets/img/favicon.png">
+   <!-- Styles -->
+   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
+   <!-- Modernizr -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+	<!-- Canonical -->
+   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+</head>

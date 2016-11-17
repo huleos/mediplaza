@@ -40,5 +40,6 @@ exclude:
 sass:
     sass_dir: assets/sass
     style: :compressed
+    sourcemap: true
 gems:
   - jekyll-sitemap

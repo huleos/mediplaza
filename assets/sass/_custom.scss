@@ -4,6 +4,7 @@
 
 // Type
 @import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700);
+@import url(//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css);
 
 body{
 	font-family: 'Roboto Condensed', sans-serif;
@@ -18,8 +19,9 @@ a{
 
 input,
 textarea,
+select,
 .btn{
-	@include border-radius(3px);
+	@include border-radius(2px);
 }
 
 // Brand
@@ -51,7 +53,7 @@ $oil:            #333 !default;
 	-o-background-size: cover;
 	position: relative;
 	padding: remCalc(60) remCalc(15);
-	a{
+	.big-logo{
 		position: relative;
 		z-index: 1;
 		display: table;
@@ -154,6 +156,14 @@ $oil:            #333 !default;
 						background-color: transparent;
 					}
 				}
+				.lodging-btn{
+					background-color: $brand-green-primary;
+					color: $white;
+					text-transform: uppercase;
+					&:hover{
+						background-color: darken($brand-green-primary, 10%); 
+					}
+				}
 			}
 		}
 	}
@@ -248,7 +258,7 @@ $oil:            #333 !default;
 
 input, textarea, select{
 	&.error{
-		border-color: #f04124;
+		border-color: $brand-alert !important;
 	}
 }
 
@@ -257,7 +267,7 @@ label{
 		position: absolute;
 		top: remCalc(5);
 		right: remCalc(28);
-		color: #f04124;
+		color: $brand-alert !important;
 		background: transparent;
 		padding: 0;
 		font-size: remCalc(12);
@@ -349,7 +359,7 @@ footer{position: relative;}
 		font-size: remCalc(18);
 		padding: remCalc(36) 0;
 	}
-	.home-cover a{
+	.home-cover .big-logo{
 		max-width: remCalc(220);
 	}
 }

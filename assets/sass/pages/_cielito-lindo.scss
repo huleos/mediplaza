@@ -1,0 +1,49 @@
+// Cielito Lindo
+
+.cl-cover{
+	.overlay{
+		background-color: rgba(0,0,0, 0.3);
+	}
+}
+
+.book-container{
+	background-color: rgba(0,0,0,.7);
+	padding: remCalc(15) remCalc(20);
+	margin-top: 10%;
+	label{
+		color: $white;
+	}
+	.book-submit{
+		position: absolute;
+		bottom: -82px;
+		width: 100%;
+		.btn{
+			width: 100%;
+			text-transform: uppercase;  
+		}
+	}
+}
+
+
+.btn-book {
+	color: $btn-info-color;
+	background-color: $brand-orange-primary;
+	&:hover{
+		background-color: darken($brand-orange-primary, 12%);
+		color: $white;
+	}
+	&:active{
+		background-color: lighten($brand-orange-primary, 28%);
+		&:focus{
+			outline: 0 none;
+		}
+	}
+}
+
+@media #{$breakpoint-medium} {
+
+	.cl-cover{
+		height: 78vh; 
+	}
+	
+}

@@ -1,91 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-   <meta charset="utf-8">
-   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-   {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
-   <meta name="author" content="/humans.txt">
-   <meta name="viewport" content="width=device-width initial-scale=1" />
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<!-- Favicon -->
-   <link rel="shortcut icon" href="{{ site.baseurl }}/assets/img/favicon.png">
-   <!-- Styles -->
-   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
-   <!-- Modernizr -->
-	<script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-	<!-- Canonical -->
-   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-</head>
+	{% include head.html %}	
 <body>
-
-<div class="contact">
-	<div class="row">
-		<div class="col md-12">
-			<h3>Contact</h3>
-			<p>Nisi mollitia quae, labore, corporis quod dolores! Amet, iste asperiores minima beatae. Eaque.</p>
-		</div>
-	</div>
-	
-	<form action="{{ site.baseurl }}/contactForm.php" method="post" id="contactForm">
-		<div class="row">
-			<div class="col md-12 form-group">
-				<input type="hidden" name="elAddress">
-				<!-- <label for="">Name</label> -->
-				<input type="text" name="elName" placeholder="Name" required>
-			</div>
-			<div class="col md-12 form-group">
-				<!-- <label for="">Email</label> -->
-				<input type="email" name="elEmail" placeholder="Email" required>
-			</div>
-			<div class="col md-12 form-group">
-				<!-- <label for="">Contact Number</label> -->
-				<input type="tel" name="elPhone" placeholder="Contact Number">
-			</div>
-			<div class="col md-12 form-group">
-				<!-- <label for="">Message</label> -->
-				<textarea name="" id="" rows="3" name="elMessage" placeholder="Message" required></textarea>
-			</div>
-			<div class="col md-12">
-			  <button type="submit" class="btn">Submit</button>
-			</div>
-		</div>
-	</form>
-	<a href="#" id="close-contact">&#215;</a>
-</div>
-
-	
-	<!-- Header -->
-	{% if page.url != '/' %}
-	<header class="navbar">
-		<div class="row">
-			<section class="navbar-header">
-				<a href="/" class="nav-brand"><img src="{{ site.baseurl }}/assets/img/logo-mediplaza-header.svg" alt="{{ site.title }}"></a>
-				<!-- <a href="#" class="navbar-toggle">Menu</a> -->
-			</section>
-			
-			<nav class="navbar-collapse">
-				<ul class="right">
-					<!-- <li {% if page.url == '/' %}class="active" {% endif %}><a href="/">home</a></li> -->
-					<li {% if page.url == '/shop/*' %}class="active" {% endif %}><a href="{{ site.baseurl }}/shop/">shop</a></li>
-					<li {% if page.url == '/heal/' %}class="active" {% endif %}><a href="{{ site.baseurl }}/heal/">heal</a></li>
-					<li {% if page.url == '/rest/' %}class="active" {% endif %}><a href="{{ site.baseurl }}/rest/">rest</a></li>
-					<li {% if page.url == '/dine/' %}class="active" {% endif %}><a href="{{ site.baseurl }}/dine/">dine</a></li>
-					<li class="contact-button"><a href="#">contact</a></li>
-				</ul>
-			</nav>
-			
-		</div>
-	</header>
-	{% endif %}
-	<!-- /Header -->
+	{% include contact-form.html %}	
+	{% include header.html %}	
 
 	<!-- Home Cover -->
 	{% if page.url == '/' %}
 	<div class="home-cover">
 		<div class="overlay"></div>
-		<a href="">
+		<div class="big-logo">
 			<img src="{{ site.baseurl }}/assets/img/logo-mediplaza-xl.svg" alt="">
-		</a>
+		</div>
 	</div>
 	<nav role="navigation" class="home-nav">
 		<ul>
@@ -113,47 +39,14 @@
 					<img src="{{ site.baseurl }}/assets/img/logo-dine.svg" alt="">
 				</div>
 			</li>
-			<!-- <li><a href="/shop/"><img src="assets/img/logo-shop.svg" alt=""></a></li>
-			<li><a href="/heal/"><img src="assets/img/logo-heal.svg" alt=""></a></li>
-			<li><a href="/rest/"><img src="assets/img/logo-rest.svg" alt=""></a></li>
-			<li><a href="/dine/"><img src="assets/img/logo-dine.svg" alt=""></a></li> -->
 		</ul>
 	</nav>
 	{% endif %}
 	<!-- /Home Cover -->
 
-	
   {{content}}
 
-	<!-- Footer -->
-	<footer>
-		<div class="footer-top">
-			<a href="{{ site.baseurl }}" class="footer-logo">
-				<img src="{{ site.baseurl }}/assets/img/logo-mediplaza-footer.svg" alt="">
-			</a>
-			<div class="footer-nav">
-				<ul>
-					<li {% if page.url == '/shop/' %}class="active" {% endif %}><a href="{{ site.baseurl }}/shop/">shop</a></li>
-					<li {% if page.url == '/heal/' %}class="active" {% endif %}><a href="{{ site.baseurl }}/heal/">heal</a></li>
-					<li {% if page.url == '/rest/' %}class="active" {% endif %}><a href="{{ site.baseurl }}/rest/">rest</a></li>
-					<li {% if page.url == '/dine/' %}class="active" {% endif %}><a href="{{ site.baseurl }}/dine/">dine</a></li>
-					<li class="contact-button"><a href="#">contact</a></li>
-				</ul>
-			</div>
-		</div>
-		<div class="footer-bottom">
-			<p class="copyright">Copyright &copy; {{ site.time | date: '%Y' }} {{ site.author.name }}</p>
-		</div>
-	</footer>
-	<!-- /Footer -->
-
-	
-	<!-- jQuery -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-	<script>window.jQuery || document.write("<script src=\"assets/js/vendor/jquery.min.js\"><\/script>")</script>
-	<!-- Scripts -->
-	<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.1/jquery.validate.min.js"></script>
-	<script src="{{ site.baseurl }}/assets/js/vendor/jquery.elevateZoom-3.0.8.min.js"></script>
-	<script src="{{ site.baseurl }}/assets/js/main.js"></script>
+	{% include footer.html %}	
+	{% include footer-includes.html %}	
 </body>
 </html>

@@ -13,6 +13,7 @@
 ***
 * Config production **_config.yml**
 * Config email file **contactForm.php**
-* Server `bundle exec jekyll serve`
+* Server `bundle exec jekyll serve -L`
+* Server livereload `bundle exec jekyll serve`
 * When pushed on production, the `jekyll build`
 

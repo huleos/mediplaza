@@ -18,7 +18,8 @@ $(document).ready(function(){
 	});
 
   // Contact Form
-  $("#contactForm").validate();
+  $('#contactForm').validate();
+  $('#bookingForm').validate();
 
   // Navigation
   $(".contact-button > a").click(function(){
@@ -28,6 +29,9 @@ $(document).ready(function(){
   $("#close-contact").click(function(){
       $('body').removeClass("show-contact");
   });
+
+  // Datepicker
+  $('#from, #to').datepicker();
 
   // Zoom
   $("#zoomMap").elevateZoom({
