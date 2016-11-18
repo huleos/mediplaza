@@ -11,11 +11,10 @@ local:
 phone: (928) 257 1307
 ---
 
-<div class="home-cover cl-cover">
+<div class="cl-cover">
 	<div class="overlay"></div>
 	<div class="row">
 		<div class="col md-12 md-center">
-			<div class="sub-book">
 			<div class="book-container">
 				<form action="" method="post" id="bookingForm">
 					<div class="row">
@@ -64,13 +63,82 @@ phone: (928) 257 1307
 					</div><!-- .book-submit -->
 					<input type="hidden" name="elAddress">
 				</form>
-			</div>
-			</div>
+			</div><!-- .book-container -->
+		</div>
 	</div>
-	</div><!-- .book-container -->
 </div>
 
+<div class="row">
+	<div class="col md-9">
+		<h1>Cielito Lindo</h1>
+		<p>When you're traveling, you want a good place to rest. You want a convenient place with everything near, and to pay a fair price.</p>
+		<p>The opening of MediPlaza has brought around 15 new medical business that aim to cover all your needs. In the second floor of this new establishment, you’ll find Cielito Lindo, the newest, and one of the largest hotels in Los Algodones. It’s conveniently located in the heart of the town, and only a few steps away from all the fun.</p>
+		<p>Cielito Lindo is what you're looking for. Our hotel offers affordable prices, convenience, and tradition in one place. Your rest is our priority, and we have the best service for you.
+		We invite you to visit us at MediPlaza, where besides of the hotel you'll have a lot of options to spend your time. Take your rest and comfort seriously, and choose the best.</p>
 
-Imagine a Hotel in Algodenes, Mexico, that combines: top, 5 Star Accommodations, Affordable Prices, Tradition and Luxury. Cielito Lindo – Algodones Hotel; due to its location many have not located this hidden paradise.  
-We invite you to lodge at this peaceful and tranquil refuge Hotel in Los Algodones, Mexico where we offer our visitors a chance to escape from one’s day-to-day routine and simply enjoy.  
-Our hotel is near Yuma, Az. and offers you excellent services as well as all the accommodations you needed, with our colors and warmth you will feel and experience a satisfaction like no other. Once on the city, you will want to lodge in this refuge Los Algodones has to offer you. Come to Los Algodones and stay at Cielito Lindo – Algodones Hotel, and enjoy this hidden paradise the city has to offer you.
+		<!-- Rooms -->
+		<div class="row">
+			<div class="col md-4">
+				<div class="room-box">
+					<img src="http://placehold.it/320x280" alt="">
+					<span>Single Room</span>
+				</div>
+			</div>
+			<div class="col md-4">
+				<div class="room-box">
+					<img src="http://placehold.it/320x280" alt="">
+					<span>Double Room</span>
+				</div>
+			</div>
+			<div class="col md-4">
+				<div class="room-box">
+					<img src="http://placehold.it/320x280" alt="">
+					<span>Junior Room</span>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<aside class="col md-3 cl-sidebar">
+		<div class="box">
+			<h3>Rooms &amp; Rates</h3>
+			<table class="table-hover">
+				<tr>
+					<td>Single room</td>
+					<td>$60</td>
+				</tr>
+				<tr>
+					<td>Double room</td>
+					<td>$70</td>
+				</tr>
+				<tr>
+					<td>Junior room</td>
+					<td>$80</td>
+				</tr>
+			</table>
+		</div>
+
+		<div class="box">
+			<h3>Services</h3>
+			<ul>
+				<li>One private bathroom in every room</li>
+				<li>Air conditioner</li>
+				<li>Flat screen TV</li>
+				<li>Wi-fi </li>
+				<li>Telephone</li> 
+				<li>Safe in every room</li>
+				<li>Parking</li>
+				<li>Room service</li>
+			</ul>
+		</div>
+
+		<div class="box">
+			<h3>Promotions</h3>
+			<p>We do not only offer great prices, but we also offer great promotions. If you’re a Sani Dental Group patient, you might be eligible to have from one to three free nights at Cielito Lindo.</p> 
+			<p>If you’d like to get more information, please contact us: <br>
+			<b>US (928) 2571136 / 3281814</b> <br>
+			<b>MX (658) 5173328</b></p> 
+		</div>
+
+	</aside><!-- .cl-sidebar -->
+</div>

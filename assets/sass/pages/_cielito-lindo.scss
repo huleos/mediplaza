@@ -1,6 +1,10 @@
 // Cielito Lindo
 
 .cl-cover{
+	background: url('../img/home-cover.jpg') center center/cover no-repeat;
+	position: relative;
+	padding-top: remCalc(40);
+	margin-bottom: remCalc(48);
 	.overlay{
 		background-color: rgba(0,0,0, 0.3);
 	}
@@ -9,18 +13,13 @@
 .book-container{
 	background-color: rgba(0,0,0,.7);
 	padding: remCalc(15) remCalc(20);
-	margin-top: 10%;
+	margin-bottom: remCalc(24);
 	label{
 		color: $white;
 	}
-	.book-submit{
-		position: absolute;
-		bottom: -82px;
+	.btn{
 		width: 100%;
-		.btn{
-			width: 100%;
-			text-transform: uppercase;  
-		}
+		text-transform: uppercase;  
 	}
 }
 
@@ -40,10 +39,48 @@
 	}
 }
 
+// rooms
+.room-box{
+	position: relative;
+	margin: remCalc(18) remCalc(-15);
+	span{
+		position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0,0,0,.5);
+    background: linear-gradient(to right, rgba(0,0,0,.75), rgba(0,0,0,0));
+    padding: remCalc(10) remCalc(15);
+    color: $white;
+	}
+}
+
+// Sidebar
+.cl-sidebar{
+	.box{
+		margin-bottom: remCalc(24);
+		ul{
+			padding-left: remCalc(18);
+  		list-style: disc;
+		}
+	}
+}
+
 @media #{$breakpoint-medium} {
 
 	.cl-cover{
-		height: 78vh; 
+		height: 78vh;
+		display: flex;
+		flex-flow: row wrap;
+		align-items: center;
+	}
+
+	.book-container{
+		.book-submit{
+			position: absolute;
+			bottom: -82px;
+			width: 100%;
+		}
 	}
 	
 }

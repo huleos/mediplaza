@@ -343,7 +343,8 @@ footer{position: relative;}
 @media #{$breakpoint-small-only} {
 	.navbar-collapse{
 		display: table;
-		margin: 0 auto;
+		// margin: 0 auto;
+		margin: 0 remCalc(-15);
 		width: initial;
 		ul{
 			li{
