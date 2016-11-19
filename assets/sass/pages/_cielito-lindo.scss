@@ -1,9 +1,8 @@
 // Cielito Lindo
 
 .cl-cover{
-	background: url('../img/home-cover.jpg') center center/cover no-repeat;
+	background: url('../img/cl-cover.jpg') center center/cover no-repeat;
 	position: relative;
-	padding-top: remCalc(40);
 	margin-bottom: remCalc(48);
 	.overlay{
 		background-color: rgba(0,0,0, 0.3);
@@ -68,8 +67,9 @@
 
 @media #{$breakpoint-medium} {
 
-	.cl-cover{
-		height: 78vh;
+	.cl-cover,
+	.home-cover{
+		height: 75vh;
 		display: flex;
 		flex-flow: row wrap;
 		align-items: center;

@@ -2,13 +2,6 @@
 layout: page
 title:  "Cielito Lindo"
 description: Aqui va la descripcion del post.
-locationSmall: /assets/img/mediplaza-map-floor2-small.jpg
-locationLarge: /assets/img/mediplaza-map-floor2-large.jpg
-avatar: /assets/img/bussines/cielito-lindo.jpg
-horary: 10:00pm - 8:00:pm
-floor: Floor 2
-local: 
-phone: (928) 257 1307
 ---
 
 <div class="cl-cover">
@@ -16,15 +9,15 @@ phone: (928) 257 1307
 	<div class="row">
 		<div class="col md-12 md-center">
 			<div class="book-container">
-				<form action="" method="post" id="bookingForm">
+				<form action="{{ site.baseurl }}/bookForm.php" method="post" id="bookingForm">
 					<div class="row">
 						<div class="col md-2 form-group">
-							<label for="">From</label>
-							<input type="text" name="_from" id="from" required>
+							<label for="">Arrival date</label>
+							<input type="text" name="_check_in" id="from" required>
 						</div>
 						<div class="col md-2 form-group">
-							<label for="">To</label>
-							<input type="text" name="_to" id="to" required>
+							<label for="">Departure date</label>
+							<input type="text" name="_check_out" id="to" required>
 						</div>
 						<div class="col md-2 form-group">
 							<label for="">Party</label>
@@ -61,7 +54,9 @@ phone: (928) 257 1307
 							</div>
 						</div>
 					</div><!-- .book-submit -->
-					<input type="hidden" name="elAddress">
+					<input type="hidden" name="fk">
+					<input type="hidden" name="_origin" value="Booking From Cielito Lindo">
+					<input type="hidden" id="field_utm_cielito_lindo" name="field_utm" value="">
 				</form>
 			</div><!-- .book-container -->
 		</div>
@@ -80,19 +75,19 @@ phone: (928) 257 1307
 		<div class="row">
 			<div class="col md-4">
 				<div class="room-box">
-					<img src="http://placehold.it/320x280" alt="">
+					<img src="http://placehold.it/285x190?text=Image+Coming+Soon" alt="">
 					<span>Single Room</span>
 				</div>
 			</div>
 			<div class="col md-4">
 				<div class="room-box">
-					<img src="http://placehold.it/320x280" alt="">
+					<img src="{{ site.baseurl }}/assets/img/double-room.jpg" alt="">
 					<span>Double Room</span>
 				</div>
 			</div>
 			<div class="col md-4">
 				<div class="room-box">
-					<img src="http://placehold.it/320x280" alt="">
+					<img src="{{ site.baseurl }}/assets/img/junior-room.jpg" alt="">
 					<span>Junior Room</span>
 				</div>
 			</div>

@@ -1,0 +1,5 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^www\.mediplazalosalgodones\.com$
+RewriteRule ^/?$ "http\:\/\/mediplazalosalgodones\.com\/" [R=301,L]
+

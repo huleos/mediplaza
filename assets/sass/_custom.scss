@@ -49,10 +49,8 @@ $oil:            #333 !default;
 
 // Home
 .home-cover{
-	background: url('../img/home-cover.jpg') center center/cover no-repeat;
-	-o-background-size: cover;
+	background: url('../img/cl-cover.jpg') center center/cover no-repeat;
 	position: relative;
-	padding: remCalc(60) remCalc(15);
 	.big-logo{
 		position: relative;
 		z-index: 1;
@@ -70,6 +68,9 @@ $oil:            #333 !default;
 		width: 100%;
 		height: remCalc(400);
 		margin-bottom: remCalc(-100);
+	}
+	> div{
+		padding-top: remCalc(24);
 	}
 }
 

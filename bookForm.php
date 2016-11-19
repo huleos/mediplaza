@@ -5,24 +5,29 @@ ini_set('display_errors', '1');
 $myemail = 'cielitolindo@mediplaza.info';
 $bccmail = 'creativo@686studio.com';
 
-$name = $_POST['_name']; 
-$email_address = $_POST['_email'];
-$phone = $_POST['_phone'];
-$message = $_POST['_message'];
+$check = $_POST['_check_in']; //
+$out = $_POST['_check_out']; //
+$party = $_POST['_party'];
+$room = $_POST['_room'];
+$name = $_POST['_name']; //
+$phone = $_POST['_phone']; //
 $origin = $_POST['_origin'];
 $utm = $_POST['field_utm'];
 $fieldHidden = isset($_POST['fk']) ? $_POST['fk'] : null;
 
-if($name && $email_address && $message)
+if($check && $out && $party && $room && $name && $phone)
 {
 	$to = $myemail; 
 	$email_subject = "$origin";
-	$email_body = "You have received a new message of MediPlaza".
+	$email_body = "You have received a new booking from Cielito Lindo".
 	" Here are the details:\n
 	Name: $name \n
-	Email: $email_address \n
 	Phone: $phone \n
-	Message: \n $message"; 
+	Check in: $check \n
+	Check out: $out \n
+	Party: $party \n
+	Room: $room \n
+	UTM: $utm";
 	
 	$headers = "From: $name <$myemail>\n";
 	$headers .= "Reply-To: $myemail\n";

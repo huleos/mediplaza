@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Pagina
+title: Thanks :)
+permalink: /thanks/
 description: Write here the custom description
 ---
-<h1>{{ page.title }}</h1>

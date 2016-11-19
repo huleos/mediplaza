@@ -1,4 +1,5 @@
-{% if page.url != '/' %}
+
+<!-- {# if page.url != '/' %} -->
 <header class="navbar">
 	<div class="row">
 		<section class="navbar-header">
@@ -13,11 +14,11 @@
 				<li {% if page.url == '/heal/' %}class="active" {% endif %}><a href="{{ site.baseurl }}/heal/">heal</a></li>
 				<li {% if page.url == '/dine/' %}class="active" {% endif %}><a href="{{ site.baseurl }}/dine/">dine</a></li>
 				<!-- <li {% if page.url == '/rest/' %}class="active" {% endif %}><a href="{{ site.baseurl }}/rest/">rest</a></li> -->
-				<li><a href="{{ site.baseurl }}/rest/cielito-lindo/" class="lodging-btn">Lodging</a></li>
+				<li><a href="{{ site.baseurl }}/cielito-lindo/" class="lodging-btn">Lodging</a></li>
 				<li class="contact-button"><a href="#">contact</a></li>
 			</ul>
 		</nav>
 		
 	</div>
 </header>
-{% endif %}
+<!-- {# endif %} -->
