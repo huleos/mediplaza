@@ -3,64 +3,9 @@ layout: page
 title:  "Cielito Lindo"
 description: Aqui va la descripcion del post.
 ---
-
 <div class="cl-cover">
 	<div class="overlay"></div>
-	<div class="row">
-		<div class="col md-12 md-center">
-			<div class="book-container">
-				<form action="{{ site.baseurl }}/bookForm.php" method="post" id="bookingForm">
-					<div class="row">
-						<div class="col md-2 form-group">
-							<label for="">Arrival date</label>
-							<input type="text" name="_check_in" id="from" required>
-						</div>
-						<div class="col md-2 form-group">
-							<label for="">Departure date</label>
-							<input type="text" name="_check_out" id="to" required>
-						</div>
-						<div class="col md-2 form-group">
-							<label for="">Party</label>
-							<select name="_party" required>
-								<option value=""></option>
-								<option value="1">1</option>
-								<option value="2">2</option>
-								<option value="3">3</option>
-								<option value="4">4</option>
-							</select>
-						</div>
-						<div class="col md-2 form-group">
-							<label>Room</label>
-							<select name="_room" required>
-								<option value=""></option>
-								<option value="Single">Single</option>
-								<option value="Double">Double</option>
-								<option value="Junior">Junior</option>
-							</select>
-						</div>
-						<div class="col md-2 form-group">
-							<label>Name</label>
-							<input type="text" name="_name" required>
-						</div>
-						<div class="col md-2 form-group">
-							<label>Phone</label>
-							<input type="text" name="_phone" required>
-						</div>
-					</div>
-					<div class="book-submit">
-						<div class="row">
-							<div class="col md-2 md-center">
-								<input type="submit" class="btn btn-book">
-							</div>
-						</div>
-					</div><!-- .book-submit -->
-					<input type="hidden" name="fk">
-					<input type="hidden" name="_origin" value="Booking From Cielito Lindo">
-					<input type="hidden" id="field_utm_cielito_lindo" name="field_utm" value="">
-				</form>
-			</div><!-- .book-container -->
-		</div>
-	</div>
+	{% include book-container.html %}	
 </div>
 
 <div class="row">

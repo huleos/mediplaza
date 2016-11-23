@@ -32,11 +32,12 @@ collections:
   dine:
     output: true
     permalink: /:collection/:path/
+destination: build
 exclude:
   - Gemfile
   - Gemfile.lock
-  - .gitignore
   - README.md
+  - LICENSE
 sass:
     sass_dir: assets/sass
     style: :compressed

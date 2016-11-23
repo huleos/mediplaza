@@ -4,6 +4,9 @@ RewriteEngine on
 RewriteCond %{REQUEST_URI} !build/
 RewriteRule (.*) /build/$1 [L]
 
+RewriteCond %{HTTP_HOST} ^www\.mediplazalosalgodones\.com [NC]
+RewriteRule ^(.*)$ http://mediplazalosalgodones.com/$1 [L,R=301]
+
 ## EXPIRES CACHING ##
 ExpiresByType image/jpg "access 1 year"
 ExpiresByType image/jpeg "access 1 year"

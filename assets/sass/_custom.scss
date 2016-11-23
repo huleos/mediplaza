@@ -145,29 +145,49 @@ $oil:            #333 !default;
 		ul{
 			li{
 				a{
-					text-transform: capitalize;
-					padding: remCalc(34) remCalc(24);
-					&:hover{
-						background-color: transparent;
-					}
-				}
-				&.active{
-					a{
-						color: $brand-pink-primary;
-						background-color: transparent;
-					}
-				}
-				.lodging-btn{
-					background-color: $brand-green-primary;
 					color: $white;
 					text-transform: uppercase;
+					padding: remCalc(34) remCalc(24);
 					&:hover{
-						background-color: darken($brand-green-primary, 10%); 
+						background-color: $gray-darker;
+					}
+				}
+				&.shop{
+					a{
+						&:hover,
+						&.active{
+							background-color: $brand-pink-primary;
+						}
+					}
+				}
+				&.heal{
+					a{
+						&:hover,
+						&.active{
+							background-color: $brand-blue-primary;
+						}
+					}
+				}
+				&.dine{
+					a{
+						&:hover,
+						&.active{
+							background-color: $brand-orange-primary;
+						}
+					}
+				}
+				&.lodging{
+					a{
+						&:hover,
+						&.active{
+							background-color: $brand-green-primary;
+						}
 					}
 				}
 			}
 		}
 	}
+
 }
 
 // Bussines
@@ -242,10 +262,19 @@ $oil:            #333 !default;
 		top: remCalc(8);
 		right: remCalc(18);
 		color: $smoke;
+		text-decoration: none;
+	}
+	a{
+		text-decoration: underline;
+		color: $white;
 	}
 	.btn{
 		background-color: $brand-orange-primary;
 		color: $white;
+		text-transform: uppercase; 
+		&:hover{
+			background-color: darken($brand-orange-primary, 12%);
+		}
 	}
 }
 
@@ -335,6 +364,12 @@ footer{position: relative;}
 		text-align: center;
 		margin-bottom: 0;
 	}
+}
+
+// Thanks
+.thanks{
+	text-align: center;
+	color: $white; 
 }
 
 

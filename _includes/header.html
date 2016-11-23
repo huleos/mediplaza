@@ -6,15 +6,13 @@
 			<a href="/" class="nav-brand"><img src="{{ site.baseurl }}/assets/img/logo-mediplaza-header.svg" alt="{{ site.title }}"></a>
 			<!-- <a href="#" class="navbar-toggle">Menu</a> -->
 		</section>
-		
+
 		<nav class="navbar-collapse">
 			<ul class="right">
-				<!-- <li {% if page.url == '/' %}class="active" {% endif %}><a href="/">home</a></li> -->
-				<li {% if page.url == '/shop/*' %}class="active" {% endif %}><a href="{{ site.baseurl }}/shop/">shop</a></li>
-				<li {% if page.url == '/heal/' %}class="active" {% endif %}><a href="{{ site.baseurl }}/heal/">heal</a></li>
-				<li {% if page.url == '/dine/' %}class="active" {% endif %}><a href="{{ site.baseurl }}/dine/">dine</a></li>
-				<!-- <li {% if page.url == '/rest/' %}class="active" {% endif %}><a href="{{ site.baseurl }}/rest/">rest</a></li> -->
-				<li><a href="{{ site.baseurl }}/cielito-lindo/" class="lodging-btn">Lodging</a></li>
+				<li class="shop"><a href="{{ site.baseurl }}/shop/" {% if page.url == '/shop/' %}class="active" {% endif %}>shop</a></li>
+				<li class="heal"><a href="{{ site.baseurl }}/heal/" {% if page.url == '/heal/' %}class="active" {% endif %}>heal</a></li>
+				<li class="dine"><a href="{{ site.baseurl }}/dine/" {% if page.url == '/dine/' %}class="active" {% endif %}>dine</a></li>
+				<li class="lodging"><a href="{{ site.baseurl }}/cielito-lindo/" class="lodging-btn">Lodging</a></li>
 				<li class="contact-button"><a href="#">contact</a></li>
 			</ul>
 		</nav>
