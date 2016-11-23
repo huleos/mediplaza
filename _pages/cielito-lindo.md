@@ -4,7 +4,7 @@ title:  "Cielito Lindo"
 description: Aqui va la descripcion del post.
 ---
 <div class="cl-cover">
-	<div class="overlay"></div>
+	<div class="overlay">&nbsp;</div>
 	{% include book-container.html %}	
 </div>
 
