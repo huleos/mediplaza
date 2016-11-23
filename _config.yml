@@ -42,5 +42,9 @@ sass:
     sass_dir: assets/sass
     style: :compressed
     sourcemap: true
+autoprefixer:
+  browsers:
+  - last 4 versions
 gems:
   - jekyll-sitemap
+  - jekyll-autoprefixer

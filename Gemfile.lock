@@ -2,12 +2,15 @@ GEM
   remote: https://rubygems.org/
   specs:
     addressable (2.4.0)
+    autoprefixer-rails (6.3.7)
+      execjs
     backports (3.6.8)
     colorator (1.1.0)
     em-websocket (0.5.1)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
     eventmachine (1.2.0.1)
+    execjs (2.7.0)
     ffi (1.9.14)
     forwardable-extended (2.6.0)
     http_parser.rb (0.6.0)
@@ -27,6 +30,8 @@ GEM
       jekyll (~> 3.1)
       sinatra (~> 1.4)
       sinatra-contrib (~> 1.4)
+    jekyll-autoprefixer (1.0.0)
+      autoprefixer-rails (~> 6.3.6)
     jekyll-livereload (0.2.2)
       em-websocket (~> 0.5)
       jekyll (~> 3.0)
@@ -75,6 +80,7 @@ PLATFORMS
 DEPENDENCIES
   jekyll (~> 3.3.0)
   jekyll-admin
+  jekyll-autoprefixer
   jekyll-livereload
   jekyll-sitemap (~> 0.12.0)
 
