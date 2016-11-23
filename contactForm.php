@@ -24,8 +24,8 @@ if($name && $email_address && $message)
 	Phone: $phone \n
 	Message: \n $message"; 
 	
-	$headers = "From: $name <$myemail>\n";
-	$headers .= "Reply-To: $myemail\n";
+	$headers = "From: $name <$email_address>\n";
+	$headers .= "Reply-To: $email_address\n";
 	$headers .= "Bcc: " . $bccmail;
 	if(!$fieldHidden)
 	mail($to,$email_subject,$email_body,$headers);
