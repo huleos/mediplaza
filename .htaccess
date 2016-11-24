@@ -1,8 +1,8 @@
 RewriteEngine on
 
 ## REDIRECT FOLDER DIST ##
-RewriteCond %{REQUEST_URI} !build/
-RewriteRule (.*) /build/$1 [L]
+RewriteCond %{REQUEST_URI} !_build/
+RewriteRule (.*) /_build/$1 [L]
 
 ## EXPIRES CACHING ##
 ExpiresByType image/jpg "access 1 year"
@@ -20,3 +20,6 @@ ExpiresDefault "access 1 month"
 ## REDIRECT WWW ##
 RewriteCond %{HTTP_HOST} ^www\.mediplazalosalgodones\.com [NC]
 RewriteRule ^(.*)$ http://mediplazalosalgodones.com/$1 [L,R=301]
+
+## Errors ##
+ErrorDocument 404 /404/
