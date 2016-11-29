@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Thanks 👌
-description: Write here the custom description
+description: We will contact you soon. Please wait for our response via e-mail or phone.
 permalink: /thanks/
 ---
 <div class="cl-cover thanks">

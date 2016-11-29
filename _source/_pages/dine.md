@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Dine
-description: Write here the custom description
+title: Mediplaza | Los Algodones Best Medical Center 
+description: Come and Try Our Traditional Mexican Cuisine, Get a Quick Bite at Our Deli or Enjoy a Delicious Cup of Coffee, Everything Here at MediPlaza Los Algodones. Eat, Shop and Have Fun Today!
 permalink: /dine/
 ---
 <section role="content" class="list-bussines shop">

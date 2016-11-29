@@ -1,7 +1,7 @@
 ---
 layout: page
-title:  "Cielito Lindo"
-description: Aqui va la descripcion del post.
+title: MediPlaza Los Algodones Hotels
+description: Enjoy Your Stay at Los Algodones, Mexico and Choose Cielito Lindo, Where Your Comfort Is Our Number One Priority. Have a Unique Mexican Experience and Visit Us Today.
 ---
 <div class="cl-cover">
 	<div class="overlay">&nbsp;</div>

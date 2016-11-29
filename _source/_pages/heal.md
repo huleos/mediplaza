@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Heal
-description: Write here the custom description
+title: Medical Center in Mexico at MediPlaza
+description: Visit One of Our Trusted Physicians, Fill Your Prescription, Get a Better Quality of Life with Stem Cells Therapy. All of Your Medical Needs Solved, Only at MediPlaza.
 permalink: /heal/
 ---
 <section role="content" class="list-bussines shop">

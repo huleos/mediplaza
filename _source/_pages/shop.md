@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Shop
-description: Write here the custom description
+title: Los Algodones Shopping Center | MediPlaza
+description: Come to MediPlaza Los Algodones in Mexico. Your One Stop for Everything, Including Traditional Mexican Clothing and Jewelry. Visit Us Today!
 permalink: /shop/
 ---
 <section role="content" class="list-bussines shop">
