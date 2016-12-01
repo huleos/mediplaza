@@ -42,7 +42,7 @@
 // rooms
 .room-box{
 	position: relative;
-	margin: remCalc(18) remCalc(-15);
+	margin: remCalc(18) remCalc(-30);
 	span{
 		position: absolute;
     left: 0;
@@ -63,6 +63,11 @@
 			padding-left: remCalc(18);
   		list-style: disc;
 		}
+		&.promo{
+			background-color: $brand-pink-primary;
+			color: $white;
+			padding: remCalc(15);
+		}
 	}
 }
 
@@ -82,6 +87,11 @@
 			bottom: -82px;
 			width: 100%;
 		}
+	}
+
+	.room-box{
+		margin-left: remCalc(-15);
+		margin-right: remCalc(-15);
 	}
 	
 }

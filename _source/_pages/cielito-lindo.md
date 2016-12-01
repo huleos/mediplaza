@@ -15,7 +15,7 @@ description: Enjoy Your Stay at Los Algodones, Mexico and Choose Cielito Lindo, 
 		<p>Our hotel is located in the second floor of <strong>MediPlaza Los Algodones</strong>, only a few steps down and you’ll have everything at your disposal: restaurants, cafés, spa, and more. <strong>Cielito Lindo</strong> offers you excellent services as well as all the accommodations you might need, and in any of the 32 rooms available, you’ll find the warmth and comfort you need to have an experience of satisfaction like no other.</p>
 
 		<!-- Rooms -->
-		<div class="row">
+		<!-- <div class="row"> -->
 			<div class="col md-4">
 				<div class="room-box">
 					<img src="http://placehold.it/285x190?text=Image+Coming+Soon" alt="">
@@ -34,10 +34,20 @@ description: Enjoy Your Stay at Los Algodones, Mexico and Choose Cielito Lindo, 
 					<span>Junior Room</span>
 				</div>
 			</div>
-		</div>
+		<!-- </div> -->
 	</div>
 
 	<aside class="col md-3 cl-sidebar">
+
+		<div class="box promo">
+			<h3>Promotions</h3>
+			<p>We do not only offer great prices, but we also offer great promotions. If you’re a Sani Dental Group patient, you might be eligible to have from one to three free nights at Cielito Lindo.</p>
+			<hr>
+			<p>If you’d like to get more information, please contact us: <br>
+			<b>US (928) 328 1814 / 328 1671</b> <br>
+			<b>MX (658) 517 7541</b></p> 
+		</div>
+		
 		<div class="box">
 			<h3>Rooms &amp; Rates</h3>
 			<table class="table-hover">
@@ -68,14 +78,6 @@ description: Enjoy Your Stay at Los Algodones, Mexico and Choose Cielito Lindo, 
 				<li>Parking</li>
 				<li>Room service</li>
 			</ul>
-		</div>
-
-		<div class="box">
-			<h3>Promotions</h3>
-			<p>We do not only offer great prices, but we also offer great promotions. If you’re a Sani Dental Group patient, you might be eligible to have from one to three free nights at Cielito Lindo.</p> 
-			<p>If you’d like to get more information, please contact us: <br>
-			<b>US (928) 2571136 / 3281814</b> <br>
-			<b>MX (658) 5173328</b></p> 
 		</div>
 
 	</aside><!-- .cl-sidebar -->
