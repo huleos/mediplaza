@@ -1,13 +1,14 @@
 ---
 layout: bussines
-title:  "Natura"
-description: Aqui va la descripcion del post.
+title: Mediplaza Craft Mexican Jewelry
+description: If You're Looking for Something Different and Special, Visit Natura at Mediplaza Los Algodones in Mexico. Get the Best Jewelry and Craft in Town inspired by Mexican culture. Take a piece of Mexico back with you.
 locationSmall: /assets/img/mediplaza-map-floor1-small.jpg
 locationLarge: /assets/img/mediplaza-map-floor1-large.jpg
 avatar: /assets/img/bussines/natura.jpg
-horary: 10:00pm - 8:00:pm
-floor: Floor 1
-local: 
+name: Natura
+horary: 
+floor: 1st
+local: 7
 phone: 
 ---
 

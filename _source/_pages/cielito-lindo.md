@@ -11,10 +11,8 @@ description: Enjoy Your Stay at Los Algodones, Mexico and Choose Cielito Lindo, 
 <div class="row">
 	<div class="col md-9">
 		<h1>Cielito Lindo</h1>
-		<p>When you're traveling, you want a good place to rest. You want a convenient place with everything near, and to pay a fair price.</p>
-		<p>The opening of MediPlaza has brought around 15 new medical business that aim to cover all your needs. In the second floor of this new establishment, you’ll find Cielito Lindo, the newest, and one of the largest hotels in Los Algodones. It’s conveniently located in the heart of the town, and only a few steps away from all the fun.</p>
-		<p>Cielito Lindo is what you're looking for. Our hotel offers affordable prices, convenience, and tradition in one place. Your rest is our priority, and we have the best service for you.
-		We invite you to visit us at MediPlaza, where besides of the hotel you'll have a lot of options to spend your time. Take your rest and comfort seriously, and choose the best.</p>
+		<p>A five star accommodations, affordable prices, tradition and luxury style is what Cielito Lindo is all about. We invite you to lodge at this hidden paradise, where we offer our visitors a chance to escape from one’s day-to-day routine and simply enjoy.</p>
+		<p>Our hotel is located in the second floor of <strong>MediPlaza Los Algodones</strong>, only a few steps down and you’ll have everything at your disposal: restaurants, cafés, spa, and more. <strong>Cielito Lindo</strong> offers you excellent services as well as all the accommodations you might need, and in any of the 32 rooms available, you’ll find the warmth and comfort you need to have an experience of satisfaction like no other.</p>
 
 		<!-- Rooms -->
 		<div class="row">

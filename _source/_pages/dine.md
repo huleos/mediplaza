@@ -8,7 +8,7 @@ permalink: /dine/
   <div class="row">
     <div class="col sm-12">
       <header class="page-header">
-        <h1 class="title">{{ page.title }}</h1>
+        <h1 class="title">Dine</h1>
       </header>
     </div>
   </div>
@@ -22,16 +22,16 @@ permalink: /dine/
           </a>
         </div>
         <div class="col md-6">
-          <h2><a href="{{ item.url }}">{{ item.title }}</a></h2>
-          {% if item.horary contains 'm' %}
+          <h2><a href="{{ item.url }}">{{ item.name }}</a></h2>
+          {% if item.horary contains '' %}
           <h4>Opening Hours</h4>
           <span>{{ item.horary }}</span>
           {% endif %}
-          {% if item.floor contains 'o' %}
-          <h4>{{ item.floor }}</h4>
-          <span>{{ item.local }}</span>
+          {% if item.floor contains '' %}
+          <h4>{{ item.floor }} Floor</h4>
+          <span>Local {{ item.local }}</span>
           {% endif %}
-          {% if item.phone contains ' ' %}
+          {% if item.phone contains '' %}
           <h4>Phone</h4>
           <span>{{ item.phone }}</span>
           {% endif %}

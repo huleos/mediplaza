@@ -1,15 +1,17 @@
 ---
 layout: bussines
-title:  "My Daily treat"
-description: Aqui va la descripcion del post.
+title: Los Algodones Traditional Mexican Coffeee
+description: Start Your Day Right with a Delicious Cup of Coffee from My Daily Treat in MediPlaza Los Algodones. Come Experience Our Special Mexican Blends Today!
 locationSmall: /assets/img/mediplaza-map-floor1-small.jpg
 locationLarge: /assets/img/mediplaza-map-floor1-large.jpg
 avatar: /assets/img/bussines/my-daily-treat.jpg
-horary: 10:00pm - 8:00:pm
-floor: Floor 1
-local: Local 3
-phone: (928) 257 1307
+name: My Daily treat
+horary: 
+floor: 1st
+local: 1-2
+phone: 
 ---
+What better way to start off a great day that with a delicious cup of coffee? My Daily Treat is the place in Los Algodones where you'll find a peaceful and convenient spot to have coffee and a wide variety of treats.  
+Come and enjoy our brewed coffee, or get creative with some of our signature mixes. Whatever you choose, you’ll know it’s the right choice from the first sip.
 
-We know you deserve it! No better way to start the day than with a great cup of coffee and one of our tasty treats. Come and feel the warmth of Los Algodones with our daily brewed coffee or be creative with some of our signature mixes, whatever you choose you’ll know it’s the right choice from the first sip.  
-For people trying to find coffee shops in Los Algodones we are the place to visit. Take advantage of our convenient location at the very entrance of the most complete Plaza in Los Algodones and let us kick off what we are sure to be an amazing day in Los Algodones.
+My Daily treat is the perfect option for any visitor to enjoy a good cup of coffee in Los Algodones with the warmth of a great service. We invite you to visit us at MediPlaza Los Algodones, just in the heart of the town, and let us help you to kick off what we are sure will be an amazing day.

@@ -10,16 +10,15 @@ longitude: -114.729164
 <section role="content" class="home">
 	<div class="about">
 		<div class="row">
-			<div class="col md-12">
-				<h2 class="title">About</h2>
-			</div>
-			<div class="col md-6">
-				<p>The city of Los Algodones is expanding the capital of dental tourism and your favorite and largest dental clinic will offer you new facilities in 2015. These new facilities will include all the accommodations you can imagine and need. Among these you will see a Hotel, a Pharmacy, Restaurants and Cafes, Stem Cell Clinic, Clinical Laboratories, Optical Centers, X-Ray Clinic, Craft and Jewelry and all at one place.</p>
-				<p>Sani Dental Group the dental clinic that only offers you professional and affordable dental procedures, will now offer you many services. The idea of all in one will be redefine, in 2015 our Sani Dental Group will offer more than great dental procedures, our visitors will have everything they need at the reach of their hands.</p>
-			</div>
-			<div class="col md-6">
-				<p>
-				With this new concept we will represent the most convenient, easy and complete experience Medical Tourism and Los Algodones has to offer you. No longer will you need travel long distances to reach good, affordable health services; our dental clinic will offer you everything you need and you will only need to take a few steps. Visit the city and experience the best dental and health restauration facilities Los Algodones has to offer you.</p>
+			<div class="col md-10 md-center">
+				<h2 class="title">About us</h2>
+				<p>MediPlaza Los Algodones is the place where you can find the best medical treatments in Mexico, including Stem Cells, Hyperbaric, Optical, Dental, and Surgery services. MediPlaza focuses on offering to its visitors a Medical Hospitality experience, providing a perfect environment to receive the treatments you need and have a good time.</p>
+				<p>Conveniently located just two blocks away from the border, MediPlaza Los Algodones is the best option for the medical tourists and their companions.</p>
+				<p>At MediPlaza, we strive for excellence in the services that our clinics, restaurants, hotel, and stores offer. We're conscious on how important is for our visitors the convenience and quality, and that's why we put everything at their reach.</p>
+				<h3>Our Mission</h3>
+				<p>We are committed to offer everything the medical tourists and their companions require. We will strive to deliver a unique Medical Hospitality experience by understanding and responding to the needs of those who we serve.</p>
+				<h3>Our Vision</h3>
+				<p>Turning Los Algodones into an even more competitive Medical Tourism destiny worldwide, and to reach new markets amplifying the services branch that Los Algodones offers.</p>
 			</div>
 		</div>
 	</div>

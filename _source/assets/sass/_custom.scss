@@ -61,9 +61,6 @@ $oil:            #333 !default;
 }
 
 .home{
-	.title{
-		text-align: center;
-	}
 	#map-canvas{
 		width: 100%;
 		height: remCalc(400);
@@ -261,6 +258,7 @@ $oil:            #333 !default;
 	height: 100%;
 	background: $brand-blue-primary;
 	padding: remCalc(15);
+	padding-top: remCalc(32);
 	color: $white;
 	@include transition(transform 0.4s);
 	@include transform(translate3d(-320px,-320px,0));

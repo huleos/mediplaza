@@ -1,18 +1,17 @@
 ---
 layout: bussines
-title:  "La Mexicana"
-description: Aqui va la descripcion del post.
+title: Los Algodones Traditional Mexican Jewelry and Clothing at Mediplaza
+description: The Best Mexican Fashion Is Now Here at La Mexicana. Located at the Heart of Los Algodones, Mexico, where You Can Find Traditional Bracelets, Necklaces, Blouses, Dresses, Shoes, and More at an Affordable Price. Visit Us Today!
 locationSmall: /assets/img/mediplaza-map-floor1-small.jpg
 locationLarge: /assets/img/mediplaza-map-floor1-large.jpg
 avatar: /assets/img/bussines/la-mexicana.jpg
-horary: 10:00pm - 8:00:pm
-floor: Floor 1
-local: Local 3
-phone: (928) 257 1307
+name: La Mexicana
+horary: 
+floor: 1st
+local: 14
+phone: 
 ---
+La Mexicana is a Jewelry & Clothing store where you'll find everything from rings, bracelets, and necklaces to blouses, shoes, and jewelry at an affordable price. 
 
-Clothes and jewelry are two of the favorite things beautiful ladies want. They could spend hours and hours looking at clothes, choosing and purchasing all sorts of fashionable styles and affordable jewelry.  
-Medi Plaza located in Los Algodones, Mexico will offer all you beautiful ladies, La Mexicana: Jewelry & Clothing the perfect place in Mexico where you will all the latest and Mexican traditional clothes and affordable jewelry.  
-At La Mexicana: Jewelry & Clothing everything from rings, earrings, bracelets, necklaces, blouses, dresses, shoes, jewelry is at an affordable price, in fact the best prices is Los Algodones Mexico.  
-You will not need to worry about your love, he can spend time in other shops while you become a beautiful lady…
+La Mexicana offers a wide variety of jewelry and traditional clothes of beautiful Mexican designs in Los Algodones. We are located at MediPlaza Los Algodones, come and have a wonderful time shopping with us. There is no bigger pleasure that buying things you love, and La Mexicana has everything you want at the perfect price for your budget. So don't doubt and pay us a visit, we guarantee you that once you're inside of our store, the hardest part is to leave.
 
