@@ -29,7 +29,7 @@ permalink: /dine/
           {% endif %}
           {% if item.floor contains '' %}
           <h4>{{ item.floor }} Floor</h4>
-          <span>Local {{ item.local }}</span>
+            <span>Local {{ item.local }}</span>
           {% endif %}
           {% if item.phone contains '' %}
           <h4>Phone</h4>
