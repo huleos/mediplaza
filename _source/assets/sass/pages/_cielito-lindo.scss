@@ -42,7 +42,7 @@
 // rooms
 .room-box{
 	position: relative;
-	margin: remCalc(18) remCalc(-30);
+	margin: remCalc(18) remCalc(-30) remCalc(50);
 	span{
 		position: absolute;
     left: 0;
@@ -52,6 +52,14 @@
     background: linear-gradient(to right, rgba(0,0,0,.75), rgba(0,0,0,0));
     padding: remCalc(10) remCalc(15);
     color: $white;
+	}
+}
+
+//politics
+.politics{
+	margin-bottom: rem-Calc(20);
+	ul{
+		padding-left: remCalc(18);
 	}
 }
 
