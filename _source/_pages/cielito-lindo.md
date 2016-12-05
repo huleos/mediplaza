@@ -64,7 +64,7 @@ description: Enjoy Your Stay at Los Algodones, Mexico and Choose Cielito Lindo, 
 				 <li>Subject to hotel availability.</li>
 			 </ul>
 		 </div>
-			<p class="warning"><b>*No pets allowed</b></p>
+			<p class="warning"><b>No pets allowed*</b></p>
 		</div>
 
 	</div>
