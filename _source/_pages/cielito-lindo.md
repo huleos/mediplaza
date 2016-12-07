@@ -17,7 +17,7 @@ description: Enjoy Your Stay at Los Algodones, Mexico and Choose Cielito Lindo, 
 		<!-- Rooms -->
 		<div class="col md-4">
 			<div class="room-box">
-				<img src="http://placehold.it/285x190?text=Image+Coming+Soon" alt="">
+				<img src="{{ site.baseurl }}/assets/img/single-room.jpg" alt="">
 				<span>Single Room</span>
 			</div>
 		</div>
@@ -37,6 +37,8 @@ description: Enjoy Your Stay at Los Algodones, Mexico and Choose Cielito Lindo, 
 		<!-- Politics -->
 		<div class="col md-10">
 			<p>Cielito Lindo is committed to delivering the best medical tourism experience to our guests, which is why we’ve partnered with medical facilities from the area to bring you special discounts and promotions only available to us.</p>
+
+			<p>All Sani Dental Group patients are eligible to receive $15 off each hotel night they book at Cielito Lindo hotel.</p>
 		</div>
 		<div class="col md-2 politics">
 				<img src="{{ site.baseurl }}/assets/img/sani-dental-group.png" alt="">
