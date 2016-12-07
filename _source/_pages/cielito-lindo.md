@@ -17,7 +17,7 @@ description: Enjoy Your Stay at Los Algodones, Mexico and Choose Cielito Lindo, 
 		<!-- Rooms -->
 		<div class="col md-4">
 			<div class="room-box">
-				<img src="http://placehold.it/285x190?text=Image+Coming+Soon" alt="">
+				<img src="{{ site.baseurl }}/assets/img/single-room.jpg" alt="">
 				<span>Single Room</span>
 			</div>
 		</div>

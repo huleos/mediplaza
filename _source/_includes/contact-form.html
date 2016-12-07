@@ -9,16 +9,20 @@
 	<form action="{{ site.baseurl }}/contactForm.php" method="post" id="contactForm">
 		<div class="row">
 			<div class="col md-12 form-group">
-				<input type="text" name="_name" placeholder="Name" required>
+			<label for="">Name</label>
+				<input type="text" name="_name" required>
 			</div>
 			<div class="col md-12 form-group">
-				<input type="email" name="_email" placeholder="Email" required>
+			<label for="">Email</label>
+				<input type="email" name="_email" required>
 			</div>
 			<div class="col md-12 form-group">
-				<input type="tel" name="_phone" placeholder="Contact Number">
+			<label for="">Phone Number</label>
+				<input type="tel" name="_phone">
 			</div>
 			<div class="col md-12 form-group">
-				<textarea rows="3" name="_message" placeholder="Message" required></textarea>
+			<label for="">Message</label>
+				<textarea rows="3" name="_message" required></textarea>
 			</div>
 			<div class="col md-12">
 			  <button type="submit" class="btn">Contact us</button>
