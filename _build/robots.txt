@@ -3,3 +3,4 @@
 
 User-agent: *
 sitemap: /sitemap.xml
+Disallow: /.git/

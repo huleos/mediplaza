@@ -78,7 +78,7 @@ description: Enjoy Your Stay at Los Algodones, Mexico and Choose Cielito Lindo, 
 			<p>We do not only offer great prices, but we also offer great promotions. If you’re a Sani Dental Group patient, you might be eligible to have from one to three free nights at Cielito Lindo.</p>
 			<hr>
 			<p>If you’d like to get more information, please contact us: <br>
-			<b>US (928) 328 1814 / 328 1671</b> <br>
+			<b>US (928) 328 1671</b> <br>
 			<b>MX (658) 517 7541</b></p> 
 		</div>
 		
