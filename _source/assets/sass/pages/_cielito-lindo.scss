@@ -1,5 +1,9 @@
 // Cielito Lindo
 
+small{
+	color: $gray-light;
+}
+
 .cl-cover{
 	background: url('../img/cl-cover.jpg') center center/cover no-repeat;
 	position: relative;
@@ -55,26 +59,21 @@
 	}
 }
 
-//politics
-.politics{
-	margin-bottom: rem-Calc(20);
-	ul{
-		padding-left: remCalc(18);
-	}
-}
-
 // Sidebar
 .cl-sidebar{
 	.box{
 		margin-bottom: remCalc(24);
-		ul{
-			padding-left: remCalc(18);
-  		list-style: disc;
-		}
 		&.promo{
 			background-color: $brand-pink-primary;
 			color: $white;
 			padding: remCalc(15);
+			a{
+				color: $white;
+				border-bottom: 1px dotted $white;
+				&:hover{
+					border-bottom-style: solid;
+				}
+			}
 		}
 	}
 }
