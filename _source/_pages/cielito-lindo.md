@@ -61,13 +61,13 @@ description: Enjoy Your Stay at Los Algodones, Mexico and Choose Cielito Lindo, 
 				<p><small>We are not responsible for the eligibility for any of these promotions, rebate amount and any other applicable promotions depend on our partners’ own terms and conditions.</small></p>
 			</div>
 			<div class="col md-2">
-				<img src="{{ site.baseurl }}/assets/img/sani-dental-group.png" alt="">
+				<img src="{{ site.baseurl }}/assets/img/sani-dental-group.png" alt="" class="img-center">
 			</div>
 		</div>
 
 		<div class="gallery">
 			<h3>Gallery</h3>
-			<div class="col md-4">
+			<div class="col sm-6 md-3">
 				<div class="room-box">
 					<div class="room-box-thumb">
 						<a href="{{ site.baseurl }}/assets/img/gallery/cielito-lindo-01.jpg" data-lightbox="gallery">
@@ -76,7 +76,7 @@ description: Enjoy Your Stay at Los Algodones, Mexico and Choose Cielito Lindo, 
 					</div>
 				</div>
 			</div>
-			<div class="col md-4">
+			<div class="col sm-6 md-3">
 				<div class="room-box">
 					<div class="room-box-thumb">
 						<a href="{{ site.baseurl }}/assets/img/gallery/cielito-lindo-02.jpg" data-lightbox="gallery">
@@ -85,7 +85,7 @@ description: Enjoy Your Stay at Los Algodones, Mexico and Choose Cielito Lindo, 
 					</div>
 				</div>
 			</div>
-			<div class="col md-4">
+			<div class="col sm-6 md-3">
 				<div class="room-box">
 					<div class="room-box-thumb">
 						<a href="{{ site.baseurl }}/assets/img/gallery/cielito-lindo-03.jpg" data-lightbox="gallery">
@@ -94,7 +94,7 @@ description: Enjoy Your Stay at Los Algodones, Mexico and Choose Cielito Lindo, 
 					</div>
 				</div>
 			</div>
-			<div class="col md-4">
+			<div class="col sm-6 md-3">
 				<div class="room-box">
 					<div class="room-box-thumb">
 						<a href="{{ site.baseurl }}/assets/img/gallery/cielito-lindo-04.jpg" data-lightbox="gallery">
@@ -103,7 +103,7 @@ description: Enjoy Your Stay at Los Algodones, Mexico and Choose Cielito Lindo, 
 					</div>
 				</div>
 			</div>
-			<div class="col md-4">
+			<div class="col sm-6 md-3">
 				<div class="room-box">
 					<div class="room-box-thumb">
 						<a href="{{ site.baseurl }}/assets/img/gallery/cielito-lindo-05.jpg" data-lightbox="gallery">
@@ -112,7 +112,7 @@ description: Enjoy Your Stay at Los Algodones, Mexico and Choose Cielito Lindo, 
 					</div>
 				</div>
 			</div>
-			<div class="col md-4">
+			<div class="col sm-6 md-3">
 				<div class="room-box">
 					<div class="room-box-thumb">
 						<a href="{{ site.baseurl }}/assets/img/gallery/cielito-lindo-06.jpg" data-lightbox="gallery">
@@ -121,7 +121,7 @@ description: Enjoy Your Stay at Los Algodones, Mexico and Choose Cielito Lindo, 
 					</div>
 				</div>
 			</div>
-			<div class="col md-4">
+			<div class="col sm-6 md-3">
 				<div class="room-box">
 					<div class="room-box-thumb">
 						<a href="{{ site.baseurl }}/assets/img/gallery/cielito-lindo-07.jpg" data-lightbox="gallery">
@@ -130,7 +130,7 @@ description: Enjoy Your Stay at Los Algodones, Mexico and Choose Cielito Lindo, 
 					</div>
 				</div>
 			</div>
-			<div class="col md-4">
+			<div class="col sm-6 md-3">
 				<div class="room-box">
 					<div class="room-box-thumb">
 						<a href="{{ site.baseurl }}/assets/img/gallery/cielito-lindo-08.jpg" data-lightbox="gallery">
@@ -139,7 +139,7 @@ description: Enjoy Your Stay at Los Algodones, Mexico and Choose Cielito Lindo, 
 					</div>
 				</div>
 			</div>
-			<div class="col md-4">
+			<div class="col sm-6 md-3">
 				<div class="room-box">
 					<div class="room-box-thumb">
 						<a href="{{ site.baseurl }}/assets/img/gallery/cielito-lindo-09.jpg" data-lightbox="gallery">
@@ -148,7 +148,7 @@ description: Enjoy Your Stay at Los Algodones, Mexico and Choose Cielito Lindo, 
 					</div>
 				</div>
 			</div>
-			<div class="col md-4">
+			<div class="col sm-6 md-3">
 				<div class="room-box">
 					<div class="room-box-thumb">
 						<a href="{{ site.baseurl }}/assets/img/gallery/cielito-lindo-10.jpg" data-lightbox="gallery">

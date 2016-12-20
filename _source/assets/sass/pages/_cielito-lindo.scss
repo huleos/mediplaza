@@ -4,6 +4,12 @@ small{
 	color: $gray-light;
 }
 
+.img-center{
+	display: block;
+	margin-left: auto;  
+	margin-right: auto;  
+}
+
 .cl-cover{
 	background: url('../img/cl-cover.jpg') center center/cover no-repeat;
 	position: relative;
@@ -72,7 +78,8 @@ small{
 
 .gallery{
 	@include clearfix;
-	margin-bottom: remCalc(32); 
+	margin-top: remCalc(18);
+	margin-bottom: remCalc(32);
 	.room-box{
 		margin-top: 0;
 		margin-bottom: 0;
