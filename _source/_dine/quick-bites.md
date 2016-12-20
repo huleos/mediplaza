@@ -6,7 +6,8 @@ locationSmall: /assets/img/mediplaza-map-floor1-small.jpg
 locationLarge: /assets/img/mediplaza-map-floor1-large.jpg
 avatar: /assets/img/bussines/quick-bites.jpg
 name: Quick Bites Deli
-horary: 
+days: Monday – Saturday
+horary: 7:00 am – 4:30 pm
 floor: 1st
 local: 1-2
 phone: 

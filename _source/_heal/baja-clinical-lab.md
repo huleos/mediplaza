@@ -6,6 +6,7 @@ locationSmall: /assets/img/mediplaza-map-floor1-small.jpg
 locationLarge: /assets/img/mediplaza-map-floor1-large.jpg
 avatar: /assets/img/bussines/baja-lab.jpg
 name: Baja Clinical Lab
+days:
 horary: 
 floor: 1st
 local: 5

@@ -6,6 +6,7 @@ locationSmall: /assets/img/mediplaza-map-floor1-small.jpg
 locationLarge: /assets/img/mediplaza-map-floor1-large.jpg
 name: 20/20 Vision Center
 avatar: /assets/img/bussines/vision-center.jpg
+days:
 horary: 
 floor: 1st
 local: 11

@@ -6,6 +6,7 @@ locationSmall: /assets/img/mediplaza-map-floor1-small.jpg
 locationLarge: /assets/img/mediplaza-map-floor1-large.jpg
 avatar: /assets/img/bussines/baja-imaging.jpg
 name: Baja Medical Imaging
+days:
 horary: 
 floor: 1st
 local: 3
