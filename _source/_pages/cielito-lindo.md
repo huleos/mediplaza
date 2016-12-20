@@ -17,20 +17,38 @@ description: Enjoy Your Stay at Los Algodones, Mexico and Choose Cielito Lindo, 
 		<!-- Rooms -->
 		<div class="col md-4">
 			<div class="room-box">
-				<img src="{{ site.baseurl }}/assets/img/single-room.jpg" alt="">
-				<span>Single Room</span>
+				<div class="room-box-thumb">
+					<a href="{{ site.baseurl }}/assets/img/rooms/single-room-01.jpg" data-lightbox="single-room">
+						<img src="{{ site.baseurl }}/assets/img/single-room.jpg" alt="">
+					</a>
+					<a href="{{ site.baseurl }}/assets/img/rooms/single-room-02.jpg" data-lightbox="single-room"></a>
+					<a href="{{ site.baseurl }}/assets/img/rooms/single-room-03.jpg" data-lightbox="single-room"></a>
+				</div>
+				<p>Single Room <br><span>(1 Queen Size Bed)</span></p>
 			</div>
 		</div>
 		<div class="col md-4">
 			<div class="room-box">
-				<img src="{{ site.baseurl }}/assets/img/double-room.jpg" alt="">
-				<span>Double Room</span>
+				<div class="room-box-thumb">
+					<a href="{{ site.baseurl }}/assets/img/rooms/double-room-01.jpg" data-lightbox="double-room">
+						<img src="{{ site.baseurl }}/assets/img/double-room.jpg" alt="">
+					</a>
+					<a href="{{ site.baseurl }}/assets/img/rooms/double-room-02.jpg" data-lightbox="double-room"></a>
+					<a href="{{ site.baseurl }}/assets/img/rooms/double-room-03.jpg" data-lightbox="double-room"></a>
+				</div>
+				<p>Double Room <br><span>(2 Queen Size Beds)</span></p>
 			</div>
 		</div>
 		<div class="col md-4">
 			<div class="room-box">
-				<img src="{{ site.baseurl }}/assets/img/junior-room.jpg" alt="">
-				<span>Junior Room</span>
+				<div class="room-box-thumb">
+					<a href="{{ site.baseurl }}/assets/img/rooms/junior-room-01.jpg" data-lightbox="junior-room">
+						<img src="{{ site.baseurl }}/assets/img/junior-room.jpg" alt="">
+					</a>
+					<a href="{{ site.baseurl }}/assets/img/rooms/junior-room-02.jpg" data-lightbox="junior-room"></a>
+					<a href="{{ site.baseurl }}/assets/img/rooms/junior-room-03.jpg" data-lightbox="junior-room"></a>
+				</div>
+				<p>Junior Room <br><span>(2 Queen Size Beds and Sitting Area)</span></p>
 			</div>
 		</div>
 
@@ -46,6 +64,22 @@ description: Enjoy Your Stay at Los Algodones, Mexico and Choose Cielito Lindo, 
 				<img src="{{ site.baseurl }}/assets/img/sani-dental-group.png" alt="">
 			</div>
 		</div>
+
+
+		<div class="row">
+			<h3>Gallery</h3>
+			<div class="col md-4">
+				<div class="room-box">
+					<div class="room-box-thumb">
+						<a href="{{ site.baseurl }}/assets/img/gallery/cielito-lindo-01.jpg" data-lightbox="gallery">
+							<img src="{{ site.baseurl }}/assets/img/gallery/thumbs/cielito-lindo-01.jpg" alt="">
+						</a>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+
 
 		<h2>ONE FREE NIGHT AT CIELITO LINDO HOTEL</h2>
 		<p>Guests are eligible for this promotion when they spend more than <strong>$2,000 USD</strong> on their dental treatment with Sani Dental Group.</p>

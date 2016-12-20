@@ -45,17 +45,28 @@ small{
 
 // rooms
 .room-box{
-	position: relative;
 	margin: remCalc(18) remCalc(-30) remCalc(50);
-	span{
-		position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background: rgba(0,0,0,.5);
-    background: linear-gradient(to right, rgba(0,0,0,.75), rgba(0,0,0,0));
-    padding: remCalc(10) remCalc(15);
-    color: $white;
+	> p{
+		padding: 0 remCalc(12);
+		font-size: remCalc(20);
+		span{
+			font-size: remCalc(14);
+		}
+	}
+	.room-box-thumb{
+		overflow: hidden;
+		position: relative;
+		margin-bottom: remCalc(10); 
+		&:hover{
+			a{
+				img{
+					transform: scale(1.1);
+				}
+			}
+		}
+	}
+	img{
+		transition: 0.8s;
 	}
 }
 
