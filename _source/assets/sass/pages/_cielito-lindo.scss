@@ -70,6 +70,18 @@ small{
 	}
 }
 
+.gallery{
+	@include clearfix;
+	margin-bottom: remCalc(32); 
+	.room-box{
+		margin-top: 0;
+		margin-bottom: 0;
+		.room-box-thumb{
+			margin-bottom: 0;
+		}
+	}
+}
+
 // Sidebar
 .cl-sidebar{
 	.box{

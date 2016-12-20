@@ -65,8 +65,7 @@ description: Enjoy Your Stay at Los Algodones, Mexico and Choose Cielito Lindo, 
 			</div>
 		</div>
 
-
-		<div class="row">
+		<div class="gallery">
 			<h3>Gallery</h3>
 			<div class="col md-4">
 				<div class="room-box">
@@ -77,7 +76,87 @@ description: Enjoy Your Stay at Los Algodones, Mexico and Choose Cielito Lindo, 
 					</div>
 				</div>
 			</div>
-			
+			<div class="col md-4">
+				<div class="room-box">
+					<div class="room-box-thumb">
+						<a href="{{ site.baseurl }}/assets/img/gallery/cielito-lindo-02.jpg" data-lightbox="gallery">
+							<img src="{{ site.baseurl }}/assets/img/gallery/thumbs/cielito-lindo-02.jpg" alt="">
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="col md-4">
+				<div class="room-box">
+					<div class="room-box-thumb">
+						<a href="{{ site.baseurl }}/assets/img/gallery/cielito-lindo-03.jpg" data-lightbox="gallery">
+							<img src="{{ site.baseurl }}/assets/img/gallery/thumbs/cielito-lindo-03.jpg" alt="">
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="col md-4">
+				<div class="room-box">
+					<div class="room-box-thumb">
+						<a href="{{ site.baseurl }}/assets/img/gallery/cielito-lindo-04.jpg" data-lightbox="gallery">
+							<img src="{{ site.baseurl }}/assets/img/gallery/thumbs/cielito-lindo-04.jpg" alt="">
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="col md-4">
+				<div class="room-box">
+					<div class="room-box-thumb">
+						<a href="{{ site.baseurl }}/assets/img/gallery/cielito-lindo-05.jpg" data-lightbox="gallery">
+							<img src="{{ site.baseurl }}/assets/img/gallery/thumbs/cielito-lindo-05.jpg" alt="">
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="col md-4">
+				<div class="room-box">
+					<div class="room-box-thumb">
+						<a href="{{ site.baseurl }}/assets/img/gallery/cielito-lindo-06.jpg" data-lightbox="gallery">
+							<img src="{{ site.baseurl }}/assets/img/gallery/thumbs/cielito-lindo-06.jpg" alt="">
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="col md-4">
+				<div class="room-box">
+					<div class="room-box-thumb">
+						<a href="{{ site.baseurl }}/assets/img/gallery/cielito-lindo-07.jpg" data-lightbox="gallery">
+							<img src="{{ site.baseurl }}/assets/img/gallery/thumbs/cielito-lindo-07.jpg" alt="">
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="col md-4">
+				<div class="room-box">
+					<div class="room-box-thumb">
+						<a href="{{ site.baseurl }}/assets/img/gallery/cielito-lindo-08.jpg" data-lightbox="gallery">
+							<img src="{{ site.baseurl }}/assets/img/gallery/thumbs/cielito-lindo-08.jpg" alt="">
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="col md-4">
+				<div class="room-box">
+					<div class="room-box-thumb">
+						<a href="{{ site.baseurl }}/assets/img/gallery/cielito-lindo-09.jpg" data-lightbox="gallery">
+							<img src="{{ site.baseurl }}/assets/img/gallery/thumbs/cielito-lindo-09.jpg" alt="">
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="col md-4">
+				<div class="room-box">
+					<div class="room-box-thumb">
+						<a href="{{ site.baseurl }}/assets/img/gallery/cielito-lindo-10.jpg" data-lightbox="gallery">
+							<img src="{{ site.baseurl }}/assets/img/gallery/thumbs/cielito-lindo-10.jpg" alt="">
+						</a>
+					</div>
+				</div>
+			</div>
 		</div>
 
 
