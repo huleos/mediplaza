@@ -6,7 +6,8 @@ locationSmall: /assets/img/mediplaza-map-floor1-small.jpg
 locationLarge: /assets/img/mediplaza-map-floor1-large.jpg
 avatar: /assets/img/bussines/la-mexicana.jpg
 name: La Mexicana
-horary: 
+days: Monday – Saturday
+horary: 8:00 am – 4:30 pm
 floor: 1st
 local: 14
 phone: 

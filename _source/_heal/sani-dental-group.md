@@ -6,6 +6,7 @@ locationSmall: /assets/img/mediplaza-map-floor1-small.jpg
 locationLarge: /assets/img/mediplaza-map-floor1-large.jpg
 avatar: /assets/img/bussines/sani-dental-group.jpg
 name: Sani Dental Group
+days: Monday - Saturday
 horary: 9:00 a.m. to 5:00 p.m.
 floor: 
 local:

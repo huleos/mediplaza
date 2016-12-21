@@ -6,6 +6,7 @@ locationSmall: /assets/img/mediplaza-map-floor1-small.jpg
 locationLarge: /assets/img/mediplaza-map-floor1-large.jpg
 avatar: /assets/img/bussines/one-stop-pharmacy.jpg
 name: One Stop Pharmacy
+days:
 horary: 
 floor: 1st
 local: 8-9

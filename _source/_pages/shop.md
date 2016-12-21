@@ -25,11 +25,12 @@ permalink: /shop/
           <h2><a href="{{ item.url }}">{{ item.name }}</a></h2>
           {% if item.horary contains '' %}
           <h4>Opening Hours</h4>
+          <span>{{ item.days }}<br></span>
           <span>{{ item.horary }}</span>
           {% endif %}
           {% if item.floor contains '' %}
           <h4>{{ item.floor }} Floor</h4>
-          <span>Local {{ item.local }}</span>
+          <span>Suite {{ item.local }}</span>
           {% endif %}
           {% if item.phone contains '' %}
           <h4>Phone</h4>

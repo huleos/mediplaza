@@ -6,7 +6,8 @@ locationSmall: /assets/img/mediplaza-map-floor1-small.jpg
 locationLarge: /assets/img/mediplaza-map-floor1-large.jpg
 avatar: /assets/img/bussines/mi-casa-es-su-casa.jpg
 name: Mi Casa Es Su Casa
-horary: 
+days: Monday – Sunday
+horary: 7:00 am – 10 pm 
 floor: 1st
 local: 15
 phone: 

@@ -6,6 +6,7 @@ locationSmall: /assets/img/mediplaza-map-floor1-small.jpg
 locationLarge: /assets/img/mediplaza-map-floor1-large.jpg
 avatar: /assets/img/bussines/one-stop-mini-mart.jpg
 name: One Stop Mini Mart
+days:
 horary: 
 floor: 1st
 local: 8-9
