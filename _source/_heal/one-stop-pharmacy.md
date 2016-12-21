@@ -11,6 +11,7 @@ horary:
 floor: 1st
 local: 8-9
 phone: 
+position: 8
 ---
 A pharmacy can offer you many medications or services, but visiting a drug store that offers you everything you need at an affordable price, is not something you see everywhere. Lucky for you, MediPlaza Los Algodones is changing the concept current pharmacies in Mexico have.
 

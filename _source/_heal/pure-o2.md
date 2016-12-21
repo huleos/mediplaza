@@ -11,6 +11,7 @@ horary:
 floor: 1st
 local: 10
 phone: 
+position: 7
 ---
 Pure O2 is the only clinic specialized in Hyperbaric Medicine in Los Algodones, Mexico. Pure O2 provides Hyperbaric oxygen therapy for the treatment and prevention of multiple diseases in the autoimmune, cardiovascular, and nervous system. Using the Hyperbaric chamber, the air pressure is increased so your lungs can gather pure oxygen and your blood can carry it throughout your entire body, stimulating the release of growth factors and stem cells. Hyperbaric oxygen therapy can also be helpful on the treatment of brain injuries, certain types of cancer, multiple sclerosis, diabetes, sports injuries, and many other sufferings.
 

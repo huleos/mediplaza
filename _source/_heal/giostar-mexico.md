@@ -6,13 +6,16 @@ locationSmall: /assets/img/mediplaza-map-floor1-small.jpg
 locationLarge: /assets/img/mediplaza-map-floor1-large.jpg
 avatar: /assets/img/bussines/giostar.jpg
 name: Giostar Mexico
-days:
-horary: 
+days: Monday - Friday
+horary: 9:00 a.m. to 5:00 p.m.
+days_extra: Saturday
+horary: 9:00 a.m. to 3:00 p.m.
 floor: 1st
 local: 4
 phone: 
 button: Start Your Recovery Now
 button_link: http://giostarmexico.com/
+position: 2
 ---
 The solution that has helped to more than 4000 people in India has arrived to Mexico, offering autologous and allogeneic stem cell therapy for the treatment of a wide variety of diseases currently known as incurable.
 

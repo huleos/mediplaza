@@ -13,7 +13,8 @@ permalink: /heal/
     </div>
   </div>
   <div class="row">
-    {% for item in site.heal %}
+  {% assign sorted = site.heal | sort: 'position'  %}
+    {% for item in sorted %}
     <article class="col md-6">
       <div class="row">
         <div class="col md-6">
