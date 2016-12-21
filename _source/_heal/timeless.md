@@ -10,6 +10,7 @@ horary:
 floor: 1st
 local: 12
 phone: 
+position: 6
 ---
 Timeless means wellness. A place where you will find health and beauty therapies to treat your skin, body, and overall well-being. Our environment is specially designed for you to have a peaceful and relaxed time. It doesn’t matter how many tensions you're carrying on, we guarantee you that once you visit us, you'll leave stressless. 
 
