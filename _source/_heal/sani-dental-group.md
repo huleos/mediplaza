@@ -13,6 +13,7 @@ local:
 phone: 
 button: Visit Us For More Information
 button_link: http://sanidentalgroup.com/
+position: 1
 ---
 Originally established in 1985 by D.D.S. Enrique Jimenez and now located in Los Algodones, Mexico, Sani Dental Group has become one of the most prestigious dental clinics in Mexico. Throughout the years, Sani Dental Group has acquired vast experience and our staff members have perfected their skills in each of their individual dental fields. 
 

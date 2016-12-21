@@ -1,5 +1,15 @@
 // Cielito Lindo
 
+small{
+	color: $gray-light;
+}
+
+.img-center{
+	display: block;
+	margin-left: auto;  
+	margin-right: auto;  
+}
+
 .cl-cover{
 	background: url('../img/cl-cover.jpg') center center/cover no-repeat;
 	position: relative;
@@ -41,25 +51,41 @@
 
 // rooms
 .room-box{
-	position: relative;
 	margin: remCalc(18) remCalc(-30) remCalc(50);
-	span{
-		position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background: rgba(0,0,0,.5);
-    background: linear-gradient(to right, rgba(0,0,0,.75), rgba(0,0,0,0));
-    padding: remCalc(10) remCalc(15);
-    color: $white;
+	> p{
+		padding: 0 remCalc(12);
+		font-size: remCalc(20);
+		span{
+			font-size: remCalc(14);
+		}
+	}
+	.room-box-thumb{
+		overflow: hidden;
+		position: relative;
+		margin-bottom: remCalc(10); 
+		&:hover{
+			a{
+				img{
+					transform: scale(1.1);
+				}
+			}
+		}
+	}
+	img{
+		transition: 0.8s;
 	}
 }
 
-//politics
-.politics{
-	margin-bottom: rem-Calc(20);
-	ul{
-		padding-left: remCalc(18);
+.gallery{
+	@include clearfix;
+	margin-top: remCalc(18);
+	margin-bottom: remCalc(32);
+	.room-box{
+		margin-top: 0;
+		margin-bottom: 0;
+		.room-box-thumb{
+			margin-bottom: 0;
+		}
 	}
 }
 
@@ -67,14 +93,17 @@
 .cl-sidebar{
 	.box{
 		margin-bottom: remCalc(24);
-		ul{
-			padding-left: remCalc(18);
-  		list-style: disc;
-		}
 		&.promo{
 			background-color: $brand-pink-primary;
 			color: $white;
 			padding: remCalc(15);
+			a{
+				color: $white;
+				border-bottom: 1px dotted $white;
+				&:hover{
+					border-bottom-style: solid;
+				}
+			}
 		}
 	}
 }

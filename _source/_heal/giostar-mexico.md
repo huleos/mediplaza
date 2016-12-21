@@ -13,6 +13,7 @@ local: 4
 phone: 
 button: Start Your Recovery Now
 button_link: http://giostarmexico.com/
+position: 2
 ---
 The solution that has helped to more than 4000 people in India has arrived to Mexico, offering autologous and allogeneic stem cell therapy for the treatment of a wide variety of diseases currently known as incurable.
 

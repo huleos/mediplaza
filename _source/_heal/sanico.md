@@ -11,6 +11,7 @@ horary:
 floor: 1st
 local: 13
 phone: 
+position: 10
 ---
 SaniCo is your trusted medical facilitator to find the best medical clinics in Mexico at the most affordable price. Founded with the goal of providing people Medical Tourism experiences with no equal, SaniCo offers everything medical tourists need. Our services are focused on putting at your disposal the highest-quality medical treatments while actually enjoying your trip. We can help you to plan your medical vacation offering the top hospitals, clinics, and doctors in Mexico, while helping you with the logistic aspects of your trip, such as lodging, how to transport, and where to eat. 
 
