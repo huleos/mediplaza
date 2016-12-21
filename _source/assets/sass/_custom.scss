@@ -240,6 +240,10 @@ $oil:            #333 !default;
 			margin-top: remCalc(15);
 			margin-bottom: remCalc(15);
 		}
+		.btn{
+			margin-top: remCalc(10);
+			margin-bottom: remCalc(10);
+		}
 	}
 }
 
@@ -385,6 +389,23 @@ footer{position: relative;}
 
 .warning{
 	color: $brand-alert;
+}
+
+// Buttons
+.btn-orange {
+	color: $btn-info-color;
+	background-color: $brand-orange-primary;
+	&:hover{
+		background-color: darken($brand-orange-primary, 12%);
+		color: $white;
+	}
+	&:active{
+		background-color: lighten($brand-orange-primary, 28%);
+	}
+	&:focus{
+		outline: 0 none;
+		color: $white;
+	}
 }
 
 

@@ -32,6 +32,9 @@ layout: default
 						<h4>Phone</h4>
 						<span>{{ page.phone }}</span>
 						{% endif %}
+						{% if page.button contains '' %}
+							<a href="{{ page.button_link }}" class="btn btn-orange">{{ page.button }}</a>
+						{% endif %}
 					</div>
 					<div class="col md-12 description">
 						{{ content }}
