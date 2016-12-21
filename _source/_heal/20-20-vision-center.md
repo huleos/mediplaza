@@ -10,6 +10,7 @@ horary:
 floor: 1st
 local: 11
 phone: 
+position: 9
 ---
 20/20 Vision Center is the newest optical center in Los Algodones. Located in the heart of Mediplaza, it has the best selection of sunglasses and optical frames designed to meet all of your optical needs at the best prices in town, guaranteed.  
 
