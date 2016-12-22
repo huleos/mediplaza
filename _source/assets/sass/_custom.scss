@@ -235,9 +235,6 @@ $oil:            #333 !default;
 			margin-bottom: remCalc(0);
 			line-height: 1;
 		}
-		span{
-			color: $steel;
-		}
 		.description{
 			margin-top: remCalc(15);
 			margin-bottom: remCalc(15);
@@ -397,16 +394,32 @@ footer{position: relative;}
 .btn-orange {
 	color: $btn-info-color;
 	background-color: $brand-orange-primary;
-	&:hover{
-		background-color: darken($brand-orange-primary, 12%);
-		color: $white;
-	}
-	&:active{
-		background-color: lighten($brand-orange-primary, 28%);
-	}
+	position: relative;
+	overflow: hidden;
+	&:hover,
 	&:focus{
-		outline: 0 none;
+		// background-color: #f66600;
 		color: $white;
+		&:before{
+			opacity: 1;
+			top: 0;
+		}
+	}
+	&:before{
+		background-color: #f66600;
+		display: block;
+		content: '';
+		position: absolute;
+		top: -100%;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		transition: all .4s cubic-bezier(0.165,.84,.44,1) 0s;
+		opacity: 0;
+		filter: alpha(opacity=0);
+	}
+	span{
+		position: relative;
 	}
 }
 
