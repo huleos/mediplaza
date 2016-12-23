@@ -138,6 +138,7 @@ $oil:            #333 !default;
 	}
 	.nav-brand{
 		background-color: transparent;
+		max-width: 250px; 
 	}
 
 	.navbar-collapse{
@@ -146,7 +147,7 @@ $oil:            #333 !default;
 				a{
 					color: $white;
 					text-transform: uppercase;
-					padding: remCalc(34) remCalc(24);
+					padding: remCalc(25) remCalc(24);
 					&:hover{
 						background-color: $gray-darker;
 					}
@@ -438,7 +439,8 @@ footer{position: relative;}
 				height: inherit;
 				width: inherit;
 				a{
-					padding: remCalc(10) !important;
+					padding: remCalc(12) !important;
+					font-size: remCalc(14);
 				}
 			}
 		}
