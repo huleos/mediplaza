@@ -28,14 +28,14 @@ layout: default
 						{% endif %}
 						{% if page.floor contains '' %}
 						<h4>{{ item.floor }} Floor</h4>
-						<span>Local {{ page.local }}</span>
+						<span>Suite {{ page.local }}</span>
 						{% endif %}
 						{% if page.phone contains '' %}
 						<h4>Phone</h4>
 						<span>{{ page.phone }}</span>
 						{% endif %}
 						{% if page.button contains '' %}
-							<a href="{{ page.button_link }}" class="btn btn-orange">{{ page.button }}</a>
+							<a href="{{ page.button_link }}" class="btn btn-orange"><span>{{ page.button }}</span></a>
 						{% endif %}
 					</div>
 					<div class="col md-12 description">

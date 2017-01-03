@@ -24,7 +24,7 @@ longitude: -114.729164
 	</div>
 	<div class="location">
 		<div class="row">
-			<div class="col md-12">
+			<div class="col md-10 md-center">
 				<h2 class="title">Location</h2>
 			</div>
 		</div>
