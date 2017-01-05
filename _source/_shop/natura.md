@@ -10,7 +10,15 @@ days: Monday – Saturday
 horary: 8:00 am – 4:30 pm
 floor: 1st
 local: 7
-phone: 
+phone:
+gallery1: /assets/img/gallery/natura-01.jpg
+gallery2: /assets/img/gallery/natura-02.jpg
+gallery3:
+gallery4:
+tgallery1: /assets/img/gallery/thumbs/natura-01.jpg
+tgallery2: /assets/img/gallery/thumbs/natura-02.jpg
+tgallery3:
+tgallery4:
 ---
 
 If you are interested in silver jewelry and cold curiosities or accessories, then Natura is the store for you. When visit the city, either because you are having a dental surgery, visiting family or friends or taking a vacation take a break a do some shopping in Los Algodones. We invite you to admire the technique and style these Mexican artisans have. Shopping in Los Algodones is a fun, entertaining activity that all Medi Plaza visitors can enjoy, take advantage of our shops, restaurants and medical services.

@@ -11,6 +11,14 @@ horary: 8:00 am – 4:30 pm
 floor: 1st
 local: 14
 phone: 
+gallery1: /assets/img/gallery/mexicana-01.jpg
+gallery2: /assets/img/gallery/mexicana-02.jpg
+gallery3: /assets/img/gallery/mexicana-03.jpg
+gallery4: /assets/img/gallery/mexicana-04.jpg
+tgallery1: /assets/img/gallery/thumbs/mexicana-01.jpg
+tgallery2: /assets/img/gallery/thumbs/mexicana-02.jpg
+tgallery3: /assets/img/gallery/thumbs/mexicana-03.jpg
+tgallery4: /assets/img/gallery/thumbs/mexicana-04.jpg
 ---
 La Mexicana is a Jewelry & Clothing store where you'll find everything from rings, bracelets, and necklaces to blouses, shoes, and jewelry at an affordable price. 
 

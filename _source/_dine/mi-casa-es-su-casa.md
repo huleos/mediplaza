@@ -10,7 +10,15 @@ days: Monday – Sunday
 horary: 7:00 am – 10 pm 
 floor: 1st
 local: 15
-phone: 
+phone:
+gallery1: /assets/img/gallery/mi-casa-su-casa-01.jpg
+gallery2: /assets/img/gallery/mi-casa-su-casa-02.jpg
+gallery3: /assets/img/gallery/mi-casa-su-casa-03.jpg
+gallery4: /assets/img/gallery/mi-casa-su-casa-04.jpg
+tgallery1: /assets/img/gallery/thumbs/mi-casa-su-casa-01.jpg
+tgallery2: /assets/img/gallery/thumbs/mi-casa-su-casa-02.jpg
+tgallery3: /assets/img/gallery/thumbs/mi-casa-su-casa-03.jpg
+tgallery4: /assets/img/gallery/thumbs/mi-casa-su-casa-04.jpg
 ---
 If you haven’t eaten Mexican food in Mexico, then you haven’t eaten Mexican food at all. Mi Casa Es Su Casa is one of the largest restaurants in Los Algodones, and it has the best service in town. Here you’ll find delicious authentic Mexican food in a family-friendly environment to enjoy a great time in the company of your loved ones and friends. In Mi Casa Es Su Casa, the guest of honor will always be you.
 

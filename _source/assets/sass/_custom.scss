@@ -50,7 +50,7 @@ $oil:            #333 !default;
 
 // Home
 .home-cover{
-	background: url('../img/cl-cover.jpg') center center/cover no-repeat;
+	background: url('../img/mediplaza-cover.jpg') center center/cover no-repeat;
 	position: relative;
 	.big-logo{
 		position: relative;
@@ -335,6 +335,7 @@ footer{position: relative;}
 	.footer-nav{
 		display: table;
 		margin: 0 auto;
+		color: $smoke;
 		ul{
 			list-style: none;
 			padding-left: 0;
@@ -366,6 +367,26 @@ footer{position: relative;}
 				&.active{
 					a{color: $brand-pink-primary;}
 				}
+			}
+		}
+		.contact-info{
+			color: $smoke;
+			background-color: $oil;
+			padding-bottom: remCalc(55);
+			a{
+				text-decoration: none;
+				color: $smoke;
+				&:hover{
+					color: $white;
+				}
+			}
+		}
+		.social-media{
+			color: $smoke;
+			img{
+				width:remCalc(30);
+				margin:0 remCalc(4);
+				margin-top: remCalc(5);
 			}
 		}
 	}
