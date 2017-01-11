@@ -1,4 +1,4 @@
-<footer>
+<!-- <footer>
 	<div class="footer-top">
 		<a href="{{ site.baseurl }}" class="footer-logo">
 			<img src="{{ site.baseurl }}/assets/img/logo-mediplaza-footer.svg" alt="">
@@ -32,5 +32,30 @@
 	</div>
 	<div class="footer-bottom">
 		<p class="copyright">Copyright &copy; {{ site.time | date: '%Y' }}</p>
+	</div>
+</footer> -->
+<footer>
+	<div class="footer-top">
+		<div class="row">
+			<div class="col sm-12 md-7 logo-footer">
+				<a href="{{ site.baseurl }}">
+					<img src="{{ site.baseurl }}/assets/img/logo-mediplaza-footer.svg" alt="">
+				</a>
+			</div>
+			<div class="col sm-12 md-3 contact-info">
+				<h4>CONTACT US</h4>
+				(928) 366 5880<br/> 
+				<a href="mailto:contact@mediplaza.info?Subject=Hello%20Mediplaza" target="_top">contact@mediplaza.info</a><br/>
+				<br/>
+				289 Alamo St.<br/> 
+				Los Algodones, B.C. 21970
+			</div>
+			<div class="col sm-12 md-2 social-media">
+				<h4>FOLLOW US</h4>
+				<a href="https://www.facebook.com/MediPlazaLosAlgodones"><img src="{{ site.baseurl }}/assets/img/facebook.svg" alt=""></a>
+				<a href="https://twitter.com/MediPlazaMex"><img src="{{ site.baseurl }}/assets/img/twitter.svg" alt=""></a>
+				<p class="copyright">Copyright &copy; {{ site.time | date: '%Y' }}</p>
+			</div>
+		</div>
 	</div>
 </footer>

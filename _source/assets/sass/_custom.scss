@@ -323,84 +323,79 @@ label{
 // Footer
 footer{position: relative;}
 .footer-top{
-	background-color: $oil;
-	margin-top: remCalc(100);
-	.footer-logo{
-		display: table;
-		margin: 0 auto;
+	.logo-footer{
 		img{
-			margin-top: remCalc(-50);
+			max-width: remCalc(180); 
 		}
 	}
-	.footer-nav{
-		display: table;
-		margin: 0 auto;
-		color: $smoke;
+	color: $smoke;
+	background-color: $oil;
+	margin-top: remCalc(100);
+	padding: remCalc(44) remCalc(32);
+	.footer-business{
+		margin-bottom: remCalc(30);
 		ul{
 			list-style: none;
 			padding-left: 0;
-			position: relative;
-			margin-top: remCalc(55);
-			margin: remCalc(35) 0;
-			&:before{
-				position: absolute;
-				content: '';
-				display: table;
-				background-color: $steel;
-				left: 50%;
-				width: remCalc(200);
-				height: remCalc(1);
-				margin-left: remCalc(-100);
-				top: remCalc(-18);
-			}
+			margin:0;
 			li{
-				display: inline;
+				padding: remCalc(3) 0;
 				a{
 					text-transform: capitalize;
-					padding: 0 remCalc(8);
+					padding: 0;
 					color: $smoke;
+					
 					&:hover{
 						text-decoration: none;
 						color: $white;
 					}
 				}
-				&.active{
+				&.active-pink{
 					a{color: $brand-pink-primary;}
 				}
-			}
-		}
-		.contact-info{
-			color: $smoke;
-			background-color: $oil;
-			padding-bottom: remCalc(55);
-			a{
-				text-decoration: none;
-				color: $smoke;
-				&:hover{
-					color: $white;
+				&.active-blue{
+					a{color: $brand-blue-primary;}
+				}
+				&.active-orange{
+					a{color: $brand-orange-primary;}
+				}
+				&.active-green{
+					a{color: $brand-green-primary;}
 				}
 			}
 		}
-		.social-media{
+	}
+	.contact-info{
+		margin-bottom: remCalc(30);
+		a{
+			text-decoration: none;
 			color: $smoke;
-			img{
-				width:remCalc(30);
-				margin:0 remCalc(4);
-				margin-top: remCalc(5);
+			&:hover{
+				color: $white;
 			}
+		}
+	}
+	.social-media{
+		margin-bottom: remCalc(30);
+		color: $smoke;
+		img{
+			width:remCalc(30);
+			margin-right:remCalc(6);
+			margin-top: remCalc(5);
+			margin-bottom: remCalc(15);
 		}
 	}
 }
 
-.footer-bottom{
-	background-color: $brand-blue-primary;
-	color: $white;
-	padding: remCalc(14) remCalc(15);
-	.copyright{
-		text-align: center;
-		margin-bottom: 0;
-	}
-}
+// .footer-bottom{
+// 	background-color: $brand-blue-primary;
+// 	color: $white;
+// 	padding: remCalc(14) remCalc(15);
+// 	.copyright{
+// 		text-align: center;
+// 		margin-bottom: 0;
+// 	}
+// }
 
 // Thanks
 .thanks{
@@ -472,6 +467,16 @@ footer{position: relative;}
 	}
 	.home-cover .big-logo{
 		max-width: remCalc(220);
+	}
+	.footer-top{
+		font-size: remCalc(18);
+		text-align: center;
+		.logo-footer{
+			padding:0;
+		}
+		.footer-business{
+			padding: 0;
+		}
 	}
 }
 
