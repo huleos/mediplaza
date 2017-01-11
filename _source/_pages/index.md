@@ -28,7 +28,7 @@ longitude: -114.729164
 				<h2 class="title">Location</h2>
 			</div>
 		</div>
-		<div id="map-canvas"><h2 class="title">Location</h2></div>
+		<div id="map-canvas"></div>
 	</div>
 </section>
 
