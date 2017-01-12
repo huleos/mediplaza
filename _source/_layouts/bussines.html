@@ -42,56 +42,56 @@ layout: default
 						{{ content }}
 					</div>
 				</div>
-				<div class="gallery">
-				{% if page.gallery1 contains '' %}
-					<h3>Gallery</h3>
-					<div class="col sm-6 md-3">
-						<div class="room-box">
-							<div class="room-box-thumb">
-								<a href="{{ site.baseurl }}{{ page.gallery1 }}" data-lightbox="gallery">
-									<img src="{{ site.baseurl }}{{ page.tgallery1 }}" alt="">
-								</a>
-							</div>
-						</div>
-					</div>
-					{% endif %}
-					{% if page.gallery2 contains '' %}
-					<div class="col sm-6 md-3">
-						<div class="room-box">
-							<div class="room-box-thumb">
-								<a href="{{ site.baseurl }}{{ page.gallery2 }}" data-lightbox="gallery">
-									<img src="{{ site.baseurl }}{{ page.tgallery2 }}" alt="">
-								</a>
-							</div>
-						</div>
-					</div>
-					{% endif %}
-					{% if page.gallery3 contains '' %}
-					<div class="col sm-6 md-3">
-						<div class="room-box">
-							<div class="room-box-thumb">
-								<a href="{{ site.baseurl }}{{ page.gallery3 }}" data-lightbox="gallery">
-									<img src="{{ site.baseurl }}{{ page.tgallery3 }}" alt="">
-								</a>
-							</div>
-						</div>
-					</div>
-					{% endif %}
-					{% if page.gallery4 contains '' %}
-					<div class="col sm-6 md-3">
-						<div class="room-box">
-							<div class="room-box-thumb">
-								<a href="{{ site.baseurl }}{{ page.gallery4 }}" data-lightbox="gallery">
-									<img src="{{ site.baseurl }}{{ page.tgallery4 }}" alt="">
-								</a>
-							</div>
-						</div>
-					</div>
-					{% endif %}
-				</div>
 			</div>
 		</div>
 		<div class="col md-6">
+			<div class="gallery">
+			{% if page.gallery1 contains '' %}
+				<h3>Gallery</h3>
+				<div class="col sm-6 md-3">
+					<div class="room-box">
+						<div class="room-box-thumb">
+							<a href="{{ site.baseurl }}{{ page.gallery1 }}" data-lightbox="gallery">
+								<img src="{{ site.baseurl }}{{ page.tgallery1 }}" alt="">
+							</a>
+						</div>
+					</div>
+				</div>
+				{% endif %}
+				{% if page.gallery2 contains '' %}
+				<div class="col sm-6 md-3">
+					<div class="room-box">
+						<div class="room-box-thumb">
+							<a href="{{ site.baseurl }}{{ page.gallery2 }}" data-lightbox="gallery">
+								<img src="{{ site.baseurl }}{{ page.tgallery2 }}" alt="">
+							</a>
+						</div>
+					</div>
+				</div>
+				{% endif %}
+				{% if page.gallery3 contains '' %}
+				<div class="col sm-6 md-3">
+					<div class="room-box">
+						<div class="room-box-thumb">
+							<a href="{{ site.baseurl }}{{ page.gallery3 }}" data-lightbox="gallery">
+								<img src="{{ site.baseurl }}{{ page.tgallery3 }}" alt="">
+							</a>
+						</div>
+					</div>
+				</div>
+				{% endif %}
+				{% if page.gallery4 contains '' %}
+				<div class="col sm-6 md-3">
+					<div class="room-box">
+						<div class="room-box-thumb">
+							<a href="{{ site.baseurl }}{{ page.gallery4 }}" data-lightbox="gallery">
+								<img src="{{ site.baseurl }}{{ page.tgallery4 }}" alt="">
+							</a>
+						</div>
+					</div>
+				</div>
+				{% endif %}
+			</div>
 			<img id="zoomMap" src="{{ site.baseurl }}{{ page.locationSmall }}" data-zoom-image="{{ site.baseurl }}{{ page.locationLarge }}" alt="Map MediPlaza" >
 		</div>
 	</div>
