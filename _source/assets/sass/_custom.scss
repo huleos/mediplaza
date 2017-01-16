@@ -61,16 +61,64 @@ $oil:            #333 !default;
 	}
 }
 
-.home{
-	#map-canvas{
-		width: 100%;
-		height: remCalc(400);
-		margin-bottom: remCalc(-100);
+.map-mediplaza{
+	margin-top: remCalc(50);
+	padding: remCalc(40) 0;
+	width: 100%;
+	background-color: #e7e7e9; 
+	.map-img{
+		margin-bottom: remCalc(40);
 	}
-	> div{
-		padding-top: remCalc(24);
+	// #map-canvas{
+	// 	width: 100%;
+	// 	height: remCalc(400);
+	// 	margin-bottom: remCalc(-100);
+	// }
+	// > div{
+	// 	padding-top: remCalc(24);
+	// }
+}
+
+.accordion {
+  background-color: #eee;
+  color: $steel;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+	&:hover {
+	  background-color: $steel;
+	  color: $white;
+	}
+	&:after{
+		content: '\02795';
+	  font-size: 13px;
+	  color: $steel;
+	  float: right;
+	  margin-left: 5px;
 	}
 }
+button.accordion.active:after {
+  content: "\2796";
+}
+button.accordion.hover:after {
+  color: $white;
+}
+
+.panel-map{
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.8s ease-out;
+  .show{
+  	display:block;
+  }
+}
+
 
 .home-nav{
 	background-color: $white;

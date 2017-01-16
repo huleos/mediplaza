@@ -132,14 +132,14 @@
 			</div>
 		</div>
 	</div>
-	<div class="location">
+	<!-- <div class="location">
 		<div class="row">
 			<div class="col md-10 md-center">
 				<h2 class="title">Location</h2>
 			</div>
 		</div>
 		<div id="map-canvas"></div>
-	</div>
+	</div> -->
 </section>
 
 <!-- Google Maps -->
@@ -169,6 +169,48 @@ google.maps.event.addDomListener(window, 'load', initialize);
 
       
 
+
+	
+	<div class="map-mediplaza">
+		<div class="row">
+			<div class="col md-10 md-center">
+				<h2 class="title text-center">HEADER CHIDO</h2>
+				<div class="col md-12">
+					<button class="accordion">Mediplaza Map</button>
+					<div class="panel">
+					  <div class="map-img">
+							<img src="/assets/img/mediplaza-map-floor1-large.jpg" alt="Map MediPlaza">
+						</div>
+						<div class="col md-4">
+							<h4 class="shop">SHOP</h4>
+							<ul>
+								<li>La Mexicana</li>
+								<li>Natura</li>
+								<li>GIOSTAR Mexico</li>
+							</ul>
+						</div>
+						<div class="col md-4">
+							<h4 class="heal">HEAL</h4>
+							<ul>
+								<li>Pure O2</li>
+								<li>Mi Casa es su Casa</li>
+								<li>GIOSTAR Mexico</li>
+							</ul>
+						</div>
+						<div class="col md-4">
+							<h4 class="dine">DINE</h4>
+							<ul>
+								<li>Mi Casa es su Casa</li>
+								<li>My Daily Treat</li>
+								<li>Big Bites</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
 
 	<!-- <footer>
 	<div class="footer-top">
@@ -249,3 +291,20 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <script src="/assets/js/main.js"></script>	
 </body>
 </html>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].onclick = function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight){
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + 'px';
+    } 
+  }
+}
+</script>
