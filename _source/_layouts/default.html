@@ -53,55 +53,79 @@
   {{content}}
 
 	{% if page.url == '/' %}
-	<div class="map-mediplaza">
-		<div class="row">
-			<div class="col md-10 md-center">
-				<h2 class="title text-center">HEADER CHIDO</h2>
-				<div class="col md-12">
-					<button class="accordion">Mediplaza Map</button>
-					<div class="panel-map">
-					  <div class="map-img">
-							<img src="{{ site.baseurl }}/assets/img/mediplaza-map-floor1-large.jpg" alt="Map MediPlaza">
-						</div>
-						<div class="col md-4">
-							<h4 class="shop">SHOP</h4>
-							<ul>
-								<li>La Mexicana</li>
-								<li>Natura</li>
-								<li>GIOSTAR Mexico</li>
-							</ul>
-						</div>
-						<div class="col md-4">
-							<h4 class="heal">HEAL</h4>
-							<ul>
-								<li>Pure O2</li>
-								<li>Mi Casa es su Casa</li>
-								<li>GIOSTAR Mexico</li>
-							</ul>
-						</div>
-						<div class="col md-4">
-							<h4 class="dine">DINE</h4>
-							<ul>
-								<li>Mi Casa es su Casa</li>
-								<li>My Daily Treat</li>
-								<li>Big Bites</li>
-							</ul>
-						</div>
+	<div class="map-mediplaza text-center">
+		<button class="accordion">Discover Mediplaza</button>
+		<div class="panel-map">
+		  <div class="map-img text-center">
+				<img src="{{ site.baseurl }}/assets/img/mediplaza-map-floor1-large.jpg" alt="Map MediPlaza">
+			</div>
+			<div class="col md-3">
+				<div class="map-section">
+					<h3 class="shop">shop</h3>
+					<ul>
+						<li>7. Natura</li>
+						<li>8. One Stop Mini Mart</li>
+						<li>14. La Mexicana</li>
+					</ul>
+				</div>
+			</div>
+			<div class="col md-3">
+				<div class="map-section">
+					<h3 class="heal">heal</h3>
+					<div class="col md-6">
+						<ul class="heal-locals">
+							<li>3. Baja Medical Imaging</li>
+							<li>4. Baja Surgery Center</li>
+							<li>5.Baja Clinical Lab</li>
+							<li>9. One Stop Pharmacy</li>
+							<li>13. Sanico</li>
+						</ul>
 					</div>
+					<div class="col md-6">
+						<ul class="heal-locals">
+							<li>12. Timeless<br/>Antiaging Spa</li>
+							<li>11. 20/20 Vision Center</li>
+							<li>10. Pure O2<br/>Hyperbaric Medicine</li>
+							<li><!-- <button class="btn btn-map"> --><a href="http://sanidentalgroup.com/"><b>Sani Dental Group</b></a></li><!-- </button> -->
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col md-3">
+				<div class="map-section">
+					<h3 class="dine">dine</h3>
+					<ul>
+						<li>1.  My Daily Treat</li>
+						<li>2.  Quick Bite</li>
+						<li>15. Mi Casa es su Casa</li>
+					</ul>
+				</div>
+			</div>
+			<div class="col md-3">
+				<div class="map-section">
+					<h3 class="lodge">lodging</h3>
+					<div class="lodge-map">
+						<img src="{{ site.baseurl }}/assets/img/cielito-lindo.png" alt="Map MediPlaza">
+						<!-- <span>6. Cielito Lindo</span> -->
+					</div>
+					<button class="btn btn-map">
+						<a href="{{ site.baseurl }}/cielito-lindo/">Book Now!</a>
+					</button>
 				</div>
 			</div>
 		</div>
 	</div>
 	{% endif %}
-`
+
 	{% include footer.html %}	
 	{% include footer-includes.html %}	
 </body>
 </html>
 
 <script>
-var acc = document.getElementsByClassName("accordion");
-var i;
+$("accordion").click(function(){
+    $("p").toggleClass("panel-map");
+});
 
 for (i = 0; i < acc.length; i++) {
   acc[i].onclick = function() {

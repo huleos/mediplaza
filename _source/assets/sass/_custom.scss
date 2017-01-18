@@ -61,64 +61,11 @@ $oil:            #333 !default;
 	}
 }
 
-.map-mediplaza{
-	margin-top: remCalc(50);
-	padding: remCalc(40) 0;
-	width: 100%;
-	background-color: #e7e7e9; 
-	.map-img{
-		margin-bottom: remCalc(40);
-	}
-	// #map-canvas{
-	// 	width: 100%;
-	// 	height: remCalc(400);
-	// 	margin-bottom: remCalc(-100);
-	// }
-	// > div{
-	// 	padding-top: remCalc(24);
-	// }
-}
-
-.accordion {
-  background-color: #eee;
-  color: $steel;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  text-align: left;
-  border: none;
-  outline: none;
-  transition: 0.4s;
-	&:hover {
-	  background-color: $steel;
-	  color: $white;
-	}
-	&:after{
-		content: '\02795';
-	  font-size: 13px;
-	  color: $steel;
-	  float: right;
-	  margin-left: 5px;
+.home{
+	> div{
+		padding-top: remCalc(24);
 	}
 }
-button.accordion.active:after {
-  content: "\2796";
-}
-button.accordion.hover:after {
-  color: $white;
-}
-
-.panel-map{
-  padding: 0 18px;
-  background-color: white;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.8s ease-out;
-  .show{
-  	display:block;
-  }
-}
-
 
 .home-nav{
 	background-color: $white;
@@ -235,7 +182,107 @@ button.accordion.hover:after {
 			}
 		}
 	}
+}
 
+//Map Mediplaza
+.map-mediplaza{
+	margin-top: remCalc(50);
+	padding: remCalc(40) 0;
+	// background-color: #e7e7e9;
+	width: 100%;
+	.panel-map{
+		padding: 0;
+		.map-img{
+			margin-bottom: remCalc(40);
+			background-color: #e7e7e9;
+			padding: remCalc(20);
+		}
+		.map-section{
+			h3{
+				text-transform: uppercase;
+			}
+			ul{
+				list-style: none;
+				text-align: left;
+				li{
+					a{
+						color: $brand-blue-primary;
+						font-size: remCalc(20);
+						margin-top: remCalc(50);
+					}
+				}
+			}
+			.heal-locals{
+				padding: 0;
+			}
+			.lodge-map{
+				img{
+					margin-bottom: remCalc(10);
+				}
+			}
+			.btn-map{
+				background-color: $steel;
+				padding: remCalc(10) remCalc(24);
+				a{
+					color: $white;
+				}
+				&:hover{
+					background-color: lighten($steel, 28%);
+				}
+			}
+		}
+		.shop{
+			background-color: $brand-pink-primary;
+			color: $white;
+			padding: remCalc(20);
+		}
+		.heal{
+			background-color: $brand-blue-primary;
+			color: $white;
+			padding: remCalc(20);
+		}
+		.dine{
+			background-color: $brand-orange-primary;
+			color: $white;
+			padding: remCalc(20);
+		}
+		.lodge{
+			background-color: $brand-green-primary;
+			color: $white;
+			padding: remCalc(20);
+		}
+	} 
+}
+
+.accordion{
+  background-color: $brand-orange-primary;
+  color: $white;
+  cursor: pointer;
+  padding: 18px;
+  font-size: 24px;
+  width: 20%;
+  text-align: center;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  margin-bottom: remCalc(20);
+	&:hover{
+		background-color: darken($brand-orange-primary, 12%);
+	}
+	&.active{
+		background-color: $steel;
+	}
+}
+
+.panel-map{
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.8s ease-out;
+  .show{
+  	display:block;
+  }
 }
 
 // Bussines
@@ -511,6 +558,10 @@ footer{position: relative;}
 				}
 			}
 		}
+	}
+	.accordion{
+		width: 100%;
+		margin: 0;
 	}
 	.home-nav ul li a{
 		font-size: remCalc(18);

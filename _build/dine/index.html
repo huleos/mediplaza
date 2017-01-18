@@ -256,8 +256,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </html>
 
 <script>
-var acc = document.getElementsByClassName("accordion");
-var i;
+$("accordion").click(function(){
+    $("p").toggleClass("panel-map");
+});
 
 for (i = 0; i < acc.length; i++) {
   acc[i].onclick = function() {
