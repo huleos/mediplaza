@@ -3,7 +3,7 @@ error_reporting(E_ALL);
 ini_set('display_errors', '1');
 
 $myemail = 'cielitolindo@mediplaza.info';
-$bccmail = 'creativo@686studio.com';
+$bccmail = '';
 
 $check = $_POST['_check_in']; //
 $out = $_POST['_check_out']; //

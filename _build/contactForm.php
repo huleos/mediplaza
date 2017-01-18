@@ -3,7 +3,7 @@ error_reporting(E_ALL);
 ini_set('display_errors', '1');
 
 $myemail = 'cielitolindo@mediplaza.info';
-$bccmail = 'creativo@686studio.com';
+$bccmail = '';
 
 $name = $_POST['_name']; 
 $email_address = $_POST['_email'];
