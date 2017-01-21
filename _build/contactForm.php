@@ -22,7 +22,8 @@ if($name && $email_address && $message)
 	Name: $name \n
 	Email: $email_address \n
 	Phone: $phone \n
-	Message: \n $message"; 
+	Message: \n $message \n
+	UTM: $utm";
 	
 	$headers = "From: $name <$email_address>\n";
 	$headers .= "Reply-To: $email_address\n";
