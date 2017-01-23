@@ -3,7 +3,7 @@ error_reporting(E_ALL);
 ini_set('display_errors', '1');
 
 $myemail = 'cielitolindo@mediplaza.info';
-$bccmail = 'creativo@686studio.com';
+$bccmail = '';
 
 $name = $_POST['_name']; 
 $email_address = $_POST['_email'];
@@ -22,7 +22,8 @@ if($name && $email_address && $message)
 	Name: $name \n
 	Email: $email_address \n
 	Phone: $phone \n
-	Message: \n $message"; 
+	Message: \n $message \n
+	UTM: $utm";
 	
 	$headers = "From: $name <$email_address>\n";
 	$headers .= "Reply-To: $email_address\n";
