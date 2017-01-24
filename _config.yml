@@ -3,6 +3,7 @@ url: "http://mediplazalosalgodones.com"
 
 # Build settings
 markdown: kramdown
+encoding: utf-8
 
 # Customs
 permalink: /blog/:title/
