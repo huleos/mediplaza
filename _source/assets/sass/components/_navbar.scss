@@ -55,6 +55,10 @@
 
 	.navbar-header{
 		float: none;
+		.navbar-brand{
+			float: none;
+			max-width: 400px;
+		}
 	}
 
 	.navbar-toggle{

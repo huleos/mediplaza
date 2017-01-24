@@ -448,17 +448,24 @@ footer{position: relative;}
 //////////////////////
 
 @media #{$breakpoint-small-only} {
+	
+	.navbar-header{
+		.nav-brand{
+			max-width: none;
+			width: 100%;
+		}
+	}
 	.navbar-collapse{
 		display: table;
-		// margin: 0 auto;
-		margin: 0 remCalc(-15);
+		margin: 0 auto;
+		// margin: 0 remCalc(-15);
 		width: initial;
 		ul{
 			li{
 				height: inherit;
 				width: inherit;
 				a{
-					padding: remCalc(12) !important;
+					padding: remCalc(8) !important;
 					font-size: remCalc(14);
 				}
 			}
@@ -466,7 +473,7 @@ footer{position: relative;}
 	}
 	.home-nav ul li a{
 		font-size: remCalc(18);
-		padding: remCalc(52) 0;
+		padding: remCalc(58) 0;
 	}
 	.home-cover .big-logo{
 		max-width: remCalc(220);
