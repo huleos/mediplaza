@@ -191,7 +191,7 @@ description: Enjoy Your Stay at Los Algodones, Mexico and Choose Cielito Lindo, 
 			<dl>
 				<dt>U.S. Phone Number</dt>
 					<dd><a href="tel:9283281814">(928) 328 1814</a></dd>
-					<dd><a href="tel:9283281671">(928) 328 1814</a></dd>
+					<dd><a href="tel:9283281671">(928) 328 1671 </a></dd>
 				<dt>Mexican Phone Number </dt>
 					<dd><a href="tel:+526585177541">011 52 (658) 517 75 41</a></dd>
 			</dl>

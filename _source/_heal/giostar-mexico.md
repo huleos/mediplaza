@@ -12,7 +12,7 @@ days_extra: Saturday
 horary: 9:00 a.m. to 3:00 p.m.
 floor: 1st
 local: 4
-phone: 
+phone: (619) 866 6000
 button: Start Your Recovery Now
 button_link: http://giostarmexico.com/#contact
 position: 2
