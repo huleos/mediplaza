@@ -129,3 +129,29 @@
 		}
 	}
 }
+
+.btn-accordion{
+  background-color: $black;
+  color: $white;
+  cursor: pointer;
+  padding: 18px;
+  font-size: 28px;
+  width: 20%;
+  text-align: center;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  margin-bottom: remCalc(20);
+  &:after{
+		content: url('../img/mediplaza-icono.png');
+		display: block;
+	  float: center;
+	}
+	&:hover {
+	  background-color: $black;
+	}
+	// &.active:after{
+	// 	content: '\02796';
+	// 	color: $white;
+	// }
+}
