@@ -40,12 +40,7 @@ gems:
   - jekyll-autoprefixer
   - jekyll-assets
 source:      _source
-             # _source/assets/js
-
 destination: _build
-assets:
-  compress:
-    js: true
 
 
 
