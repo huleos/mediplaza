@@ -12,6 +12,14 @@ floor: 1st
 local: 8-9
 phone: 
 position: 8
+gallery1: /assets/img/gallery/one-stop-pharmacy-01.jpg
+gallery2: /assets/img/gallery/one-stop-pharmacy-02.jpg
+gallery3: /assets/img/gallery/one-stop-pharmacy-03.jpg
+gallery4: /assets/img/gallery/one-stop-pharmacy-04.jpg
+tgallery1: /assets/img/gallery/thumbs/one-stop-pharmacy-01.jpg
+tgallery2: /assets/img/gallery/thumbs/one-stop-pharmacy-02.jpg
+tgallery3: /assets/img/gallery/thumbs/one-stop-pharmacy-03.jpg
+tgallery4: /assets/img/gallery/thumbs/one-stop-pharmacy-04.jpg
 ---
 A pharmacy can offer you many medications or services, but visiting a drug store that offers you everything you need at an affordable price, is not something you see everywhere. Lucky for you, MediPlaza Los Algodones is changing the concept current pharmacies in Mexico have.
 

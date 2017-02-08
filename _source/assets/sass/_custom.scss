@@ -62,11 +62,6 @@ $oil:            #333 !default;
 }
 
 .home{
-	#map-canvas{
-		width: 100%;
-		height: remCalc(400);
-		margin-bottom: remCalc(-100);
-	}
 	> div{
 		padding-top: remCalc(24);
 	}
@@ -187,7 +182,106 @@ $oil:            #333 !default;
 			}
 		}
 	}
+}
 
+//Map Mediplaza
+.map-mediplaza{
+	margin-top: remCalc(50);
+	padding: remCalc(40) 0;
+	// background-color: #e7e7e9;
+	width: 100%;
+	.panel-map{
+		padding: 0;
+		.map-img{
+			margin-bottom: remCalc(40);
+			background-color: #e7e7e9;
+			padding: remCalc(20);
+		}
+		.map-section{
+			h3{
+				text-transform: uppercase;
+			}
+			ul{
+				list-style: none;
+				text-align: left;
+				li{
+					a{
+						color: $brand-blue-primary;
+						font-size: remCalc(18);
+					}
+				}
+			}
+			.heal-locals{
+				padding: 0;
+			}
+			.lodge-map{
+				img{
+					margin-bottom: remCalc(10);
+				}
+			}
+			.btn-map{
+				background-color: #203670;
+				padding: remCalc(10) remCalc(24);
+				a{
+					color: $white;
+				}
+				&:hover{
+					background-color: lighten(#203670, 28%);
+				}
+			}
+		}
+		.shop{
+			background-color: $brand-pink-primary;
+			color: $white;
+			padding: remCalc(20);
+		}
+		.heal{
+			background-color: $brand-blue-primary;
+			color: $white;
+			padding: remCalc(20);
+		}
+		.dine{
+			background-color: $brand-orange-primary;
+			color: $white;
+			padding: remCalc(20);
+		}
+		.lodge{
+			background-color: $brand-green-primary;
+			color: $white;
+			padding: remCalc(20);
+		}
+	} 
+}
+
+.accordion{
+  background-color: $brand-orange-primary;
+  color: $white;
+  cursor: pointer;
+  padding: 18px;
+  font-size: 24px;
+  width: 20%;
+  text-align: center;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  margin-bottom: remCalc(20);
+  border-radius: 3px;
+	&:hover{
+		background-color: lighten($brand-orange-primary, 8%);
+	}
+	&.active{
+		background-color: $steel;
+	}
+}
+
+.panel-map{
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  min-height: remCalc(850);
+  .show{
+  	display:block;
+  }
 }
 
 // Bussines
@@ -474,6 +568,19 @@ footer{position: relative;}
 				}
 			}
 		}
+	}
+	.map-mediplaza{
+		margin:0;
+	}
+	.accordion{
+		width: 80%;
+		margin: 0;
+		&.active{
+			width: 100%;
+		}
+	}
+	.panel-map{
+	  min-height: remCalc(1200);
 	}
 	.home-nav ul li a{
 		font-size: remCalc(18);

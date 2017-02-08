@@ -52,6 +52,71 @@
 
   {{content}}
 
+	{% if page.url == '/' %}
+	<div class="map-mediplaza text-center">
+		<button class="accordion" id="btn-accordion">Discover Mediplaza</button>
+		<div class="panel-map">
+		  <div class="map-img text-cent2er">
+				<img src="{{ site.baseurl }}/assets/img/mediplaza-map-floor1-large.jpg" alt="Map MediPlaza">
+			</div>
+			<div class="col md-3">
+				<div class="map-section">
+					<h3 class="shop">shop</h3>
+					<ul>
+						<li>7. Natura</li>
+						<li>8. One Stop Mini Mart</li>
+						<li>11. 20/20 Vision Center</li>
+						<li>14. La Mexicana</li>
+					</ul>
+				</div>
+			</div>
+			<div class="col md-3">
+				<div class="map-section">
+					<h3 class="heal">heal</h3>
+					<div class="col md-6">
+						<ul class="heal-locals">
+							<li>3. Baja Medical Imaging</li>
+							<li>4. Baja Surgery Center</li>
+							<li>5.Baja Clinical Lab</li>
+							<li>9. One Stop Pharmacy</li>
+							<li>13. Sanico</li>
+						</ul>
+					</div>
+					<div class="col md-6">
+						<ul class="heal-locals">
+							<li>12. Timeless<br/>Antiaging Spa</li>
+							<li>10. Pure O2<br/>Hyperbaric Medicine</li>
+							<li><a href="http://sanidentalgroup.com/">Sani Dental Group</a></li><!-- </button> -->
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col md-3">
+				<div class="map-section">
+					<h3 class="dine">dine</h3>
+					<ul>
+						<li>1.  My Daily Treat</li>
+						<li>2.  Quick Bite</li>
+						<li>15. Mi Casa es su Casa</li>
+					</ul>
+				</div>
+			</div>
+			<div class="col md-3">
+				<div class="map-section">
+					<h3 class="lodge">lodging</h3>
+					<div class="lodge-map">
+						<img src="{{ site.baseurl }}/assets/img/cielito-lindo.png" alt="Map MediPlaza">
+						<!-- <span>6. Cielito Lindo</span> -->
+					</div>
+					<button class="btn btn-map">
+						<a href="{{ site.baseurl }}/cielito-lindo/">Book Now!</a>
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	{% endif %}
+
 	{% include footer.html %}	
 	{% include footer-includes.html %}	
 </body>

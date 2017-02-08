@@ -132,43 +132,86 @@
 			</div>
 		</div>
 	</div>
-	<div class="location">
+	<!-- <div class="location">
 		<div class="row">
 			<div class="col md-10 md-center">
 				<h2 class="title">Location</h2>
 			</div>
 		</div>
 		<div id="map-canvas"></div>
-	</div>
+	</div> -->
 </section>
-
-<!-- Google Maps -->
-<script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
-
-<script>
-	function initialize() {
-	  var myLatlng = new google.maps.LatLng(32.715346, -114.729164);
-	  var mapOptions = {
-	    zoom: 16,
-	    scrollwheel: false,
-	    center: myLatlng
-	  }
-	  var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
-  var marker = new google.maps.Marker({
-	      position: myLatlng,
-	      map: map,
-	      title: 'Los Algodones Best Medical Center'
-	  });
-	}
-google.maps.event.addDomListener(window, 'load', initialize);
-</script>
-
 
 
 
 
       
 
+
+	
+	<div class="map-mediplaza text-center">
+		<button class="accordion" id="btn-accordion">Discover Mediplaza</button>
+		<div class="panel-map">
+		  <div class="map-img text-cent2er">
+				<img src="/assets/img/mediplaza-map-floor1-large.jpg" alt="Map MediPlaza">
+			</div>
+			<div class="col md-3">
+				<div class="map-section">
+					<h3 class="shop">shop</h3>
+					<ul>
+						<li>7. Natura</li>
+						<li>8. One Stop Mini Mart</li>
+						<li>11. 20/20 Vision Center</li>
+						<li>14. La Mexicana</li>
+					</ul>
+				</div>
+			</div>
+			<div class="col md-3">
+				<div class="map-section">
+					<h3 class="heal">heal</h3>
+					<div class="col md-6">
+						<ul class="heal-locals">
+							<li>3. Baja Medical Imaging</li>
+							<li>4. Baja Surgery Center</li>
+							<li>5.Baja Clinical Lab</li>
+							<li>9. One Stop Pharmacy</li>
+							<li>13. Sanico</li>
+						</ul>
+					</div>
+					<div class="col md-6">
+						<ul class="heal-locals">
+							<li>12. Timeless<br/>Antiaging Spa</li>
+							<li>10. Pure O2<br/>Hyperbaric Medicine</li>
+							<li><a href="http://sanidentalgroup.com/">Sani Dental Group</a></li><!-- </button> -->
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col md-3">
+				<div class="map-section">
+					<h3 class="dine">dine</h3>
+					<ul>
+						<li>1.  My Daily Treat</li>
+						<li>2.  Quick Bite</li>
+						<li>15. Mi Casa es su Casa</li>
+					</ul>
+				</div>
+			</div>
+			<div class="col md-3">
+				<div class="map-section">
+					<h3 class="lodge">lodging</h3>
+					<div class="lodge-map">
+						<img src="/assets/img/cielito-lindo.png" alt="Map MediPlaza">
+						<!-- <span>6. Cielito Lindo</span> -->
+					</div>
+					<button class="btn btn-map">
+						<a href="/cielito-lindo/">Book Now!</a>
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	
 
 	<!-- <footer>
 	<div class="footer-top">
@@ -238,7 +281,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-MN2799N');</script>
 <!-- End Google Tag Manager -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.0/jquery.validate.min.js"></script>
 <script
   src="http://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
@@ -246,6 +289,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/elevatezoom/3.0.8/jquery.elevatezoom.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.9.0/js/lightbox.min.js"></script>
-<script src="/assets/js/main.js"></script>	
+ -->
+<script src="/assets/js/main.min.js"></script>	
 </body>
 </html>

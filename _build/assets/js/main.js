@@ -38,4 +38,9 @@ $(document).ready(function(){
     zoomType: "inner",
     cursor: "crosshair"
   });
+  //Map Index
+  $( "#btn-accordion" ).click(function() {
+    $( ".panel-map" ).toggle( "blind", 500 );
+    return false;
+  });
 });

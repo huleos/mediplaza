@@ -22,32 +22,12 @@ longitude: -114.729164
 			</div>
 		</div>
 	</div>
-	<div class="location">
+	<!-- <div class="location">
 		<div class="row">
 			<div class="col md-10 md-center">
 				<h2 class="title">Location</h2>
 			</div>
 		</div>
 		<div id="map-canvas"></div>
-	</div>
+	</div> -->
 </section>
-
-<!-- Google Maps -->
-<script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
-<script>
-	function initialize() {
-	  var myLatlng = new google.maps.LatLng({{ page.latitude }}, {{ page.longitude }});
-	  var mapOptions = {
-	    zoom: 16,
-	    scrollwheel: false,
-	    center: myLatlng
-	  }
-	  var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
-  var marker = new google.maps.Marker({
-	      position: myLatlng,
-	      map: map,
-	      title: '{{ page.title }}'
-	  });
-	}
-google.maps.event.addDomListener(window, 'load', initialize);
-</script>

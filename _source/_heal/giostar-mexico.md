@@ -16,6 +16,22 @@ phone: (619) 866 6000
 button: Start Your Recovery Now
 button_link: http://giostarmexico.com/#contact
 position: 2
+gallery1: /assets/img/gallery/giostar-01.jpg
+gallery2: /assets/img/gallery/giostar-02.jpg
+gallery3: /assets/img/gallery/giostar-03.jpg
+gallery4: /assets/img/gallery/giostar-04.jpg
+gallery5: /assets/img/gallery/giostar-05.jpg
+gallery6: /assets/img/gallery/giostar-06.jpg
+gallery7: /assets/img/gallery/giostar-07.jpg
+gallery8: /assets/img/gallery/giostar-08.jpg
+tgallery1: /assets/img/gallery/thumbs/giostar-01.jpg
+tgallery2: /assets/img/gallery/thumbs/giostar-02.jpg
+tgallery3: /assets/img/gallery/thumbs/giostar-03.jpg
+tgallery4: /assets/img/gallery/thumbs/giostar-04.jpg
+tgallery5: /assets/img/gallery/thumbs/giostar-05.jpg
+tgallery6: /assets/img/gallery/thumbs/giostar-06.jpg
+tgallery7: /assets/img/gallery/thumbs/giostar-07.jpg
+tgallery8: /assets/img/gallery/thumbs/giostar-08.jpg
 ---
 The solution that has helped to more than 4000 people in India has arrived to Mexico, offering autologous and allogeneic stem cell therapy for the treatment of a wide variety of diseases currently known as incurable.
 

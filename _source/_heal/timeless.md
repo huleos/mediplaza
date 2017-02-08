@@ -12,6 +12,22 @@ floor: 1st
 local: 12
 phone: 
 position: 6
+gallery1: /assets/img/gallery/timeless-01.jpg
+gallery2: /assets/img/gallery/timeless-02.jpg
+gallery3: /assets/img/gallery/timeless-03.jpg
+gallery4: /assets/img/gallery/timeless-04.jpg
+gallery5: /assets/img/gallery/timeless-05.jpg
+gallery6: /assets/img/gallery/timeless-06.jpg
+gallery7: /assets/img/gallery/timeless-07.jpg
+gallery8: /assets/img/gallery/timeless-08.jpg
+tgallery1: /assets/img/gallery/thumbs/timeless-01.jpg
+tgallery2: /assets/img/gallery/thumbs/timeless-02.jpg
+tgallery3: /assets/img/gallery/thumbs/timeless-03.jpg
+tgallery4: /assets/img/gallery/thumbs/timeless-04.jpg
+tgallery5: /assets/img/gallery/thumbs/timeless-05.jpg
+tgallery6: /assets/img/gallery/thumbs/timeless-06.jpg
+tgallery7: /assets/img/gallery/thumbs/timeless-07.jpg
+tgallery8: /assets/img/gallery/thumbs/timeless-08.jpg
 ---
 Timeless means wellness. A place where you will find health and beauty therapies to treat your skin, body, and overall well-being. Our environment is specially designed for you to have a peaceful and relaxed time. It doesn’t matter how many tensions you're carrying on, we guarantee you that once you visit us, you'll leave stressless. 
 
