@@ -38,7 +38,6 @@ autoprefixer:
 gems:
   - jekyll-sitemap
   - jekyll-autoprefixer
-  - jekyll-assets
 source:      _source
 destination: _build
 
