@@ -277,9 +277,8 @@ $oil:            #333 !default;
 .panel-map{
   padding: 0 18px;
   background-color: white;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.8s ease-out;
+  display: none;
+  min-height: remCalc(850);
   .show{
   	display:block;
   }
@@ -579,6 +578,9 @@ footer{position: relative;}
 		&.active{
 			width: 100%;
 		}
+	}
+	.panel-map{
+	  min-height: remCalc(1200);
 	}
 	.home-nav ul li a{
 		font-size: remCalc(18);

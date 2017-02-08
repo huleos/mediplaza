@@ -142,28 +142,6 @@
 	</div> -->
 </section>
 
-<!-- Google Maps -->
-<script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
-
-<script>
-	function initialize() {
-	  var myLatlng = new google.maps.LatLng(32.715346, -114.729164);
-	  var mapOptions = {
-	    zoom: 16,
-	    scrollwheel: false,
-	    center: myLatlng
-	  }
-	  var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
-  var marker = new google.maps.Marker({
-	      position: myLatlng,
-	      map: map,
-	      title: 'Los Algodones Best Medical Center'
-	  });
-	}
-google.maps.event.addDomListener(window, 'load', initialize);
-</script>
-
-
 
 
 
@@ -172,7 +150,7 @@ google.maps.event.addDomListener(window, 'load', initialize);
 
 	
 	<div class="map-mediplaza text-center">
-		<button class="accordion">Discover Mediplaza</button>
+		<button class="accordion" id="btn-accordion">Discover Mediplaza</button>
 		<div class="panel-map">
 		  <div class="map-img text-cent2er">
 				<img src="/assets/img/mediplaza-map-floor1-large.jpg" alt="Map MediPlaza">
@@ -204,7 +182,6 @@ google.maps.event.addDomListener(window, 'load', initialize);
 						<ul class="heal-locals">
 							<li>12. Timeless<br/>Antiaging Spa</li>
 							<li>10. Pure O2<br/>Hyperbaric Medicine</li>
-							<!-- <li>* Sani Dental Group</li> -->
 							<li><a href="http://sanidentalgroup.com/">Sani Dental Group</a></li><!-- </button> -->
 						</ul>
 					</div>
@@ -311,8 +288,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
   crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/elevatezoom/3.0.8/jquery.elevatezoom.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.9.0/js/lightbox.min.js"></script> -->
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.9.0/js/lightbox.min.js"></script>
+ -->
 <script src="/assets/js/main.min.js"></script>	
 </body>
 </html>
