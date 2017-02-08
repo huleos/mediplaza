@@ -207,7 +207,7 @@ $oil:            #333 !default;
 				li{
 					a{
 						color: $brand-blue-primary;
-						font-size: remCalc(20);
+						font-size: remCalc(18);
 					}
 				}
 			}
@@ -220,13 +220,13 @@ $oil:            #333 !default;
 				}
 			}
 			.btn-map{
-				background-color: $steel;
+				background-color: #203670;
 				padding: remCalc(10) remCalc(24);
 				a{
 					color: $white;
 				}
 				&:hover{
-					background-color: lighten($steel, 28%);
+					background-color: lighten(#203670, 28%);
 				}
 			}
 		}
@@ -265,8 +265,9 @@ $oil:            #333 !default;
   outline: none;
   transition: 0.4s;
   margin-bottom: remCalc(20);
+  border-radius: 3px;
 	&:hover{
-		background-color: darken($brand-orange-primary, 12%);
+		background-color: lighten($brand-orange-primary, 8%);
 	}
 	&.active{
 		background-color: $steel;
@@ -558,9 +559,15 @@ footer{position: relative;}
 			}
 		}
 	}
+	.map-mediplaza{
+		margin:0;
+	}
 	.accordion{
-		width: 100%;
+		width: 80%;
 		margin: 0;
+		&.active{
+			width: 100%;
+		}
 	}
 	.home-nav ul li a{
 		font-size: remCalc(18);
