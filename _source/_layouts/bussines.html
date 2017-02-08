@@ -91,6 +91,50 @@ layout: default
 					</div>
 				</div>
 				{% endif %}
+				{% if page.gallery5 contains '' %}
+				<div class="col sm-6 md-3">
+					<div class="room-box">
+						<div class="room-box-thumb">
+							<a href="{{ site.baseurl }}{{ page.gallery5 }}" data-lightbox="gallery">
+								<img src="{{ site.baseurl }}{{ page.tgallery5 }}" alt="">
+							</a>
+						</div>
+					</div>
+				</div>
+				{% endif %}
+				{% if page.gallery6 contains '' %}
+				<div class="col sm-6 md-3">
+					<div class="room-box">
+						<div class="room-box-thumb">
+							<a href="{{ site.baseurl }}{{ page.gallery6 }}" data-lightbox="gallery">
+								<img src="{{ site.baseurl }}{{ page.tgallery6 }}" alt="">
+							</a>
+						</div>
+					</div>
+				</div>
+				{% endif %}
+				{% if page.gallery7 contains '' %}
+				<div class="col sm-6 md-3">
+					<div class="room-box">
+						<div class="room-box-thumb">
+							<a href="{{ site.baseurl }}{{ page.gallery7 }}" data-lightbox="gallery">
+								<img src="{{ site.baseurl }}{{ page.tgallery7 }}" alt="">
+							</a>
+						</div>
+					</div>
+				</div>
+				{% endif %}
+				{% if page.gallery8 contains '' %}
+				<div class="col sm-6 md-3">
+					<div class="room-box">
+						<div class="room-box-thumb">
+							<a href="{{ site.baseurl }}{{ page.gallery8 }}" data-lightbox="gallery">
+								<img src="{{ site.baseurl }}{{ page.tgallery8 }}" alt="">
+							</a>
+						</div>
+					</div>
+				</div>
+				{% endif %}
 			</div>
 			<img id="zoomMap" src="{{ site.baseurl }}{{ page.locationSmall }}" data-zoom-image="{{ site.baseurl }}{{ page.locationLarge }}" alt="Map MediPlaza" >
 		</div>

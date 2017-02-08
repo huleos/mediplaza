@@ -156,6 +156,24 @@ description: Enjoy Your Stay at Los Algodones, Mexico and Choose Cielito Lindo, 
 					</div>
 				</div>
 			</div>
+			<div class="col sm-6 md-3">
+				<div class="room-box">
+					<div class="room-box-thumb">
+						<a href="{{ site.baseurl }}/assets/img/gallery/cielito-lindo-11.jpg" data-lightbox="gallery">
+							<img src="{{ site.baseurl }}/assets/img/gallery/thumbs/cielito-lindo-11.jpg" alt="">
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="col sm-6 md-3">
+				<div class="room-box">
+					<div class="room-box-thumb">
+						<a href="{{ site.baseurl }}/assets/img/gallery/cielito-lindo-12.jpg" data-lightbox="gallery">
+							<img src="{{ site.baseurl }}/assets/img/gallery/thumbs/cielito-lindo-12.jpg" alt="">
+						</a>
+					</div>
+				</div>
+			</div>
 		</div><!-- .gallery -->
 
 

@@ -11,14 +11,22 @@ horary: 7:00 am – 9 pm
 floor: 1st
 local: 1-2
 phone:
-gallery1: /assets/img/gallery/daily-treat-01.jpg
-gallery2: /assets/img/gallery/daily-treat-02.jpg
-gallery3:
-gallery4:
-tgallery1: /assets/img/gallery/thumbs/daily-treat-01.jpg
-tgallery2: /assets/img/gallery/thumbs/daily-treat-02.jpg
-tgallery3:
-tgallery4:
+gallery1: /assets/img/gallery/my-daily-treat-01.jpg
+gallery2: /assets/img/gallery/my-daily-treat-02.jpg
+gallery3: /assets/img/gallery/my-daily-treat-03.jpg
+gallery4: /assets/img/gallery/my-daily-treat-04.jpg
+gallery5: /assets/img/gallery/my-daily-treat-05.jpg
+gallery6: /assets/img/gallery/my-daily-treat-06.jpg
+gallery7: /assets/img/gallery/my-daily-treat-07.jpg
+gallery8: /assets/img/gallery/my-daily-treat-08.jpg
+tgallery1: /assets/img/gallery/thumbs/my-daily-treat-01.jpg
+tgallery2: /assets/img/gallery/thumbs/my-daily-treat-02.jpg
+tgallery3: /assets/img/gallery/thumbs/my-daily-treat-03.jpg
+tgallery4: /assets/img/gallery/thumbs/my-daily-treat-04.jpg
+tgallery5: /assets/img/gallery/thumbs/my-daily-treat-05.jpg
+tgallery6: /assets/img/gallery/thumbs/my-daily-treat-06.jpg
+tgallery7: /assets/img/gallery/thumbs/my-daily-treat-07.jpg
+tgallery8: /assets/img/gallery/thumbs/my-daily-treat-08.jpg
 ---
 What better way to start off a great day that with a delicious cup of coffee? My Daily Treat is the place in Los Algodones where you'll find a peaceful and convenient spot to have coffee and a wide variety of treats.  
 Come and enjoy our brewed coffee, or get creative with some of our signature mixes. Whatever you choose, you’ll know it’s the right choice from the first sip.
