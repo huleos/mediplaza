@@ -28,16 +28,12 @@ exclude:
   - Gemfile.lock
   - README.md
   - LICENSE
-sass:
-    sass_dir: assets/sass
-    style: :compressed
-    sourcemap: true
-autoprefixer:
-  browsers:
-  - last 4 versions
+  - package.json
+  - node_modules
+  - gulpfile.js
+  - assets/scss
 gems:
   - jekyll-sitemap
-  - jekyll-autoprefixer
 source:      _source
 destination: _build
 
