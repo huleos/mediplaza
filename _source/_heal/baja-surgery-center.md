@@ -10,7 +10,7 @@ days:
 horary: 
 floor: 1st
 local: 4
-phone: (928) 257 1138
+phone: (928) 399 7595
 position: 3
 gallery1: /assets/img/gallery/baja-surgery-center-01.jpg
 gallery2: /assets/img/gallery/baja-surgery-center-02.jpg

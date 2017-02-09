@@ -10,7 +10,7 @@ days:
 horary: 
 floor: 1st
 local: 8-9
-phone: 
+phone: (928) 224 7082
 position: 8
 gallery1: /assets/img/gallery/one-stop-pharmacy-01.jpg
 gallery2: /assets/img/gallery/one-stop-pharmacy-02.jpg

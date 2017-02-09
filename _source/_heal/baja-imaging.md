@@ -10,7 +10,7 @@ days:
 horary: 
 floor: 1st
 local: 3
-phone: 
+phone: (928) 224 7085
 position: 5
 gallery1: /assets/img/gallery/baja-medical-imaging-01.jpg
 gallery2: /assets/img/gallery/baja-medical-imaging-02.jpg

@@ -222,9 +222,7 @@ $oil:            #333 !default;
 			.btn-map{
 				background-color: #203670;
 				padding: remCalc(10) remCalc(24);
-				a{
-					color: $white;
-				}
+				color: $white;
 				&:hover{
 					background-color: lighten(#203670, 28%);
 				}
