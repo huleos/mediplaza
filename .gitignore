@@ -6,3 +6,5 @@ node_modules
 npm-debug.log
 fabfile.py
 *.pyc
+yarn-error.log
+*.map

@@ -1,0 +1,31 @@
+{
+  "name": "mediplaza",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "scripts": {
+    "start": "gulp",
+    "build": "gulp build --production"
+  },
+  "repository": "git@github.com:huleos/mediplaza.git",
+  "author": "Julio Cesar Montenegro <creativo@686studio.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.18.7",
+    "cross-spawn": "^5.0.1",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.4.1",
+    "gulp-uglify": "^2.0.1",
+    "gulp-util": "^3.0.8",
+    "run-sequence": "^1.2.2"
+  },
+  "dependencies": {
+    "jquery": "3.1.1",
+    "jquery-validation": "^1.16.0",
+    "lightbox2": "^2.9.0"
+  }
+}
