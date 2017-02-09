@@ -4,7 +4,7 @@
   "main": "gulpfile.js",
   "scripts": {
     "start": "gulp",
-    "build": "gulp build --production"
+    "build": "gulp production"
   },
   "repository": "git@github.com:huleos/mediplaza.git",
   "author": "Julio Cesar Montenegro <creativo@686studio.com>",

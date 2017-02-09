@@ -8,12 +8,13 @@
 ### Installation Instructions
 ***
 * `git clone <repository-url>` this repository.
+* `bundle install`
+* `yarn` or `npm install`
 
 ### Basic Usage
 ***
 * Config production **_config.yml**
 * Config email file **contactForm.php**
-* Server `bundle exec jekyll serve -L`
-* Server livereload `bundle exec jekyll serve`
-* When pushed on production, the `jekyll build`
+* Server livereload `npm start` or `gulp`
+* When pushed on production, the `nmp run build` or `gulp production`
 
