@@ -7,10 +7,10 @@ locationLarge: /assets/img/mediplaza-map-floor1-large.jpg
 avatar: /assets/img/bussines/mi-casa-es-su-casa.jpg
 name: Mi Casa Es Su Casa
 days: Monday – Sunday
-horary: 7:00 am – 10 pm 
+horary: 7:00 am – 9:00 pm 
 floor: 1st
 local: 15
-phone:
+phone: (928) 257 1068
 gallery1: /assets/img/gallery/mi-casa-es-su-casa-01.jpg
 gallery2: /assets/img/gallery/mi-casa-es-su-casa-02.jpg
 gallery3: /assets/img/gallery/mi-casa-es-su-casa-03.jpg

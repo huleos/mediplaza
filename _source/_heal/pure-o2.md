@@ -6,8 +6,8 @@ locationSmall: /assets/img/mediplaza-map-floor1-small.jpg
 locationLarge: /assets/img/mediplaza-map-floor1-large.jpg
 avatar: /assets/img/bussines/pure-o2.jpg
 name: Pure O2
-days:
-horary: 
+days:	Monday - Saturday
+horary: 8:00 am - 4:00 pm
 floor: 1st
 local: 10
 phone: (928) 399 7585
