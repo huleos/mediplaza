@@ -6,10 +6,8 @@ locationSmall: /assets/img/mediplaza-map-floor1-small.jpg
 locationLarge: /assets/img/mediplaza-map-floor1-large.jpg
 avatar: /assets/img/bussines/giostar.jpg
 name: Giostar Mexico
-days: Monday - Friday
-horary: 9:00 a.m. to 5:00 p.m.
-days_extra: Saturday
-horary: 9:00 a.m. to 3:00 p.m.
+days: 
+horary: 
 floor: 1st
 local: 4
 phone: (619) 866 6000

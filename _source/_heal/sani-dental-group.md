@@ -10,7 +10,7 @@ days: Monday - Saturday
 horary: 9:00 a.m. to 5:00 p.m.
 floor: 
 local:
-phone: 
+phone: (928) 257 1307
 button: Visit Us For More Information
 button_link: http://sanidentalgroup.com/
 position: 1

@@ -6,8 +6,10 @@ locationSmall: /assets/img/mediplaza-map-floor1-small.jpg
 locationLarge: /assets/img/mediplaza-map-floor1-large.jpg
 avatar: /assets/img/bussines/one-stop-mini-mart.jpg
 name: One Stop Mini Mart
-days:
-horary: 
+days:	Monday - Friday
+horary: 6:30 am - 9:00 pm
+days_extra:	Saturday - Sunday
+horary_extra:	8:00 am - 4:00 pm
 floor: 1st
 local: 8-9
 phone: 

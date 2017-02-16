@@ -26,7 +26,11 @@ permalink: /dine/
               {% if item.horary contains '' %}
               <h4>Opening Hours</h4>
               <span>{{ item.days }}<br></span>
-              <span>{{ item.horary }}</span>
+              <span>{{ item.horary }}<br></span>
+              {% if item.days_extra contains '' %}
+              <span>{{ item.days_extra }}<br></span>
+              <span>{{ item.horary_extra }}</span>
+              {% endif %}
               {% endif %}
               {% if item.floor contains '' %}
               <h4>{{ item.floor }} Floor</h4>

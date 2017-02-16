@@ -6,8 +6,10 @@ locationSmall: /assets/img/mediplaza-map-floor1-small.jpg
 locationLarge: /assets/img/mediplaza-map-floor1-large.jpg
 avatar: /assets/img/bussines/one-stop-pharmacy.jpg
 name: One Stop Pharmacy
-days:
-horary: 
+days:	Monday - Friday
+horary: 7:00 am - 10:00 pm
+days_extra: Saturday - Sunday
+horary_extra: 8:00 am - 4:00 pm
 floor: 1st
 local: 8-9
 phone: (928) 224 7082
