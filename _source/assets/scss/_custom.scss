@@ -55,10 +55,23 @@ $oil:            #333 !default;
 	.big-logo{
 		position: relative;
 		z-index: 1;
-		// display: table;
 		margin: 0 auto;
 		max-width: remCalc(280);
+		img{
+			margin-bottom: remCalc(40);
+		}
 	}
+	// .virtual-tour{
+	// 	position: relative;
+	// 	color: $white;
+	// 	z-index: 2;
+	// 	display: block;
+	// 	margin: 0 auto;
+	// 	max-width: remCalc(350);
+	// 	p{
+	// 		margin-bottom: remCalc(30);
+	// 	}
+	// }
 }
 
 .home{
@@ -257,7 +270,7 @@ $oil:            #333 !default;
   cursor: pointer;
   padding: 18px;
   font-size: 24px;
-  width: 20%;
+  width: 30%;
   text-align: center;
   border: none;
   outline: none;
@@ -567,6 +580,25 @@ footer{position: relative;}
 			}
 		}
 	}
+	.home-nav ul li a{
+		font-size: remCalc(18);
+		padding: remCalc(58) 0;
+	}
+	.home-cover .big-logo{
+		max-width: remCalc(220);
+	}
+	.home-cover{
+		min-height: remCalc(350);
+	}
+	.big-logo{
+		img{
+			margin: remCalc(30) 0;
+			max-width: remCalc(180);
+		}
+		a{
+			font-size: remCalc(18);
+		}
+	}
 	.map-mediplaza{
 		margin:0;
 	}
@@ -579,19 +611,6 @@ footer{position: relative;}
 	}
 	.panel-map{
 	  min-height: remCalc(1200);
-	}
-	.home-nav ul li a{
-		font-size: remCalc(18);
-		padding: remCalc(58) 0;
-	}
-	.home-cover .big-logo{
-		max-width: remCalc(220);
-	}
-	.big-logo{
-		img{
-			margin: remCalc(30) 0;
-			max-width: remCalc(180);
-		}
 	}
 	.footer-top{
 		font-size: remCalc(18);

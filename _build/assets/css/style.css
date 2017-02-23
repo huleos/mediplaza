@@ -922,6 +922,23 @@ textarea {
   .btn-accordion:hover {
     background-color: black; }
 
+.btn-tour {
+  background-color: #00a0ae;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  font-size: 24px;
+  text-align: center;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  margin-bottom: 1.25rem;
+  border-radius: 3px; }
+  .btn-tour:hover {
+    background-color: #00c6d7;
+    color: white; }
+
 .flex-video {
   position: relative;
   padding-top: 1.375rem;
@@ -1075,6 +1092,8 @@ select,
     z-index: 1;
     margin: 0 auto;
     max-width: 17.5rem; }
+    .home-cover .big-logo img {
+      margin-bottom: 2.5rem; }
 
 .home > div {
   padding-top: 1.5rem; }
@@ -1215,7 +1234,7 @@ select,
   cursor: pointer;
   padding: 18px;
   font-size: 24px;
-  width: 20%;
+  width: 30%;
   text-align: center;
   border: none;
   outline: none;
@@ -1452,6 +1471,18 @@ footer {
       .navbar-collapse ul li a {
         padding: 0.5rem !important;
         font-size: 0.875rem; }
+  .home-nav ul li a {
+    font-size: 1.125rem;
+    padding: 3.625rem 0; }
+  .home-cover .big-logo {
+    max-width: 13.75rem; }
+  .home-cover {
+    min-height: 21.875rem; }
+  .big-logo img {
+    margin: 1.875rem 0;
+    max-width: 11.25rem; }
+  .big-logo a {
+    font-size: 1.125rem; }
   .map-mediplaza {
     margin: 0; }
   .accordion {
@@ -1461,14 +1492,6 @@ footer {
       width: 100%; }
   .panel-map {
     min-height: 75rem; }
-  .home-nav ul li a {
-    font-size: 1.125rem;
-    padding: 3.625rem 0; }
-  .home-cover .big-logo {
-    max-width: 13.75rem; }
-  .big-logo img {
-    margin: 1.875rem 0;
-    max-width: 11.25rem; }
   .footer-top {
     font-size: 1.125rem;
     text-align: center; }

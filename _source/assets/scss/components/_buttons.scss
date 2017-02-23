@@ -155,3 +155,22 @@
 	// 	color: $white;
 	// }
 }
+
+.btn-tour{
+  background-color: #00a0ae;
+  text-decoration: none;
+  color: $white;
+  cursor: pointer;
+  padding: 18px;
+  font-size: 24px;
+  text-align: center;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  margin-bottom: remCalc(20);
+  border-radius: 3px;
+	&:hover{
+		background-color: lighten(#00a0ae, 8%);
+		color: $white;
+	}
+}
