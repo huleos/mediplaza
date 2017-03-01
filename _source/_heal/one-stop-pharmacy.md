@@ -13,7 +13,7 @@ horary_extra: 8:00 am - 4:00 pm
 floor: 1st
 local: 8-9
 phone: (928) 224 7082
-position: 8
+position: 6
 gallery1: /assets/img/gallery/one-stop-pharmacy-01.jpg
 gallery2: /assets/img/gallery/one-stop-pharmacy-02.jpg
 gallery3: /assets/img/gallery/one-stop-pharmacy-03.jpg

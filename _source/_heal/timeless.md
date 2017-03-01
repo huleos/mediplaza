@@ -11,7 +11,7 @@ horary: 8:00 am - 4:00 pm
 floor: 1st
 local: 12
 phone: (928) 224 7088
-position: 6
+position: 4
 gallery1: /assets/img/gallery/timeless-01.jpg
 gallery2: /assets/img/gallery/timeless-02.jpg
 gallery3: /assets/img/gallery/timeless-03.jpg
