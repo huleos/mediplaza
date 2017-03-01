@@ -50,6 +50,3 @@ permalink: /heal/
     </div>
   </div>
 </section>
-
-
-
