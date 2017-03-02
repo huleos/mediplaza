@@ -1182,6 +1182,8 @@ select,
     background-color: #f69700; }
   .navbar .navbar-collapse ul li.lodging a:hover, .navbar .navbar-collapse ul li.lodging a.active {
     background-color: #7ea65f; }
+  .navbar .navbar-collapse ul li.virtual-tour a:hover, .navbar .navbar-collapse ul li.virtual-tour a.active {
+    background-color: #fbd05f; }
 
 .map-mediplaza {
   margin-top: 3.125rem;
@@ -1253,6 +1255,23 @@ select,
   min-height: 53.125rem; }
   .panel-map .show {
     display: block; }
+
+.tour-mediplaza {
+  width: 100%;
+  margin-bottom: -6.25rem; }
+  .tour-mediplaza .panel-tour {
+    min-height: 31.25rem;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; }
+    .tour-mediplaza .panel-tour iframe {
+      width: 80%; }
+  .tour-mediplaza .tour-instructions {
+    padding: 1.875rem;
+    background-color: #ddd;
+    width: 20%; }
+    .tour-mediplaza .tour-instructions ul {
+      list-style: decimal; }
 
 .shop article h2 a {
   color: #b61e53; }
@@ -1469,8 +1488,8 @@ footer {
       height: inherit;
       width: inherit; }
       .navbar-collapse ul li a {
-        padding: 0.5rem !important;
-        font-size: 0.875rem; }
+        padding: 0.375rem !important;
+        font-size: 0.625rem; }
   .home-nav ul li a {
     font-size: 1.125rem;
     padding: 3.625rem 0; }
@@ -1499,7 +1518,16 @@ footer {
       padding: 0;
       margin-bottom: 1em; }
     .footer-top .footer-business {
-      padding: 0; } }
+      padding: 0; }
+  .tour-mediplaza {
+    max-height: 9.375rem;
+    width: 100%; }
+    .tour-mediplaza .panel-tour {
+      display: block; }
+      .tour-mediplaza .panel-tour iframe {
+        width: 100%; }
+    .tour-mediplaza .tour-instructions {
+      display: none; } }
 
 small {
   color: #999999; }

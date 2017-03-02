@@ -38,6 +38,9 @@ $smoke:          #ddd !default;
 $steel:          #666 !default;
 $oil:            #333 !default;
 
+//Others
+$mediplaza-yellow:        #fbd05f;
+
 .title{
 	font-weight: 300;
 	font-size: remCalc(32);
@@ -192,6 +195,14 @@ $oil:            #333 !default;
 						}
 					}
 				}
+				&.virtual-tour{
+					a{
+						&:hover,
+						&.active{
+							background-color: $mediplaza-yellow;
+						}
+					}
+				}
 			}
 		}
 	}
@@ -294,6 +305,32 @@ $oil:            #333 !default;
   	display:block;
   }
 }
+
+
+//Virtual Tour
+////////////////////////////////
+.tour-mediplaza{
+	width: 100%;
+	margin-bottom: -6.25rem;
+	.panel-tour{
+		min-height: remCalc(500);
+		display: flex;
+		iframe{
+			width: 80%;
+		}
+	}
+	.tour-instructions{
+		padding: remCalc(30);
+		background-color: $smoke;
+		width: 20%;
+		ul{
+			list-style: decimal;
+			li{
+			}
+		}
+	}
+}
+
 
 // Bussines
 //////////////////////
@@ -548,7 +585,6 @@ footer{position: relative;}
 	}
 }
 
-
 // Mobile
 //////////////////////
 
@@ -574,8 +610,8 @@ footer{position: relative;}
 				height: inherit;
 				width: inherit;
 				a{
-					padding: remCalc(8) !important;
-					font-size: remCalc(14);
+					padding: remCalc(6) !important;
+					font-size: remCalc(10);
 				}
 			}
 		}
@@ -621,6 +657,19 @@ footer{position: relative;}
 		}
 		.footer-business{
 			padding: 0;
+		}
+	}
+	.tour-mediplaza{
+		max-height: remCalc(150);
+		width: 100%;
+		.panel-tour{
+			display: block;
+			iframe{
+				width: 100%;
+			}
+		}
+		.tour-instructions{
+			display: none;
 		}
 	}
 }
