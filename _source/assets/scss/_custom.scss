@@ -587,7 +587,6 @@ footer{position: relative;}
 //////////////////////
 
 @media #{$breakpoint-small-only} {
-	
 	.navbar-header{
 		.nav-brand{
 			max-width: none;
@@ -658,12 +657,13 @@ footer{position: relative;}
 		}
 	}
 	.tour-mediplaza{
-		max-height: remCalc(150);
+		margin-bottom: -12.50rem;
 		width: 100%;
 		.panel-tour{
 			display: block;
 			iframe{
 				width: 100%;
+				height: remCalc(400);
 			}
 		}
 		.tour-instructions{
