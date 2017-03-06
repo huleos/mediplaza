@@ -75,13 +75,16 @@ gulp.task('images', () => {
 
 
 // Start a server with BrowserSync to preview the site in
-gulp.task('server', (done) => {
+gulp.task('server', ['build', 'jekyll'], (done) => {
   browserSync.init({
-    files: ['_build/**'],
-    port: 4000,
-    server: {
-      baseDir: '_build'
-    }
+    port: 4000, // Default: 3000
+    server: '_build/',
+    ghostMode: false,
+    logFileChanges: true, // Default: true
+    logLevel: 'debug', // 'debug' | 'info' | 'silent' | Default: info.
+    open: true, // false | 'local' | 'external' | 'ui' | 'tunnel' | Default: true
+    reloadDelay: 750, // Default: 0
+		reloadDebounce: 750 // Default: 0
   });
   done();
 });
@@ -124,7 +127,7 @@ gulp.task('production', (done) => {
 
 // Build the site, run the server, and watch for file changes
 // Watch for changes to static assets, Scss, and JavaScript
-gulp.task('default', ['build', 'jekyll', 'server'], () => {
+gulp.task('default', ['server'], () => {
 	gulp.watch('./_source/**/*.{html,md,markdown}').on('change', browserSync.reload);
 	gulp.watch(['./_source/assets/scss/**/*.scss'], ['styles']).on('change', browserSync.reload);
 	gulp.watch(['./_source/assets/js/*.js'], ['scripts']).on('change', browserSync.reload);
