@@ -29,4 +29,4 @@ tgallery6: /assets/img/gallery/thumbs/baja-medical-imaging-06.jpg
 tgallery7: /assets/img/gallery/thumbs/baja-medical-imaging-07.jpg
 tgallery8: /assets/img/gallery/thumbs/baja-medical-imaging-08.jpg
 ---
-The Best X-Ray Lab of Los Algodones, Mexico, is now available for you with affordable prices and qualified personnel. Baja Medical Imaging is the only lab in town with a Full Body X-Ray. You can also prevent and improve oral health issues with the best equipment, like a CT Scan. Baja Medical Imaging has state of the art technology with minimum radiation. Come and get tested here at Mediplaza Los Algodones.
+The Best X-ray lab in Los Algodones, Mexico, is now available to you with affordable prices and highly qualified personnel. Prevent and improve health issues with the help of our trained technicians. Some of our services include thorax, pelvis, hip, and more X-rays.  Baja Medical Imaging has state of the art technology with minimum radiation. Come and get tested today at Mediplaza Los Algodones.

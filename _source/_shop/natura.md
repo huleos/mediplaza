@@ -29,4 +29,4 @@ tgallery7: /assets/img/gallery/thumbs/natura-07.jpg
 tgallery8: /assets/img/gallery/thumbs/natura-08.jpg
 ---
 
-If you are interested in silver jewelry and cold curiosities or accessories, then Natura is the store for you. When visit the city, either because you are having a dental surgery, visiting family or friends or taking a vacation take a break a do some shopping in Los Algodones. We invite you to admire the technique and style these Mexican artisans have. Shopping in Los Algodones is a fun, entertaining activity that all Medi Plaza visitors can enjoy, take advantage of our shops, restaurants and medical services.
+If you are interested in unique jewelry and crafts hand crafted by Mexican artisans, then Natura is the store for you. Featuring four jewelry lines made of unique materials: paper, silk, seeds, and pine. Find one of a kind stationary, pens, mirrors, and more. If you’re visiting Los Algodones take a break and do some shopping at MediPlaza Los Algodones. We invite you to admire the handmade pieces at Natura and discover how talented Mexican jewelry makers are. Visit us and take a piece of Mexico back home with you. 

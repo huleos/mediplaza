@@ -28,7 +28,8 @@ tgallery6: /assets/img/gallery/thumbs/my-daily-treat-06.jpg
 tgallery7: /assets/img/gallery/thumbs/my-daily-treat-07.jpg
 tgallery8: /assets/img/gallery/thumbs/my-daily-treat-08.jpg
 ---
-What better way to start off a great day that with a delicious cup of coffee? My Daily Treat is the place in Los Algodones where you'll find a peaceful and convenient spot to have coffee and a wide variety of treats.  
-Come and enjoy our brewed coffee, or get creative with some of our signature mixes. Whatever you choose, you’ll know it’s the right choice from the first sip.
+What better way to start the day than with a delicious cup of coffee? My Daily Treat is the place where you’ll find a peaceful spot at a convenient location to have coffee and a wide variety of desserts. Come and enjoy our freshly brewed coffee, or get creative with some of our signature frappuccinos.
 
-My Daily treat is the perfect option for any visitor to enjoy a good cup of coffee in Los Algodones with the warmth of a great service. We invite you to visit us at MediPlaza Los Algodones, just in the heart of the town, and let us help you to kick off what we are sure will be an amazing day.
+Whatever you choose, you’ll know it’s the right choice from the first sip.
+
+My Daily Treat is the perfect place in Los Algodones to enjoy a good cup of coffee with the warmth of a great service. We invite you to visit us at MediPlaza Los Algodones, and let us treat you to an amazing cup of coffee.

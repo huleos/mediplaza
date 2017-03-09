@@ -29,7 +29,6 @@ tgallery7: /assets/img/gallery/thumbs/quick-bites-07.jpg
 tgallery8: /assets/img/gallery/thumbs/quick-bites-08.jpg
 ---
 ---
-We know that your time is limited and when visiting a restaurant you want a quick but also deliciously prepared meal to eat. We invite you to visit Quick Bites – Deli, located at the heart of Los Algodones.  
-Enjoy one of the delicacies in our menu or mix and create your own with many of our unique ingredients. 
+We know that your time is limited and when visiting a restaurant you want a quick but also deliciously prepared meal. Enjoy healthy and delicious options like sandwiches, salads, smoothies, and juices made from fresh ingredients.
 
-For visitors looking for a quick specially prepared food in Los Algodones, we have the place for you. Take advantage of our convenient location, located at the very entrance of Medi Plaza. We invite to visit the most complete Plaza in Los Algodones.
+If you’re in Los Algodones and in search of quick and healthy food then Quick Bites is the place for you. Visit us at our convenient location in the entrance of MediPlaza Los Algodones. 
