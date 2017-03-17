@@ -1,12 +1,11 @@
-RewriteEngine on
+RewriteEngine On
 
-## REDIRECT FOLDER DIST ##
-#RewriteCond %{REQUEST_URI} !_build/
-#RewriteRule (.*) /_build/$1 [L]
-
+## FORCE NON-WWW: ##
 RewriteBase /
 RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
 RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+
+## REDIRECT FOLDER DIST ##
 RewriteCond %{REQUEST_URI} !_build/
 RewriteRule (.*) /_build/$1 [L]
 
