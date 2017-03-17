@@ -23,7 +23,6 @@ tgallery2: /assets/img/gallery/thumbs/one-stop-pharmacy-02.jpg
 tgallery3: /assets/img/gallery/thumbs/one-stop-pharmacy-03.jpg
 tgallery4: /assets/img/gallery/thumbs/one-stop-pharmacy-04.jpg
 ---
-A pharmacy can offer you many medications or services, but visiting a drug store that offers you everything you need at an affordable price, is not something you see everywhere. Lucky for you, MediPlaza Los Algodones is changing the concept current pharmacies in Mexico have.
+One Stop Pharmacy is the new drug store in Los Algodones, offering visitors affordable prescription medication and expert advice from our pharmacists. Whether you’re visiting MediPlaza for a dental treatment, surgery, or just for fun, you can conveniently get your prescription filled just a few steps away at One Stop Pharmacy.
 
-In One Stop Pharmacy our professional pharmacist will take care of your health. The cost of a prescription will no longer stop you from taking care of your health.
-Los Algodones and Sani Dental Group offer you; our visitors, our patients, our clients all the satisfaction an affordable drug store has to offer and all at the reach of your hands. Visit us and learn why you will never need to make more than One Stop, for any service.
+Our professional pharmacists will take care of your medical needs and the cost of a prescription will no longer stop you from taking care of your health. Visit us and learn why you will never have to make more than One Stop, for any service.

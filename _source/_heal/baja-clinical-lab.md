@@ -13,5 +13,4 @@ local: 5
 phone: 
 position: 8
 ---
-Baja Clinical Lab is part of the complete medical experience at Mediplaza Los Algodones. Cholesterol Test, Glucose Levels, and Basic Blood Counts are essential to prevent some diseases. Take care of your health and improve your quality of life. Using our best tools and cutting edge technology we offer reliable results and quick routine testing for affordable prices. 
-Come and get tested today.
+Baja Clinical Lab is part of the complete medical experience at Mediplaza Los Algodones. We offer cholesterol tests, glucose levels, basic blood counts, and more. Getting the proper routine tests is essential to prevent certain diseases and take care of your health. Using our best tools and cutting edge technology we offer reliable results and quick routine testing at affordable prices. Come and get tested today at Baja Clinical Lab.

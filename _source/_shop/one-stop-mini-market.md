@@ -30,6 +30,6 @@ tgallery6: /assets/img/gallery/thumbs/one-stop-mini-mart-06.jpg
 tgallery7: /assets/img/gallery/thumbs/one-stop-mini-mart-07.jpg
 tgallery8: /assets/img/gallery/thumbs/one-stop-mini-mart-08.jpg
 ---
-A convenience store that offers you everything you need. This store follows the concept of taking care of all your needs in One Stop, giving you the opportunity to find everything from groceries, snack foods, candy, and toiletries to soft drinks, tobacco products, and liquor.
+A convenience store where you’ll find everything you need. One Stop Mini Mart offers customers the convenience of buying everything from groceries, snacks, candy, and toiletries to soft drinks, tobacco products, and liquor, all in one place.
 
-Enjoy visiting the city of Los Algodones and shop at the newest convenience store the city has to offer. No matter what craving you’re having, OneStop Mini Mart will leave you satisfy. 
+Enjoy your visit to Los Algodones and shop at the newest convenience store in town. No matter what you’re cravings are, OneStop Mini Mart has you covered.

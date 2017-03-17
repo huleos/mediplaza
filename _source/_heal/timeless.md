@@ -29,6 +29,6 @@ tgallery6: /assets/img/gallery/thumbs/timeless-06.jpg
 tgallery7: /assets/img/gallery/thumbs/timeless-07.jpg
 tgallery8: /assets/img/gallery/thumbs/timeless-08.jpg
 ---
-Timeless means wellness. A place where you will find health and beauty therapies to treat your skin, body, and overall well-being. Our environment is specially designed for you to have a peaceful and relaxed time. It doesn’t matter how many tensions you're carrying on, we guarantee you that once you visit us, you'll leave stressless. 
+At Timeless Antiaging Spa you will find health and beauty treatments to treat your skin, body, and overall well-being. Our environment is especially designed for you to have a peaceful and memorable experience. We’re committed to providing the best spa treatments in Los Algodones, our trained masseuses and cosmeticians will help you relax your mind and body.
 
-Combining traditional methods with modern beauty techniques, Timeless is the most complete spa in Los Algodones. Treat yourself by visiting us at MediPlaza Los Algodones, and let us help you to be the best version of you. If you were looking for beauty, health, comfort, and wellness, you've found it.
+Combining traditional methods with modern beauty techniques, Timeless is the most extensive spa in Los Algodones. Treat yourself to a relaxing day and visit us at MediPlaza Los Algodones. If you were looking for beauty, health, comfort, and wellness, you’ve found it; only at Timeless Antiaging Spa.

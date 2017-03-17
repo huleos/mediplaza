@@ -21,6 +21,6 @@ tgallery2:
 tgallery3: 
 tgallery4: 
 ---
-20/20 Vision Center is the newest optical center in Los Algodones. Located in the heart of Mediplaza, it has the best selection of sunglasses and optical frames designed to meet all of your optical needs at the best prices in town, guaranteed.  
+20/20 Vision Center is the newest optical center in Los Algodones with the best selection of sunglasses and optical frames designed to meet all of your optical needs.
 
-From designer brands to prescription frames and lenses, 20/20 Vision Center is your one-stop shop when you’re looking for the latest fashions, need to update your prescription lenses, or are interested in prescription sunglasses.
+From designer brands to prescription frames and lenses, 20/20 Vision Center is your one-stop shop; whether you’re looking for the latest fashion, need to update your prescription lenses, or are interested in prescription sunglasses. The best prices in town on prescription lenses and sunglasses, guaranteed.
