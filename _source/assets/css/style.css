@@ -1333,6 +1333,9 @@ select,
 .bussines .gallery {
   margin-top: 0; }
 
+.bussines .map-zoom {
+  margin-bottom: 2.5rem; }
+
 .error-page {
   margin-top: 3rem;
   font-family: Consolas, "Liberation Mono", Courier, monospace; }
