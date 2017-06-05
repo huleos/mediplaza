@@ -28,6 +28,7 @@ tgallery5: /assets/img/gallery/thumbs/baja-surgery-center-05.jpg
 tgallery6: /assets/img/gallery/thumbs/baja-surgery-center-06.jpg
 tgallery7: /assets/img/gallery/thumbs/baja-surgery-center-07.jpg
 tgallery8: /assets/img/gallery/thumbs/baja-surgery-center-08.jpg
+virtual-tour: https://www.google.com/maps/embed?pb=!1m0!3m2!1sen!2s!4v1496694113592!6m8!1m7!1s8--Yo66j4A0AAAQvxcMbSw!2m2!1d32.71537321902485!2d-114.7288982090736!3f27.03!4f-3.0900000000000034!5f0.4000000000000002
 ---
 Baja Surgery Center is the largest and only surgery center in Los Algodones focused on providing same-day surgical care, including preventive and cosmetic procedures. Our doctors and staff are experts within their field, committed to helping you through every step of your recovery. We have modern facilities with the latest technology and equipment, where we provide a safe and friendly environment for our patients and their companions.
 
