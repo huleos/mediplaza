@@ -7,7 +7,7 @@ locationLarge: /assets/img/mediplaza-map-floor1-large.jpg
 avatar: /assets/img/bussines/my-daily-treat.jpg
 name: My Daily treat
 days: Monday – Saturday
-horary: 7:00 am – 9:00 pm
+horary: 7:00 am – 8:00 pm
 floor: 1st
 local: 1-2
 phone:

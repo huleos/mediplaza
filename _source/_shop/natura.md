@@ -7,7 +7,7 @@ locationLarge: /assets/img/mediplaza-map-floor1-large.jpg
 avatar: /assets/img/bussines/natura.jpg
 name: Natura
 days: Monday – Saturday
-horary: 8:30 am – 4:30 pm
+horary: 8:00 am – 4:0 pm
 floor: 1st
 local: 7
 phone:
