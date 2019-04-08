@@ -178,7 +178,7 @@ description: Enjoy Your Stay at Los Algodones, Mexico and Choose Cielito Lindo, 
 
 
 		<h2>ONE FREE NIGHT AT CIELITO LINDO HOTEL</h2>
-		<p>Guests are eligible for this promotion when they spend more than <strong>$2,000 USD</strong> on their dental treatment with Sani Dental Group.</p>
+		<p>Guests are eligible for this promotion when they spend more than <b>$1,000 USD</b> on their dental treatment with Sani Dental Group.</p>
 		<dl>
 			<dt>Restrictions:</dt>
 		 	<dd>Cannot be combined with other promotions and discounts.</dd>
@@ -188,7 +188,7 @@ description: Enjoy Your Stay at Los Algodones, Mexico and Choose Cielito Lindo, 
 		</dl>
 
 		<h2>THREE FREE NIGHTS AT CIELITO LINDO HOTEL </h2>
-		<p>Guests are eligible for this promotion when they spend more than <strong>$3,000 USD</strong> on their dental treatment with Sani Dental Group.</p>
+		<p>Guests are eligible for this promotion when they spend more than <b>$2,000 USD</b> on their dental treatment with Sani Dental Group.</p>
 		<dl>
 			<dt>Restrictions:</dt>
 			<dd>Cannot be combined with other promotions and discounts.</dd>
