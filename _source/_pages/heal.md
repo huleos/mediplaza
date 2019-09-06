@@ -16,9 +16,9 @@ permalink: /heal/
       {% assign sorted = site.heal | sort: 'position'  %}
         {% for item in sorted %}
         <article class="col md-6">
-          <div class="row">
+          <div class="row flex flex--center flex--middle">
             <div class="col md-6">
-              <a href="{{ item.url }}">
+              <a href="{{ item.url }}" class="flex flex--center flex--middle">
                 <img src="{{ item.avatar }}" alt="Image for {{ item.title }}">
               </a>
             </div>

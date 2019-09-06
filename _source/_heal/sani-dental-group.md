@@ -4,7 +4,7 @@ title: Sani Dental Group Mexico | Los Algodones Best Dentists
 description: Save up to 70% on Dental Work. Sani Dental Group Is Located at Mediplaza, Los Algodones, Mexico. Contact Us and Get a Free Quote Now. 
 locationSmall: /assets/img/mediplaza-map-floor1-small.jpg
 locationLarge: /assets/img/mediplaza-map-floor1-large.jpg
-avatar: /assets/img/bussines/sani-dental-group.jpg
+avatar: /assets/img/bussines/sani-dental-group.png
 name: Sani Dental Group
 days: Monday - Saturday
 horary: 9:00 a.m. to 5:00 p.m.
