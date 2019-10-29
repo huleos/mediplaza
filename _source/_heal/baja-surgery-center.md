@@ -12,7 +12,7 @@ floor: 1st
 local: 4
 phone: (928) 257 1138
 button: Visit Us For More Information
-button_link: http://surgerylosalgodones.com/
+button_link: https://surgerylosalgodones.com/
 position: 3
 gallery1: /assets/img/gallery/baja-surgery-center-01.jpg
 gallery2: /assets/img/gallery/baja-surgery-center-02.jpg

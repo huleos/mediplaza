@@ -1,5 +1,5 @@
 baseurl: ""
-url: "http://mediplazalosalgodones.com"
+url: "https://mediplazalosalgodones.com"
 
 # Build settings
 markdown: kramdown

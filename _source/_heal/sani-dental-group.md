@@ -12,7 +12,7 @@ floor:
 local:
 phone: (928) 257 1307
 button: Visit Us For More Information
-button_link: http://sanidentalgroup.com/
+button_link: https://sanidentalgroup.com/
 position: 1
 gallery1: /assets/img/gallery/sani-dental-group-01.jpg
 gallery2: /assets/img/gallery/sani-dental-group-02.jpg
@@ -35,4 +35,4 @@ Originally established in 1985 in Guadalajara, Jalisco by D.D.S. Enrique Jimenez
 
 Sani Dental Group’s specialists offer a wide range of dental treatments such as dental implants, veneers, crowns, and more. Whether you need a complex procedure or a simple teeth cleaning, Sani Dental Group is here to take care of your needs. In addition to the professional staff, numerous certifications, and continuous education from our dentists; our facilities are equipped with cutting-edge technology. You’ll be amazed by Sani Dental Group’s quality, which is not compromised by the affordable prices.
 
-[Book you’re appointment now](http://sanidentalgroup.com/appointments/). The smile of your dreams is closer than you thought.
+[Book you’re appointment now](https://sanidentalgroup.com/appointments/). The smile of your dreams is closer than you thought.

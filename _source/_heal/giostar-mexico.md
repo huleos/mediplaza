@@ -12,7 +12,7 @@ floor: 1st
 local: 4
 phone: (619) 866 6000
 button: Start Your Recovery Now
-button_link: http://giostarmexico.com/#contact
+button_link: https://giostarmexico.com/#contact
 position: 2
 gallery1: /assets/img/gallery/giostar-01.jpg
 gallery2: /assets/img/gallery/giostar-02.jpg

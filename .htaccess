@@ -1,9 +1,13 @@
 RewriteEngine On
 
-## FORCE NON-WWW: ##
+### Without WWW
 RewriteBase /
-RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
-RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+RewriteCond %{HTTPS} !=on
+RewriteRule ^(.*)$ https://mediplazalosalgodones.com/$1 [L,R=301]
+
+### With WWW
+RewriteCond %{HTTP_HOST} ^www\.mediplazalosalgodones\.com [NC]
+RewriteRule ^(.*)$ https://mediplazalosalgodones.com/$1 [L,R=301]
 
 ## REDIRECT FOLDER DIST ##
 RewriteCond %{REQUEST_URI} !_build/
