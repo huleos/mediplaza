@@ -233,8 +233,8 @@ description: Enjoy Your Stay at Los Algodones, Mexico and Choose Cielito Lindo, 
 				</tr>
 			</table>
 			<ul>
-				<li><b>Check In:</b> 1:00pm</li>
-				<li><b>Check Out:</b> 12:00pm</li>
+				<li><b>Check In:</b> 2:00pm (Arizona Time)</li>
+				<li><b>Check Out:</b> 1:00pm (Arizona Time)</li>
 				<li class="warning">No pets allowed*</li>
 			</ul>
 		</div>
