@@ -25,7 +25,7 @@
   },
   "dependencies": {
     "jquery": "^3.1.1",
-    "jquery-validation": "^1.16.0",
+    "jquery-validation": "^1.19.4",
     "lightbox2": "^2.9.0"
   }
 }
